@@ -3,6 +3,8 @@ var exphbs  = require('express-handlebars');
 var req = require('request');
 var cors = require('cors');
 
+var Bear     = require('./app/models/bear');
+
 var app = express();
 app.use(cors());
 
