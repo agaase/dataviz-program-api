@@ -1,3 +1,4 @@
+/* This file creates all the tables necessary */
 var resourceModel = require("./models/resource.js");
 
 resourceModel.createTable(function(err,response){
@@ -6,5 +7,4 @@ resourceModel.createTable(function(err,response){
   }else if(response){
     console.log(response);
   }
-
 });
