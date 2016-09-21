@@ -2,8 +2,7 @@ var express = require('express');
 var exphbs  = require('express-handlebars');
 var req = require('request');
 var cors = require('cors');
-
-var Bear     = require('./app/models/bear');
+var resourceModel = require("./models/resource.js");
 
 var app = express();
 app.use(cors());
@@ -20,6 +19,19 @@ app.set('view engine', 'handlebars');
 //rendering the home page
 app.get("/",function(request, response) {
   response.render('home');
+});
+//Just a dummy function to test that the whole things works!
+app.post("/pleasesavethis",function(request,response){
+  // Create a new cat object
+  var dummyRes = new resourceModel({id: 3, name: 'z' , url : "www.123.com"});
+  // Save to DynamoDB
+  dummyRes.save(function(err){
+      if(err){
+          response.end("it didn't work");
+      }else{
+          response.end("it worked");
+      }
+  });
 });
 
 //Starting the server

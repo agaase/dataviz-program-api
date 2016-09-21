@@ -16,7 +16,7 @@
     "express-handlebars" : "2.0.1",
     "request" : "2.58.0",
     "cors" : "2.7.1",
-    "dynamodb-model" : "0.0.2"
+    "dynamoose" : "0.4.1"
   },
   "author": "agaase",
   "license": "ISC"
