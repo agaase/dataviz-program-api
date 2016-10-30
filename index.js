@@ -2,7 +2,7 @@ var express = require('express');
 var exphbs  = require('express-handlebars');
 var req = require('request');
 var cors = require('cors');
-var resourceModel = require("./models/resource.js");
+var models = require("./models/tables.js");
 
 var app = express();
 app.use(cors());
@@ -20,17 +20,24 @@ app.set('view engine', 'handlebars');
 app.get("/",function(request, response) {
   response.render('home');
 });
-//Just a dummy function to test that the whole things works!
-app.post("/pleasesavethis",function(request,response){
-  // Create a new cat object
-  var dummyRes = new resourceModel({id: 3, name: 'z' , url : "www.123.com"});
-  // Save to DynamoDB
-  dummyRes.save(function(err){
-      if(err){
-          response.end("it didn't work");
-      }else{
-          response.end("it worked");
-      }
+
+app.get("/events",function(request,response){
+  var Events = models["events"];
+  console.log("request received");
+  Events.scan().exec(function (err, events) {
+    if(err)
+      console.log(err);
+    response.end(JSON.stringify(events));
+  });
+});
+
+app.get("/opportunities",function(request,response){
+  var Opportunities = models["opportunities"];
+  console.log("request received");
+  Opportunities.scan().exec(function (err, opps) {
+    if(err)
+      console.log(err);
+    response.end(JSON.stringify(opps));
   });
 });
 
