@@ -6,24 +6,74 @@
   	<style>
   		body{
   			margin: 0;
-  			font-family: sans-serif;
-        padding: 25px;
-        background-color: #f44336;
-        background-image: url("images/parsons_logo.png");
-        background-repeat: no-repeat;
-        background-position: 25px;
+        padding: 0;
+  		  font-family: sans-serif;
+        background-color:  #f9f9f9;
+        color: #5D6068;
   		}
-      .dummy{
-        padding-top: 100px;
+      .header{
+        height: 50px;
+        background-color: #E82E21;
+        padding: 10px 50px;
       }
-
+      object{
+        height: 100%;
+        float: left;
+      }
+      .dept{
+        float: right;
+        height: 140%;
+        line-height: 70px;
+        color: #fff;
+        font-size: 125%;
+      }
+      .menu{
+        height: 35px;
+        padding: 10px 50px;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #ddd;
+      }
+      .menu .main_menu{
+        float: left;
+        height: 100%;
+      }
+      .menu .sec_menu{
+        float: right;
+        height: 100%;
+        font-size: 80%;
+      }
+      .menu .item{
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 35px;
+        padding: 0 25px;
+        border-right: 1px solid #ddd;
+        cursor: pointer;
+      }
+      .menu .sec_menu .item{
+        padding: 0 15px;
+        border-right: 0;
+      }
+      .menu .item.active{
+        color: #E82E21;
+        font-size: 110%;
+      }
   	</style>
   </head>
   <body>
-    <div class='dummy'>
+    <div class='header'>
+      <object data="images/amt.svg" type="image/svg+xml"></object>
+      <div class='dept'>Data Visualization</div>
     </div>
-    <div class='dummy'>
-    Welcome. This is the home for Data Viz Program API.
+    <div class='menu'>
+      <div class="main_menu">
+        <div class='item active'>Events</div>
+        <div class='item'>Opportunities</div>
+      </div>
+      <div class="sec_menu">
+        <div class='item'>About</div>
+        <div class='item'>API</div>
+      </div>
     </div>
   </body>
 </html>
