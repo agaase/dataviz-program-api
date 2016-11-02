@@ -29,7 +29,7 @@ app.set('view engine', 'handlebars');
 //rendering the home page
 app.get("/",function(request, response) {
   core.fetchEvents(function(evs){
-    response.render('layouts/events',{"eventss" : evs});  
+    response.render('layouts/events',{"events" : evs});  
   })
 });
 

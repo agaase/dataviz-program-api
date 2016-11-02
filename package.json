@@ -11,9 +11,9 @@
     "url": ""
   },
   "dependencies": {
-    "aws-sdk": "2.6.3",
+    "aws-sdk": "^2.6.13",
     "cors": "2.7.1",
-    "dynamoose": "0.4.1",
+    "dynamoose": "^0.7.0",
     "express": "~4.9.x",
     "express-handlebars": "^3.0.0",
     "request": "2.58.0"

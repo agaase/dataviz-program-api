@@ -71,6 +71,10 @@
         .api .events-api .code .field .key, .api .opps-api .code .field .key {
           font-weight: bold;
           padding-right: 5px; }
+    .api .events-api a, .api .opps-api a {
+      text-decoration: underline;
+      color: #5D6068;
+      display: block; }
   .api .fields {
     margin-bottom: 20px;
     padding: 0 15px; }
