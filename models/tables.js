@@ -1,7 +1,8 @@
 // create a model using the name of the DynamoDB table and a schema
 var AWS = require("aws-sdk");
 AWS.config.update({
-  endpoint: "https://dynamodb.us-west-2.amazonaws.com"
+  endpoint: "https://dynamodb.us-west-2.amazonaws.com",
+  region : "us-west-2"
 });
 var dynamoose = require('dynamoose');
 

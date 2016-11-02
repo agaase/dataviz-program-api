@@ -7,7 +7,7 @@ var core = require("./core.js");
 var app = express();
 app.use(cors());
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 8080));
 
 //The public directory where all the static resources are served from
 app.use(express.static('./public'));
