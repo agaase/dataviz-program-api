@@ -1,0 +1,64 @@
+$parsons-red : #E82E21;
+$font-color: #5D6068;
+
+@import 'events';
+@import 'opps';
+@import 'api';
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:  #f9f9f9;
+  color: $font-color;
+}
+.header{
+  height: 50px;
+  background-color: #E82E21;
+  padding: 10px 50px;
+  	object{
+	  height: 100%;
+	  float: left;
+	}
+	.dept{
+	  float: right;
+	  height: 140%;
+	  line-height: 70px;
+	  color: #fff;
+	  font-size: 125%;
+	}
+}
+
+.menu{
+  height: 35px;
+  padding: 10px 50px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+	.main_menu{
+	  float: left;
+	  height: 100%;
+	}
+	.sec_menu{
+  	  float: right;
+  	  height: 100%;
+  	  font-size: 80%;
+	}
+	.item{
+	  display: inline-block;
+	  vertical-align: middle;
+	  line-height: 35px;
+	  padding: 0 25px;
+	  border-right: 1px solid #ddd;
+	  cursor: pointer;
+	  text-decoration: none;
+	  color:$font-color;
+	}
+	.sec_menu .item{
+	  padding: 0 15px;
+	  border-right: 0;
+	  &.active{
+	  	color: #E82E21;
+  		font-size: 110%;
+	  }
+	}
+}

@@ -1,0 +1,129 @@
+.events {
+  width: 80%;
+  margin: 20px auto;
+  padding: 0 5%;
+  background-color: #fff;
+  border: 1px solid #f1f1f1; }
+  .events .event {
+    padding: 30px 10px;
+    border-bottom: 1px solid #f1f1f1; }
+    .events .event .content {
+      margin-left: 1%;
+      display: inline-block; }
+      .events .event .content .name {
+        font-size: 175%;
+        padding: 5px 0;
+        color: #E82E21; }
+      .events .event .content .secondary {
+        padding: 5px 0; }
+      .events .event .content .desc {
+        padding: 10px 0;
+        line-height: 130%; }
+
+.opps {
+  width: 80%;
+  margin: 20px auto;
+  padding: 0 5%;
+  background-color: #fff;
+  border: 1px solid #f1f1f1; }
+  .opps .opportunity {
+    padding: 30px 10px;
+    border-bottom: 1px solid #f1f1f1; }
+    .opps .opportunity .content {
+      margin-left: 1%;
+      display: inline-block; }
+      .opps .opportunity .content .name {
+        font-size: 175%;
+        padding: 5px 0;
+        color: #E82E21; }
+      .opps .opportunity .content .secondary {
+        padding: 5px 0; }
+      .opps .opportunity .content .desc {
+        padding: 10px 0;
+        line-height: 130%; }
+
+.api {
+  width: 80%;
+  margin: 20px auto;
+  padding: 2% 5%;
+  padding-bottom: 5%;
+  background-color: #fff;
+  border: 1px solid #f1f1f1; }
+  .api .title {
+    font-size: 150%;
+    margin-bottom: 20px; }
+  .api .descr {
+    margin-bottom: 20px; }
+  .api .title2 {
+    font-size: 125%;
+    margin-bottom: 20px; }
+  .api .title3 {
+    font-size: 110%;
+    margin-bottom: 10px; }
+  .api .events-api, .api .opps-api {
+    margin-bottom: 35px; }
+    .api .events-api .code, .api .opps-api .code {
+      background-color: #eee;
+      padding: 2%;
+      border-radius: 5px; }
+      .api .events-api .code .field, .api .opps-api .code .field {
+        margin-bottom: 10px; }
+        .api .events-api .code .field .key, .api .opps-api .code .field .key {
+          font-weight: bold;
+          padding-right: 5px; }
+  .api .fields {
+    margin-bottom: 20px;
+    padding: 0 15px; }
+  .api .endpoint {
+    padding: 0 15px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  color: #5D6068; }
+
+.header {
+  height: 50px;
+  background-color: #E82E21;
+  padding: 10px 50px; }
+  .header object {
+    height: 100%;
+    float: left; }
+  .header .dept {
+    float: right;
+    height: 140%;
+    line-height: 70px;
+    color: #fff;
+    font-size: 125%; }
+
+.menu {
+  height: 35px;
+  padding: 10px 50px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd; }
+  .menu .main_menu {
+    float: left;
+    height: 100%; }
+  .menu .sec_menu {
+    float: right;
+    height: 100%;
+    font-size: 80%; }
+  .menu .item {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 35px;
+    padding: 0 25px;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    text-decoration: none;
+    color: #5D6068; }
+  .menu .sec_menu .item {
+    padding: 0 15px;
+    border-right: 0; }
+    .menu .sec_menu .item.active {
+      color: #E82E21;
+      font-size: 110%; }
+
+/*# sourceMappingURL=main.css.map */

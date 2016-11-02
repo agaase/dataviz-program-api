@@ -1,0 +1,27 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+  <head>
+  	<title>New school | Data Visualization</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+  <body>
+    <div>
+    {{> header}}
+    </div>
+    <div>
+    {{> menu}}
+    </div>
+    <div class='events'>
+    {{#each events}}
+      <div class='event'>
+        <div class='content'>
+          <div class='name'>{{name}}</div>
+          <div class='secondary'>{{timestamp}},  {{location}}</div>
+          <div class='desc'>{{{focus}}}</div>
+        </div>
+      </div>
+    {{/each}}
+    </div>
+  </body>
+</html>

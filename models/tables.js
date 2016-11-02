@@ -18,7 +18,7 @@ module.exports  = {
     url : String,
     notes : String
   }),
-  "opportunities" : dynamoose.model('opportunities', {
+  "opps" : dynamoose.model('opportunities', {
     opp_id: String,
     timestamp : Number,
     organizationName : String,

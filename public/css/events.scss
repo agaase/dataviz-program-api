@@ -1,0 +1,28 @@
+.events{
+	width: 80%;
+	margin: 20px auto;
+	padding: 0 5%;
+	background-color: #fff;
+	border: 1px solid #f1f1f1;
+	.event{
+		padding: 30px 10px;
+		border-bottom: 1px solid #f1f1f1;
+		.content{
+			margin-left: 1%;
+			display: inline-block;
+			.name{
+				font-size: 175%;
+				padding: 5px 0;
+				color: $parsons-red;
+			}
+			.secondary{
+				padding: 5px 0;
+			}
+			.desc{
+				padding: 10px 0;
+				line-height: 130%;
+			}
+		}
+	}
+	
+}

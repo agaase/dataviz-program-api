@@ -1,0 +1,78 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+  <head>
+  	<title>New school | Data Visualization</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+  <body>
+    <div>
+      {{> header}}
+    </div>
+    <div>
+      {{> menu}}
+    </div>
+
+    <div class='api'>
+      <div class='title'>Data Visualization API</div>
+      <div class='descr'>
+        <span>The API provides access to all the content posted here as JSON. Presently there are two post types that are available through an API.</span>
+        <ul>
+        <li>Events </li>
+        <li>Opportunities </li>
+        </ul>
+        The documentation below explains the structure of content and developer guide to access the API.
+      </div>
+
+      <div class='events-api'>
+        <div class='title2'>Events</div>
+        <div class='fields'>
+          <div class='title3'>Fields</div>
+          <div class='code'>
+            <div class='field'><span class='key'>name : </span> <span class='value'>name of event</span></div>
+            <div class='field'><span class='key'>type :  </span><span class='value'>type of event</span></div>
+            <div class='field'><span class='key'>focus :  </span><span class='value'>brief description of the focus of the event</span></div>
+            <div class='field'><span class='key'>startDate :  </span><span class='value'>the date the event begins, format: mm/dd/yy</span></div>
+            <div class='field'><span class='key'>endDate :  </span><span class='value'>the date the event ends (is the same as startDate if a one-day event), format- mm/dd/yy</span></div>
+            <div class='field'><span class='key'>location :  </span><span class='value'>event location (city, state or country)</span></div>
+            <div class='field'><span class='key'>url :  </span><span class='value'>URL with event information</span></div>
+            <div class='field'><span class='key'>notes :   </span><span class='value'>notes about the event</span></div>
+          </div>
+        </div>
+          <div class='endpoint'>
+            <div class='title3'>Endpoint</div>
+            <div class='code'>http://localhost:5000/api/events</div>
+          </div>
+      </div>
+      <div class='opps-api'>
+        <div class='title2'>Opportunities</div>
+        <div class='fields'>
+          <div class='title3'>Fields</div>
+            <div class='code'>
+              <div class='field'><span class='key'>organizationName (string) :</span><span class='value'> name of organization</span></div>
+              <div class='field'><span class='key'>url (string) :</span><span class='value'> URL with information about the organization or opportunity</span></div>
+              <div class='field'><span class='key'>data source (boolean) :</span><span class='value'> true if this is an established data set or data source</span></div>
+              <div class='field'><span class='key'>dataResources (boolean) :</span><span class='value'> true if this involves resources, software, or other tools for the analysis and visualization of data</span></div>
+              <div class='field'><span class='key'>dataCompetition (boolean) :</span><span class='value'> true if this is a data hackathon or competition</span></div>
+              <div class='field'><span class='key'>newSchool (boolean) :</span><span class='value'> true if this opportunity is affiliated with The New School</span></div>
+              <div class='field'><span class='key'>position (boolean) :</span><span class='value'> true if this is a work opportunity: internship, job, or other position, whether paid or unpaid</span></div>
+              <div class='field'><span class='key'>unpaidPosition (boolean) :</span><span class='value'> true if this position is unpaid</span></div>
+              <div class='field'><span class='key'>parttimePosition (boolean) :</span><span class='value'> true if this position is a paid, part-time position</span></div>
+              <div class='field'><span class='key'>fulltimePosition (boolean) :</span><span class='value'> true if this position is a paid, full-time position</span></div>
+              <div class='field'><span class='key'>grantFellowship (boolean) :</span><span class='value'> true if this is a grant or fellowship</span></div>
+              <div class='field'><span class='key'>eligibleAcademic (boolean) :</span><span class='value'> true if this may be eligible for academic credit</span></div>
+              <div class='field'><span class='key'>dateAdded (string) :</span><span class='value'> date object was added, format: mm/dd/yy</span></div>
+              <div class='field'><span class='key'>timeSensitive (boolean) :</span><span class='value'> true if this is an urgent or time-sensitive request</span></div>
+              <div class='field'><span class='key'>description (string) :</span><span class='value'> notes about the opportunity</span></div>
+              <div class='field'><span class='key'>contactName (string) :</span><span class='value'> name of contact person</span></div>
+              <div class='field'><span class='key'>contactEmail (string) :</span><span class='value'> email address of contact person</span></div>
+            </div>
+          </div>
+          <div class='endpoint'>
+            <div class='title3'>Endpoint</div>
+            <div class='code'>http://localhost:5000/api/opps</div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -10,13 +10,13 @@
     "type": "git",
     "url": ""
   },
-  "dependencies" : {
-    "aws-sdk" : "2.6.3",
+  "dependencies": {
+    "aws-sdk": "2.6.3",
+    "cors": "2.7.1",
+    "dynamoose": "0.4.1",
     "express": "~4.9.x",
-    "express-handlebars" : "2.0.1",
-    "request" : "2.58.0",
-    "cors" : "2.7.1",
-    "dynamoose" : "0.4.1"
+    "express-handlebars": "^3.0.0",
+    "request": "2.58.0"
   },
   "author": "agaase",
   "license": "ISC"

@@ -2,7 +2,7 @@ var express = require('express');
 var exphbs  = require('express-handlebars');
 var req = require('request');
 var cors = require('cors');
-var models = require("./models/tables.js");
+var core = require("./core.js");
 
 var app = express();
 app.use(cors());
@@ -10,33 +10,53 @@ app.use(cors());
 app.set('port', (process.env.PORT || 5000));
 
 //The public directory where all the static resources are served from
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('./public'));
+
+
+// Create `ExpressHandlebars` instance with a default layout.
+var hbs = exphbs.create({
+    // Uses multiple partials dirs, templates in "shared/templates/" are shared
+    // with the client-side of the app (see below).
+    partialsDir: [
+        'views/partials/'
+    ]
+});
 
 // views is directory for all template files and the template engine is handlebars
-app.engine('handlebars', exphbs());
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 //rendering the home page
 app.get("/",function(request, response) {
-  response.render('home');
+  core.fetchEvents(function(evs){
+    response.render('layouts/events',{"eventss" : evs});  
+  })
 });
 
 app.get("/events",function(request,response){
-  var Events = models["events"];
-  console.log("request received");
-  Events.scan().exec(function (err, events) {
-    if(err)
-      console.log(err);
+  core.fetchEvents(function (events) {
+    response.render('layouts/events',{"events" : events});  
+  });
+});
+
+app.get("/opps",function(request,response){
+  core.fetchOpps(function (opps) {
+    response.render('layouts/opps',{"opps" : opps});  
+  });
+});
+
+app.get("/api",function(request,response){
+  response.render('layouts/api');  
+});
+
+app.get("/api/events",function(request,response){
+  core.fetchEvents(function (events) {
     response.end(JSON.stringify(events));
   });
 });
 
-app.get("/opportunities",function(request,response){
-  var Opportunities = models["opportunities"];
-  console.log("request received");
-  Opportunities.scan().exec(function (err, opps) {
-    if(err)
-      console.log(err);
+app.get("/api/opps",function(request,response){
+  core.fetchOpps(function (opps) {
     response.end(JSON.stringify(opps));
   });
 });
