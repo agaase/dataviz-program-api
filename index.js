@@ -28,8 +28,11 @@ app.set('view engine', 'handlebars');
 
 //rendering the home page
 app.get("/",function(request, response) {
-  core.fetchEvents(function(evs){
-    response.render('layouts/events',{"events" : evs});  
+  core.fetchEvents(function(events){
+    for(var i=0;i<events.length;i++){
+      events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
+    }
+    response.render('layouts/events',{"events" : events});  
   })
 });
 
