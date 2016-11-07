@@ -35,12 +35,18 @@ app.get("/",function(request, response) {
 
 app.get("/events",function(request,response){
   core.fetchEvents(function (events) {
+    for(var i=0;i<events.length;i++){
+      events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
+    }
     response.render('layouts/events',{"events" : events});  
   });
 });
 
 app.get("/opps",function(request,response){
   core.fetchOpps(function (opps) {
+    for(var i=0;i<opps.length;i++){
+        opps[i]["timestamp"] = new Date(opps[i].timestamp).toString().substring(0,15);
+    }
     response.render('layouts/opps',{"opps" : opps});  
   });
 });

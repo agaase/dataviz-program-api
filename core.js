@@ -6,9 +6,6 @@ var ApiCore = (function(){
 		  Events.scan().exec(function (err, events) {
 		    if(err)
 		      console.log(err);
-		  	for(var i=0;i<events.length;i++){
-		  		events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
-		  	}
 		    callback(events);
 		  });	
 		},
@@ -17,9 +14,6 @@ var ApiCore = (function(){
 			Opps.scan().exec(function (err, opps) {
 			  if(err)
 			    console.log(err);
-		 	  for(var i=0;i<opps.length;i++){
-			  	opps[i]["timestamp"] = new Date(opps[i].timestamp).toString().substring(0,15);
-			  }
 			  callback(opps);
 			});
 		}

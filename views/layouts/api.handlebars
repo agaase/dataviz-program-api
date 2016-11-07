@@ -29,11 +29,12 @@
         <div class='fields'>
           <div class='title3'>Fields</div>
           <div class='code'>
-            <div class='field'><span class='key'>name : </span> <span class='value'>name of event</span></div>
-            <div class='field'><span class='key'>type :  </span><span class='value'>type of event</span></div>
+            <div class='field'><span class='key'>event_id : </span> <span class='value'>Unique id of event</span></div>
+            <div class='field'><span class='key'>timestamp :  </span><span class='value'>Date and time of event in standard ms format</span></div>
+            <div class='field'><span class='key'>name :  </span><span class='value'>Name of event</span></div>
+            <div class='field'><span class='key'>type :  </span><span class='value'>Type of event</span></div>
             <div class='field'><span class='key'>focus :  </span><span class='value'>brief description of the focus of the event</span></div>
-            <div class='field'><span class='key'>startDate :  </span><span class='value'>the date the event begins, format: mm/dd/yy</span></div>
-            <div class='field'><span class='key'>endDate :  </span><span class='value'>the date the event ends (is the same as startDate if a one-day event), format- mm/dd/yy</span></div>
+            <div class='field'><span class='key'>endDate :  </span><span class='value'>the date the event ends in standard ms format(is the same as startDate if a one-day event)</span></div>
             <div class='field'><span class='key'>location :  </span><span class='value'>event location (city, state or country)</span></div>
             <div class='field'><span class='key'>url :  </span><span class='value'>URL with event information</span></div>
             <div class='field'><span class='key'>notes :   </span><span class='value'>notes about the event</span></div>
@@ -49,6 +50,8 @@
         <div class='fields'>
           <div class='title3'>Fields</div>
             <div class='code'>
+              <div class='field'><span class='key'>opp_id (string) :</span><span class='value'> unique id of the opportunity</span></div>
+              <div class='field'><span class='key'>timestamp (long) :</span><span class='value'> date opportunity was added, standard ms format</span></div>
               <div class='field'><span class='key'>organizationName (string) :</span><span class='value'> name of organization</span></div>
               <div class='field'><span class='key'>url (string) :</span><span class='value'> URL with information about the organization or opportunity</span></div>
               <div class='field'><span class='key'>data source (boolean) :</span><span class='value'> true if this is an established data set or data source</span></div>
