@@ -23,7 +23,7 @@ var saveOpportunities = function(opps,ct){
   }
   opp["opp_id"] = "opp_"+parseInt(Math.random()*100000);
   // Create a new cat object
-  var dummyRes = new models["opportunities"](opp);
+  var dummyRes = new models["opps"](opp);
   // Save to DynamoDB
   dummyRes.save(function(err){
       if(err){

@@ -1,14 +1,17 @@
-// create a model using the name of the DynamoDB table and a schema
-var AWS = require("aws-sdk");
-AWS.config.update({
-  endpoint: "https://dynamodb.us-west-2.amazonaws.com",
-  region : "us-west-2"
-});
-var dynamoose = require('dynamoose');
+// // create a model using the name of the DynamoDB table and a schema
+// var AWS = require("aws-sdk");
+// AWS.config.update({
+//   endpoint: "https://dynamodb.us-west-2.amazonaws.com",
+//   region : "us-west-2"
+// });
+// var dynamoose = require('dynamoose');
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/test');
+
 
 // Create cat model with default options
 module.exports  = {
-  "events" : dynamoose.model('events', {
+  "events" : mongoose.model('events', {
     event_id: String,
     timestamp : Number,
     name : String,
@@ -19,7 +22,7 @@ module.exports  = {
     url : String,
     notes : String
   }),
-  "opps" : dynamoose.model('opportunities', {
+  "opps" : mongoose.model('opportunities', {
     opp_id: String,
     timestamp : Number,
     organizationName : String,
@@ -39,7 +42,7 @@ module.exports  = {
     contactName : String,
     contactEmail : String
   }),
-  "feedresource" : dynamoose.model('feedresource', {
+  "feedresource" : mongoose.model('feedresource', {
     res_id: String,
     timestamp : Number,
     title : String,

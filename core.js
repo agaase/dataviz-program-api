@@ -4,7 +4,7 @@ var ApiCore = (function(){
 	return {
 		fetchEvents : function(callback){
 		  var Events = models["events"];
-		  Events.scan().exec(function (err, events) {
+		  Events.find({}).sort({'timestamp':-1}).lean().exec(function (err, events) {
 		    if(err)
 		      console.log(err);
 		    callback(events);
@@ -12,7 +12,7 @@ var ApiCore = (function(){
 		},
 		fetchOpps : function(callback){
 			var Opps = models["opps"];
-			Opps.scan().exec(function (err, opps) {
+			Opps.find({}).sort({'timestamp':-1}).lean().exec(function (err, opps) {
 			  if(err)
 			    console.log(err);
 			  callback(opps);
@@ -20,9 +20,10 @@ var ApiCore = (function(){
 		},
 		fetchFeedResources : function(callback){
 			var FR = models["feedresource"];
-			FR.scan().exec(function (err, frs) {
+			FR.find({}).sort({'timestamp':-1}).lean().exec(function (err, frs){
 			  if(err)
 			    console.log(err);
+			  var filtered = [];
 			  frs.forEach(function(entry){
 			  		entry.content = striptags(entry.content).toString().substring(0,150);
 			  		entry.timestamp = new Date(entry.timestamp).toString().substring(0,15);

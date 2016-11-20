@@ -2,17 +2,18 @@ var feed = require('feed-read');
 var http = require('http');
 var async = require('async');
 var request = require('request');
+var farmhash = require('farmhash');
 
 var LIMIT = 10;
 var UNABLE_TO_CONNECT = "Unable to connect.";
 var URLS = ['http://feeds.feedburner.com/InformationIsBeautiful?format=xml',
             'http://feeds.feedburner.com/CoolInfographics?format=xml',
             'http://flowingdata.com/feed',
-            'http://nytlabs.com/blog/feed.xml'];
+            'http://nytlabs.com/blog/feed.xml',
+            'https://groups.google.com/forum/feed/data-vis-jobs/msgs/rss_v2_0.xml'];
 var models = require("./models/tables.js");
 
 var FR = models.feedresource;
-
 
 function req() {
     var tasks = [];
@@ -31,10 +32,12 @@ function req() {
 
 function onRssFetched(err, articles) {
     var items = [];
+   // console.log(articles);
     articles.forEach(function(entry) {
         var pubtime = entry.published ? new Date(entry.published).getTime() : new Date().getTime();
+        var hash = farmhash.hash32(""+pubtime+entry.link);
         items.push({
-           res_id: "fr_"+pubtime+"_"+parseInt(Math.random()*10000),
+           res_id: "fr_"+hash,
            timestamp : pubtime, 
            title : entry.title,
            content : entry.content,
@@ -46,10 +49,10 @@ function onRssFetched(err, articles) {
         });
     });
     console.log("pushing - " +items.length);
-    FR.batchPut(items,function (err) {
+    FR.collection.insert(items,function (err) {
         if (err) { return console.log(err); }
         console.log('Ta-da!');
-    });
+    },{overwrite:true});
 }   
 
 req();

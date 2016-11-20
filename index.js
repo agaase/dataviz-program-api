@@ -7,7 +7,7 @@ var core = require("./core.js");
 var app = express();
 app.use(cors());
 
-app.set('port', (process.env.PORT || 8080));
+app.set('port', 8080);
 
 //The public directory where all the static resources are served from
 app.use(express.static('./public'));
@@ -31,6 +31,7 @@ app.get("/",function(request, response) {
   core.fetchEvents(function(events){
     for(var i=0;i<events.length;i++){
       events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
+      console.log(events[i].timestamp);
     }
     core.fetchFeedResources(function(d){
       response.render('layouts/events',{"events" : events, feed : d});  
@@ -41,6 +42,7 @@ app.get("/",function(request, response) {
 app.get("/events",function(request,response){
   core.fetchEvents(function (events) {
     for(var i=0;i<events.length;i++){
+
       events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
     }
     response.render('layouts/events',{"events" : events});  
