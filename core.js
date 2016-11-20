@@ -10,6 +10,14 @@ var ApiCore = (function(){
 		    callback(events);
 		  });	
 		},
+		fetchWallPosts : function(callback){
+		  var wallposts = models["wallposts"];
+		  wallposts.find({}).sort({'timestamp':-1}).lean().exec(function (err, wps) {
+		    if(err)
+		      console.log(err);
+		    callback(wps);
+		  });	
+		},
 		fetchOpps : function(callback){
 			var Opps = models["opps"];
 			Opps.find({}).sort({'timestamp':-1}).lean().exec(function (err, opps) {

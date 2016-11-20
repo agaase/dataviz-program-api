@@ -52,5 +52,13 @@ module.exports  = {
     sourceFeedUrl : String,
     sourceName : String,
     sourceUrl : String,
+  }),
+   "wallposts" : mongoose.model('wallposts', {
+    wp_id: String,
+    timestamp : Number,
+    title : String,
+    content : String,
+    from : String,
+    fromEmail : String
   })
 };

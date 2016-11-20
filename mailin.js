@@ -1,4 +1,6 @@
 var mailin = require('mailin');
+var farmhash = require('farmhash');
+var models = require("./models/tables.js");
 
 /* Start the Mailin server. The available options are:
  *  options = {
@@ -34,9 +36,40 @@ mailin.on('startMessage', function (connection) {
  // console.log(connection);
 });
 
+var saveToDb = function(obj){
+  var dummyRes = new models["wallpost"](obj);
+  // Save to DynamoDB
+  dummyRes.save(function(err){
+      if(err){
+        console.log("error encountered - "+err);
+      }else{
+        console.log("saved");
+      }
+  });
+}
 /* Event emitted after a message was received and parsed. */
 mailin.on('message', function (connection, data, content) {
+  
   console.log(data.from[0].name +",(" + data.from[0].address +") -- "+	 data.subject + "---" + data.html);
   /* Do something useful with the parsed message here.
    * Use parsed message `data` directly or use raw message `content`. */
+   var entrytime = new Date(data.date).getTime(), fromEmail = data.from[0].address;
+   var dummyRes = new models["wallposts"]({
+    wp_id : farmhash.hash32(""+entrytime+fromEmail),
+    timestamp : entrytime,
+    from : data.from[0].name,
+    fromEmail : fromEmail,
+    title : data.subject,
+    content : data.html
+   });
+  // Save to DynamoDB
+  dummyRes.save(function(err){
+      if(err){
+        console.log("error encountered - "+err);
+      }else{
+        console.log("saved");
+      }
+  });
 });
+
+

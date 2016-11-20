@@ -7,19 +7,19 @@
   </head>
   <body>
     <div>
-      {{> header}}
+    {{> header}}
     </div>
     <div>
-      {{> menu this}}
+    {{> menu this}}
     </div>
     <div class="contentSpace">
-    <div class='opps'>
-    {{#each opps}}
-      <div class='opportunity'>
+    <div class='events'>
+    {{#each wallposts}}
+      <div class='event'>
         <div class='content'>
-          <div class='name'>{{organizationName}}</div>
+          <a  href='{{url}}' target="_blank" class='name'>{{title}}</a>
           <div class='secondary'>{{timestamp}}</div>
-          <div class='desc'>{{{description}}}</div>
+          <div class='desc'>{{{content}}}</div>
         </div>
       </div>
     {{/each}}

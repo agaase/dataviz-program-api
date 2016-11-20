@@ -41,10 +41,11 @@ app.get("/",function(request, response) {
 app.get("/events",function(request,response){
   core.fetchEvents(function (events) {
     for(var i=0;i<events.length;i++){
-
       events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
     }
-    response.render('layouts/events',{"events" : events});  
+    core.fetchFeedResources(function(d){
+      response.render('layouts/events',{"events" : events, feed : d});  
+    }) 
   });
 });
 
@@ -53,7 +54,20 @@ app.get("/opps",function(request,response){
     for(var i=0;i<opps.length;i++){
         opps[i]["timestamp"] = new Date(opps[i].timestamp).toString().substring(0,15);
     }
-    response.render('layouts/opps',{"opps" : opps});  
+    core.fetchFeedResources(function(d){
+      response.render('layouts/opps',{"opps" : opps, feed : d});  
+    }) 
+  });
+});
+
+app.get("/wall",function(request,response){
+  core.fetchWallPosts(function (wps) {
+    for(var i=0;i<wps.length;i++){
+        wps[i]["timestamp"] = new Date(wps[i].timestamp).toString().substring(0,15);
+    }
+    core.fetchFeedResources(function(d){
+      response.render('layouts/wall',{"wallposts" : wps, feed : d});  
+    }) 
   });
 });
 
