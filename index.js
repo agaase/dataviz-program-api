@@ -31,7 +31,6 @@ app.get("/",function(request, response) {
   core.fetchEvents(function(events){
     for(var i=0;i<events.length;i++){
       events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
-      console.log(events[i].timestamp);
     }
     core.fetchFeedResources(function(d){
       response.render('layouts/events',{"events" : events, feed : d});  
