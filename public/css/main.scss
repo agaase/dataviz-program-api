@@ -1,5 +1,6 @@
 $parsons-red : #E82E21;
 $font-color: #5D6068;
+$very-light-neutral: #eee;
 
 @import 'events';
 @import 'opps';
@@ -9,7 +10,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color:  #f9f9f9;
+  background-image: url("../images/bg.png");
   color: $font-color;
 }
 .header{
@@ -29,9 +30,70 @@ body{
 	}
 }
 
+.contentSpace{
+	width: 95%;
+	margin: 20px auto;
+	.feed{
+		width: 36%;
+		height: 75vh;
+		display: inline-block;
+		vertical-align: top;
+		.headerLabel{
+			color: $parsons-red;
+   			margin-bottom: 5px;
+   			height: 5%;
+   			font-weight: bold;
+		}
+		.list{
+			background-color: #f9f9f9;
+			overflow:scroll;
+			height: 95%;
+			border: 1px solid double $font-color;
+			.feed_item{
+				padding: 25px 5px;
+				margin: 0 10px;
+				border-bottom: 1px solid $very-light-neutral;
+				.primary{
+					margin-bottom: 5px;
+					.title{
+						font-weight: bold;
+					    text-decoration: underline;
+					    display: inline-block;
+					    width: 74%;
+					    color: $font-color;
+					}
+					.sourceName{
+						display: inline-block;
+					    font-size: 70%;
+					    width: 21%;
+					    vertical-align: top;
+					    padding: 2px;
+					    border: 1px solid $font-color;
+					    border-radius: 3px;
+					    text-align: center;
+					    text-decoration: none;
+					    color: $font-color;
+					}
+					
+				}
+				.secondary{
+					.descr{
+						font-size: 80%;
+					}
+					.date{
+						font-size: 70%;
+		    			width: 24%;
+		    			margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+}
 .menu{
-  height: 35px;
-  padding: 10px 50px;
+  height: 50px;
+  width: 95%;
+  padding: 0 2.5%;
   background-color: #f1f1f1;
   border-bottom: 1px solid #ddd;
 	.main_menu{
@@ -46,12 +108,17 @@ body{
 	.item{
 	  display: inline-block;
 	  vertical-align: middle;
-	  line-height: 35px;
+	  line-height: 50px;
 	  padding: 0 25px;
 	  border-right: 1px solid #ddd;
 	  cursor: pointer;
 	  text-decoration: none;
 	  color:$font-color;
+	}
+	.item.active{
+		color: $parsons-red;
+		font-weight: bold;
+		font-size: 110%;
 	}
 	.sec_menu .item{
 	  padding: 0 15px;

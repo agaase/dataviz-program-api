@@ -1,0 +1,18 @@
+<div class='feed'>
+  <div class='headerLabel'>NEWS FROM WEB</div>
+  <div class='list'>
+    {{#each feed}}
+          <div class='feed_item'>
+          	<div class='primary'>
+              <a class='title' href='{{link}}' target="_blank">{{title}}</a>
+              <a class='sourceName' href='{{sourceUrl}}' target="_blank">{{sourceName}}</a>
+              
+            </div>
+            <div class='secondary'>
+              <div class='date'>{{timestamp}}</div>
+              <div class='descr'>{{content}}</div>
+            </div>
+          </div>
+    {{/each}}
+  </div>
+</div>

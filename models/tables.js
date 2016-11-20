@@ -37,5 +37,17 @@ module.exports  = {
     timeSensitive : Boolean,
     description : String,
     contactName : String,
-    contactEmail : String})
+    contactEmail : String
+  }),
+  "feedresource" : dynamoose.model('feedresource', {
+    res_id: String,
+    timestamp : Number,
+    title : String,
+    content : String,
+    author : String,
+    link : String,
+    sourceFeedUrl : String,
+    sourceName : String,
+    sourceUrl : String,
+  })
 };

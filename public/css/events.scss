@@ -1,19 +1,23 @@
 .events{
-	width: 80%;
-	margin: 20px auto;
-	padding: 0 5%;
-	background-color: #fff;
+	width: 56%;
+	background-color: #f9f9f9;
 	border: 1px solid #f1f1f1;
+	padding: 0 2%;
+	margin-right: 2%;
+	display: inline-block;
+	height: 75vh;
+	overflow:scroll;
 	.event{
-		padding: 30px 10px;
+		padding: 20px 10px;
 		border-bottom: 1px solid #f1f1f1;
 		.content{
 			margin-left: 1%;
 			display: inline-block;
 			.name{
-				font-size: 175%;
+				font-size: 150%;
 				padding: 5px 0;
 				color: $parsons-red;
+				text-decoration: underline;
 			}
 			.secondary{
 				padding: 5px 0;

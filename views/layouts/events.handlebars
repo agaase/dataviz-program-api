@@ -10,18 +10,22 @@
     {{> header}}
     </div>
     <div>
-    {{> menu}}
+    {{> menu this}}
     </div>
+    <div class="contentSpace">
+    
     <div class='events'>
     {{#each events}}
       <div class='event'>
         <div class='content'>
-          <div class='name'>{{name}}</div>
+          <a  href='{{url}}' target="_blank" class='name'>{{name}}</a>
           <div class='secondary'>{{timestamp}},  {{location}}</div>
           <div class='desc'>{{{focus}}}</div>
         </div>
       </div>
     {{/each}}
+    </div>
+    {{> feed}}
     </div>
   </body>
 </html>

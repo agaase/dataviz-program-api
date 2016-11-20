@@ -32,7 +32,9 @@ app.get("/",function(request, response) {
     for(var i=0;i<events.length;i++){
       events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
     }
-    response.render('layouts/events',{"events" : events});  
+    core.fetchFeedResources(function(d){
+      response.render('layouts/events',{"events" : events, feed : d});  
+    })
   })
 });
 
