@@ -54,6 +54,17 @@ mailin.on('message', function (connection, data, content) {
    * Use parsed message `data` directly or use raw message `content`. */
    var entrytime = new Date(data.date).getTime(), fromEmail = data.from[0].address;
    if(fromEmail.indexOf("newschool.edu")>-1){
+
+     if(data.attachments.length){
+        var attach = data.attachments[0];
+        var crypto = require('crypto');
+        var fs = require('fs');
+        var wstream = fs.createWriteStream("public/mail/"+attach.fileName);
+        // creates random Buffer of 100 bytes
+        var buffer = attach.content
+        wstream.write(buffer);
+     }
+
      var dummyRes = new models["wallposts"]({
       wp_id : farmhash.hash32(""+entrytime+fromEmail),
       timestamp : entrytime,
