@@ -1,0 +1,39 @@
+.wallposts{
+	width: 56%;
+	background-color: #f9f9f9;
+	border: 1px solid #f1f1f1;
+	padding: 0 2%;
+	margin-right: 2%;
+	display: inline-block;
+	height: 75vh;
+	overflow:scroll;
+	.post{
+		padding: 20px 10px;
+		border-bottom: 1px solid #f1f1f1;
+		.content{
+			margin-left: 1%;
+			display: inline-block;
+			.primary{
+				.name{
+					font-size: 150%;
+					padding: 5px 0;
+					color: $parsons-red;
+					text-decoration: underline;
+					display: inline-block;
+					width: 70%;
+				}
+			}
+			.secondary{
+				padding: 5px 0;
+				.from{
+					font-weight: bold;
+				}
+			}
+			.desc{
+				padding: 10px 0;
+				line-height: 130%;
+			}
+		}
+	}
+	
+}

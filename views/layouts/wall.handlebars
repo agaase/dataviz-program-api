@@ -13,12 +13,15 @@
     {{> menu this}}
     </div>
     <div class="contentSpace">
-    <div class='events'>
+    <div class='wallposts'>
     {{#each wallposts}}
-      <div class='event'>
+      <div class='post'>
         <div class='content'>
-          <a  href='{{url}}' target="_blank" class='name'>{{title}}</a>
-          <div class='secondary'>{{timestamp}}</div>
+          <div class='primary'>
+          <div class='name'>{{title}}</div>
+
+          </div>
+          <div class='secondary'><span class='from'>{{from}}</span>, {{timestamp}}</div>
           <div class='desc'>{{{content}}}</div>
         </div>
       </div>

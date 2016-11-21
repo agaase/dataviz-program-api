@@ -88,6 +88,36 @@
   .api .endpoint {
     padding: 0 15px; }
 
+.wallposts {
+  width: 56%;
+  background-color: #f9f9f9;
+  border: 1px solid #f1f1f1;
+  padding: 0 2%;
+  margin-right: 2%;
+  display: inline-block;
+  height: 75vh;
+  overflow: scroll; }
+  .wallposts .post {
+    padding: 20px 10px;
+    border-bottom: 1px solid #f1f1f1; }
+    .wallposts .post .content {
+      margin-left: 1%;
+      display: inline-block; }
+      .wallposts .post .content .primary .name {
+        font-size: 150%;
+        padding: 5px 0;
+        color: #E82E21;
+        text-decoration: underline;
+        display: inline-block;
+        width: 70%; }
+      .wallposts .post .content .secondary {
+        padding: 5px 0; }
+        .wallposts .post .content .secondary .from {
+          font-weight: bold; }
+      .wallposts .post .content .desc {
+        padding: 10px 0;
+        line-height: 130%; }
+
 body {
   margin: 0;
   padding: 0;
