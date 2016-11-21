@@ -53,6 +53,7 @@ mailin.on('message', function (connection, data, content) {
   /* Do something useful with the parsed message here.
    * Use parsed message `data` directly or use raw message `content`. */
    var entrytime = new Date(data.date).getTime(), fromEmail = data.from[0].address;
+   var body = data.html;
    if(fromEmail.indexOf("newschool.edu")>-1){
 
      if(data.attachments.length){
@@ -63,6 +64,7 @@ mailin.on('message', function (connection, data, content) {
         // creates random Buffer of 100 bytes
         var buffer = attach.content
         wstream.write(buffer);
+        body += "<br>" + "<a href='./mail/"+attach.fileName+"' target='_blank'>"+attach.fileName+"</a>";
      }
 
      var dummyRes = new models["wallposts"]({
@@ -71,7 +73,7 @@ mailin.on('message', function (connection, data, content) {
       from : data.from[0].name,
       fromEmail : fromEmail,
       title : data.subject,
-      content : data.html
+      content : body
      });
     // Save to DynamoDB
     dummyRes.save(function(err){
