@@ -9,9 +9,9 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/test');
 
 
-// Create cat model with default options
-module.exports  = {
-  "events" : mongoose.model('events', {
+var Schema = mongoose.Schema;
+
+var eventSchema = new Schema( {
     event_id: String,
     timestamp : Number,
     name : String,
@@ -21,8 +21,9 @@ module.exports  = {
     location : String,
     url : String,
     notes : String
-  }),
-  "opps" : mongoose.model('opportunities', {
+  });
+
+var oppSchema = new Schema({
     opp_id: String,
     timestamp : Number,
     organizationName : String,
@@ -41,9 +42,10 @@ module.exports  = {
     description : String,
     contactName : String,
     contactEmail : String
-  }),
-  "feedresource" : mongoose.model('feedresource', {
-    res_id: String,
+  });
+
+var feedResSchema = new Schema({
+    _id: String,
     timestamp : Number,
     title : String,
     content : String,
@@ -52,8 +54,9 @@ module.exports  = {
     sourceFeedUrl : String,
     sourceName : String,
     sourceUrl : String,
-  }),
-   "wallposts" : mongoose.model('wallposts', {
+  });
+
+var wallPostSchema = new Schema({
     wp_id: String,
     timestamp : Number,
     title : String,
@@ -61,4 +64,10 @@ module.exports  = {
     from : String,
     fromEmail : String
   })
+// Create cat model with default options
+module.exports  = {
+  "events" : mongoose.model('events', eventSchema),
+  "opps" : mongoose.model('opportunities', oppSchema ),
+  "feedresource" : mongoose.model('feedresource', feedResSchema),
+   "wallposts" : mongoose.model('wallposts', wallPostSchema)
 };

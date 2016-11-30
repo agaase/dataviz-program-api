@@ -78,5 +78,5 @@ function request(url,callback){
     }
   });
 }
-request(eventsUrl,saveEvents);
-//request(oppUrl,saveOpportunities);
+//request(eventsUrl,saveEvents);
+request(oppUrl,saveOpportunities);

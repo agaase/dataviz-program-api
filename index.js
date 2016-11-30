@@ -1,6 +1,5 @@
 var express = require('express');
 var exphbs  = require('express-handlebars');
-var req = require('request');
 var cors = require('cors');
 var core = require("./core.js");
 

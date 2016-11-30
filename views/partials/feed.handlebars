@@ -11,6 +11,7 @@
             <div class='secondary'>
               <div class='date'>{{timestamp}}</div>
               <div class='descr'>{{content}}</div>
+              {{#if image}}<div class='img'  style="background-image:url('{{image}}');" ></div>{{/if}}
             </div>
           </div>
     {{/each}}

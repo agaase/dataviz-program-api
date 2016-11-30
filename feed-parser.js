@@ -1,8 +1,8 @@
+var request = require("request");
 var feed = require('feed-read');
-var http = require('http');
 var async = require('async');
-var request = require('request');
 var farmhash = require('farmhash');
+var scrape;
 
 var LIMIT = 10;
 var UNABLE_TO_CONNECT = "Unable to connect.";
@@ -13,31 +13,62 @@ var URLS = ['http://feeds.feedburner.com/InformationIsBeautiful?format=xml',
             'https://groups.google.com/forum/feed/data-vis-jobs/msgs/rss_v2_0.xml'];
 var models = require("./models/tables.js");
 
-var FR = models.feedresource;
+var FR = models.feedresource, items = [];
 
 function req() {
     var tasks = [];
     URLS.forEach(function(entry){
         tasks.push(function(callback) {
-            feed(entry, onRssFetched);
+            feed(entry, function(err,ites){
+              onRssFetched(err,ites);
+              callback(null);
+            });
         });
     });
     async.parallel(tasks, function done(err, results) {
-        console.log("Done");
-        if (err) {
-            
-        }
+        scrape = require('html-metadata');
+        articleInfo(items,0,[])
     });
 }
 
+var articleInfo = function(items, ct, entries){
+    if(ct==items.length){
+        updateDB(entries);
+    }else{
+        var item = items[ct];
+        scrape(item.link,function(err,metadata){
+           try{
+            console.log(metadata.openGraph.image.url);
+            item["image"] = metadata.openGraph.image.url; 
+            console.log(item.image);
+           }catch(err){
+           }
+           entries.push(item);
+           ct++;
+           console.log(entries.length +"/"+items.length);
+           articleInfo(items,ct,entries);
+        });
+    }
+}
+
+var updateDB = function(items){
+  console.log(items[0].image);
+  console.log("inserting - "+items.length);
+  FR.collection.insert(items, { ordered: false },function (err) {
+    if (err) {  console.log("cont."); }
+    console.log('Ta-da!');
+  });
+}
+
+
 function onRssFetched(err, articles) {
-    var items = [];
-   // console.log(articles);
-    articles.forEach(function(entry) {
-        var pubtime = entry.published ? new Date(entry.published).getTime() : new Date().getTime();
-        var hash = farmhash.hash32(""+pubtime+entry.link);
-        items.push({
-           res_id: "fr_"+hash,
+    if(articles){
+      console.log(articles.length);
+      articles.forEach(function(entry){
+          var pubtime = entry.published ? new Date(entry.published).getTime() : new Date().getTime();
+          var hash = farmhash.hash32(""+pubtime+entry.link);
+          items.push({
+           _id: "fr_"+hash,
            timestamp : pubtime, 
            title : entry.title,
            content : entry.content,
@@ -46,13 +77,9 @@ function onRssFetched(err, articles) {
            sourceFeedUrl : entry.feed.source,
            sourceName : entry.feed.name,
            sourceUrl : entry.feed.link,
-        });
-    });
-    console.log("pushing - " +items.length);
-    FR.collection.insert(items,function (err) {
-        if (err) { return console.log(err); }
-        console.log('Ta-da!');
-    },{overwrite:true});
+         });
+      })
+    }
 }   
 
 req();

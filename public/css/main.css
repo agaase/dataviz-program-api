@@ -181,6 +181,12 @@ body {
             color: #5D6068; }
         .contentSpace .feed .list .feed_item .secondary .descr {
           font-size: 80%; }
+        .contentSpace .feed .list .feed_item .secondary .img {
+          height: 200px;
+          width: auto;
+          background-position: center;
+          background-size: 100% auto;
+          background-repeat: no-repeat; }
         .contentSpace .feed .list .feed_item .secondary .date {
           font-size: 70%;
           width: 24%;
