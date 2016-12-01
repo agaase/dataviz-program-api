@@ -37,6 +37,13 @@ app.get("/",function(request, response) {
   })
 });
 
+
+app.get("/form",function(request,response){
+  core.fetchFeedResources(function(d){
+      response.render('layouts/form',{feed : d});  
+    })
+});
+
 app.get("/events",function(request,response){
   core.fetchEvents(function (events) {
     for(var i=0;i<events.length;i++){

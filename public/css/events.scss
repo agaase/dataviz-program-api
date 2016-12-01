@@ -7,6 +7,22 @@
 	display: inline-block;
 	height: 75vh;
 	overflow:scroll;
+	.meta{
+		padding: 20px 0;
+		.btn{
+			height: 20px;
+		    float: right;
+		    text-align: center;
+		    padding: 5px 10px;
+		    border: 2px solid;
+		    border-radius: 5px;
+		    line-height: 200%;
+		    font-size: 75%;
+		    cursor: pointer;
+		    text-decoration: none;
+		    color: $font-color;
+		}
+	}
 	.event{
 		padding: 20px 10px;
 		border-bottom: 1px solid #f1f1f1;
