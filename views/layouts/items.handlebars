@@ -1,0 +1,34 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+  <head>
+  	<title>New school | Data Visualization</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+  <body>
+    <div>
+    {{> header}}
+    </div>
+    <div>
+    {{> menu this}}
+    </div>
+    <div class="contentSpace">
+    
+    <div class='items'>
+    <div class='meta'>
+      <a class='newItemBtn' href='./form'>NEW EVENT</a>
+    </div>
+    {{#if events}}
+    {{> event-items events}}
+    {{else}}
+    {{> opp-items opps}}
+    {{/if}}
+    </div>
+    {{> feed}}
+    </div>
+    <div>
+    {{> footer}}
+    </div>
+  </body>
+</html>

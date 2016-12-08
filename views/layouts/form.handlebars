@@ -4,7 +4,6 @@
   <head>
   	<title>New school | Data Visualization</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
   </head>
   <body>
@@ -15,42 +14,43 @@
     {{> menu this}}
     </div>
     <div class="contentSpace">
+    <div class="alert alert-success" role="alert">
+    </div>
     <div class='form'>
-      <form>
+      <form id="eventForm">
         <div class="form-group row">
-          <label for="example-text-input" class="col-form-label">Title</label>
-          
-            <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
-          
+          <label class="col-form-label">Title</label>
+          <input class="form-control" type="text" value="New School Event 1" id="title">
         </div>
         <div class="form-group row">
-          <label for="example-datetime-local-input" class="col-form-label">Start Date</label>
+          <label class="col-form-label">Start Date</label>
           
-            <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+            <input class="form-control" type="datetime-local" value="2016-12-09T13:45:00" id="startDate">
         </div>
         <div class="form-group row">
-          <label for="example-datetime-local-input" class="col-form-label">End Date</label>
+          <label class="col-form-label">End Date</label>
           
-            <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+            <input class="form-control" type="datetime-local" value="2016-12-09T13:45:00" id="endDate">
         </div>
         <div class="form-group">
-          <label for="exampleTextarea">Description</label>
-          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+          <label >Description</label>
+          <textarea class="form-control" id="descr" rows="3" placeholder="This is a test event at new school."></textarea>
         </div>
         <div class="form-group row">
-          <label for="example-text-input" class="col-form-label">Location</label>
+          <label class="col-form-label">Location</label>
           
-            <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+            <input class="form-control" type="text" value="55W 5th Avenue" id="location">
         </div>
         <div class="form-group row">
-          <label for="example-text-input" class="col-form-label">Link</label>
+          <label class="col-form-label">Link</label>
           
-            <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+            <input class="form-control" type="text" value="http://www.newschool.edu" id="link">
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <input type="submit" class="btn btn-primary" value="submit"></input>
       </form>
     </div>
     </div>
+    {{> footer}}
   </body>
 </html>

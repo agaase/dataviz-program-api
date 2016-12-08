@@ -1,4 +1,4 @@
-.events{
+.items{
 	width: 56%;
 	background-color: #f9f9f9;
 	border: 1px solid #f1f1f1;
@@ -9,8 +9,8 @@
 	overflow:scroll;
 	.meta{
 		padding: 20px 0;
-		.btn{
-			height: 20px;
+		.newItemBtn{
+			height: 35px;
 		    float: right;
 		    text-align: center;
 		    padding: 5px 10px;
@@ -23,7 +23,7 @@
 		    color: $font-color;
 		}
 	}
-	.event{
+	.item{
 		padding: 20px 10px;
 		border-bottom: 1px solid #f1f1f1;
 		.content{

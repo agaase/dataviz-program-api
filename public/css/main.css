@@ -1,4 +1,4 @@
-.events {
+.items {
   width: 56%;
   background-color: #f9f9f9;
   border: 1px solid #f1f1f1;
@@ -7,10 +7,10 @@
   display: inline-block;
   height: 75vh;
   overflow: scroll; }
-  .events .meta {
+  .items .meta {
     padding: 20px 0; }
-    .events .meta .btn {
-      height: 20px;
+    .items .meta .newItemBtn {
+      height: 35px;
       float: right;
       text-align: center;
       padding: 5px 10px;
@@ -21,45 +21,20 @@
       cursor: pointer;
       text-decoration: none;
       color: #5D6068; }
-  .events .event {
+  .items .item {
     padding: 20px 10px;
     border-bottom: 1px solid #f1f1f1; }
-    .events .event .content {
+    .items .item .content {
       margin-left: 1%;
       display: inline-block; }
-      .events .event .content .name {
+      .items .item .content .name {
         font-size: 150%;
         padding: 5px 0;
         color: #E82E21;
         text-decoration: underline; }
-      .events .event .content .secondary {
+      .items .item .content .secondary {
         padding: 5px 0; }
-      .events .event .content .desc {
-        padding: 10px 0;
-        line-height: 130%; }
-
-.opps {
-  width: 56%;
-  background-color: #f9f9f9;
-  border: 1px solid #f1f1f1;
-  padding: 0 2%;
-  margin-right: 2%;
-  display: inline-block;
-  height: 75vh;
-  overflow: scroll; }
-  .opps .opportunity {
-    padding: 30px 10px;
-    border-bottom: 1px solid #f1f1f1; }
-    .opps .opportunity .content {
-      margin-left: 1%;
-      display: inline-block; }
-      .opps .opportunity .content .name {
-        font-size: 175%;
-        padding: 5px 0;
-        color: #E82E21; }
-      .opps .opportunity .content .secondary {
-        padding: 5px 0; }
-      .opps .opportunity .content .desc {
+      .items .item .content .desc {
         padding: 10px 0;
         line-height: 130%; }
 
@@ -147,13 +122,20 @@ body {
   .header .dept {
     float: right;
     height: 140%;
-    line-height: 70px;
     color: #fff;
     font-size: 125%; }
 
 .contentSpace {
   width: 95%;
   margin: 20px auto; }
+  .contentSpace .items .pagingControl, .contentSpace .list .pagingControl {
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: underline; }
+  .contentSpace .items .alert, .contentSpace .list .alert {
+    display: block; }
+  .contentSpace .alert {
+    display: none; }
   .contentSpace .form {
     width: 50%;
     padding: 0 2%;

@@ -2,10 +2,11 @@ var express = require('express');
 var exphbs  = require('express-handlebars');
 var cors = require('cors');
 var core = require("./core.js");
+var bodyParser = require('body-parser');
 
 var app = express();
 app.use(cors());
-
+app.use(bodyParser.json());
 app.set('port', 8080);
 
 //The public directory where all the static resources are served from
@@ -32,16 +33,39 @@ app.get("/",function(request, response) {
       events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
     }
     core.fetchFeedResources(function(d){
-      response.render('layouts/events',{"events" : events, feed : d});  
+      response.render('layouts/items',{"events" : events, feed : d});  
     })
   })
 });
 
 
+app.post("/formsubmit",function(request,response){
+  core.saveEvent({
+    "timestamp" :  new Date(request.body.startDate).getTime(),
+    "endDate" :  new Date(request.body.endDate).getTime(),
+    "name" : request.body.title,
+    "location" : request.body.location,
+    "url" : request.body.link,
+    "notes" : request.body.descr,
+    "authentication" : 1
+  },function(msg){
+    response.send(msg);
+  })
+  
+});
+app.get("/event/verify/:id",function(request,response){
+  core.verifyEvent(request.params.id,function(ev){
+    ev.timestamp = new Date(ev.timestamp).toString().substring(0,15);
+    core.fetchFeedResources(function(d){
+      response.render('layouts/items',{"events" : [ev], feed : d, "verified" : true});  
+    }) 
+  })
+});
+
 app.get("/form",function(request,response){
   core.fetchFeedResources(function(d){
       response.render('layouts/form',{feed : d});  
-    })
+  })
 });
 
 app.get("/events",function(request,response){
@@ -50,7 +74,7 @@ app.get("/events",function(request,response){
       events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
     }
     core.fetchFeedResources(function(d){
-      response.render('layouts/events',{"events" : events, feed : d});  
+      response.render('layouts/items',{"events" : events, feed : d});  
     }) 
   });
 });
@@ -61,7 +85,7 @@ app.get("/opps",function(request,response){
         opps[i]["timestamp"] = new Date(opps[i].timestamp).toString().substring(0,15);
     }
     core.fetchFeedResources(function(d){
-      response.render('layouts/opps',{"opps" : opps, feed : d});  
+      response.render('layouts/items',{"opps" : opps, feed : d});  
     }) 
   });
 });

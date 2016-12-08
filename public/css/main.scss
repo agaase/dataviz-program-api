@@ -2,8 +2,7 @@ $parsons-red : #E82E21;
 $font-color: #5D6068;
 $very-light-neutral: #eee;
 
-@import 'events';
-@import 'opps';
+@import 'items';
 @import 'api';
 @import 'wall';
 
@@ -24,7 +23,6 @@ body{
 	.dept{
 	  float: right;
 	  height: 140%;
-	  line-height: 70px;
 	  color: #fff;
 	  font-size: 125%;
 	}
@@ -34,6 +32,19 @@ body{
 	width: 95%;
 	margin: 20px auto;
 
+	.items,.list {
+		.pagingControl{
+			text-align: center;
+		    padding: 20px 0;
+		    text-decoration: underline;
+		}
+		.alert{
+			display: block;
+		}
+	}
+	.alert{
+		display: none;
+	}
 	.form{
 		width: 50%;
 		padding: 0 2%;

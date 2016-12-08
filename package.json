@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.6.13",
+    "body-parser": "^1.15.2",
     "cheerio": "^0.22.0",
     "cors": "2.7.1",
     "dynamoose": "^0.7.0",
@@ -24,6 +25,7 @@
     "html-metadata": "^1.4.4",
     "mailin": "^3.0.3",
     "mongoose": "^4.6.8",
+    "mongoose-pagination": "^1.0.0",
     "request": "^2.79.0",
     "striptags": "^2.1.1"
   },

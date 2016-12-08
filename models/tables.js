@@ -6,6 +6,7 @@
 // });
 // var dynamoose = require('dynamoose');
 var mongoose = require('mongoose');
+require('mongoose-pagination');
 mongoose.connect('mongodb://localhost/test');
 
 
@@ -20,7 +21,8 @@ var eventSchema = new Schema( {
     endDate : Number,
     location : String,
     url : String,
-    notes : String
+    notes : String,
+    authentication : Number
   });
 
 var oppSchema = new Schema({
@@ -41,7 +43,8 @@ var oppSchema = new Schema({
     timeSensitive : Boolean,
     description : String,
     contactName : String,
-    contactEmail : String
+    contactEmail : String,
+    authentication : Number
   });
 
 var feedResSchema = new Schema({

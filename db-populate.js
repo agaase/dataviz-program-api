@@ -22,6 +22,7 @@ var saveOpportunities = function(opps,ct){
      opp["timestamp"] = 0;
   }
   opp["opp_id"] = "opp_"+parseInt(Math.random()*100000);
+  opp["authentication"] = 2;
   // Create a new cat object
   var dummyRes = new models["opps"](opp);
   // Save to DynamoDB
@@ -53,6 +54,7 @@ var saveEvents = function(events,ct){
         event["endDate"] = 0;
     }
     event["event_id"] = "ev_"+parseInt(Math.random()*100000);
+    event["authentication"] = 2;
     // Create a new cat object
     var dummyRes = new models["events"](event);
     // Save to DynamoDB
@@ -78,5 +80,5 @@ function request(url,callback){
     }
   });
 }
-//request(eventsUrl,saveEvents);
-request(oppUrl,saveOpportunities);
+request(eventsUrl,saveEvents);
+// request(oppUrl,saveOpportunities);
