@@ -1,0 +1,2126 @@
+Received: by mail-qk0-f178.google.com with SMTP id x190so314431638qkb.0
+        for <ubuntu@aseemagarwal.in>; Sat, 19 Nov 2016 22:15:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=newschool.edu; s=google;
+        h=from:message-id:mime-version:subject:date:references:to:in-reply-to;
+        bh=mmcGqGs3VYgwlTdCOSNbhLDYwtjjunDe0feSK6acgPE=;
+        b=OSweLReNJdK1kai3y4p836zaeBtDRkvZem3FQCsH3GFy+dO/ck4VoaR2sFj3620Pmq
+         wZTc9q2Lu/Sn/SOaI5pf6qoSEXLzS6vkUeHtVCGf9irTo5c6Nn3B4XEshro5XpHvYvEq
+         9rVnI0PMVS5CrEJu8PaBMDSc+VGMExrJ31Dfo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:message-id:mime-version:subject:date
+         :references:to:in-reply-to;
+        bh=mmcGqGs3VYgwlTdCOSNbhLDYwtjjunDe0feSK6acgPE=;
+        b=VTSSd9ofMyOtJ65Y4RcmkajEqjHWhMDwf6J54YeBkA9f24vwl5fIN80EAj2mru22/4
+         8fI3h9PKPTofm95RQOTt2GIg3z3QCKN+MQRXpHM5m05XQAeRKJZMxADbYtbjjeivD6MJ
+         SquI79MypKgEgS4USDYIA9Pbkkf1Ojn3okpu6I3yL7F+GgTHG5MJdpSJi4ElgokviovK
+         +1PsEL1MXqJXaes+cps8xgydjcj7UohLKTA9wCjCB0fCmU3W/sbQN1P/53x/84XRyDhd
+         MyIslyqkkUSYxV8lRaKrhXZQWFUHX7Iu1dTcvF5BOsdQaw0tkbgiuDfY7XpK1qZw/lWW
+         xC3g==
+X-Gm-Message-State: AKaTC00zB8gn7CS09zzsABKhXqp/7/xVkkGKb6RR7Dqp4g7yQ0qzvPqG6qoSFLevyBqCmb2h
+X-Received: by 10.55.137.197 with SMTP id l188mr8619695qkd.94.1479622533138;
+        Sat, 19 Nov 2016 22:15:33 -0800 (PST)
+Return-Path: <agara637@newschool.edu>
+Received: from ?IPv6:2601:86:200:4f74:7c3c:e2d4:dd56:75e3? ([2601:86:200:4f74:7c3c:e2d4:dd56:75e3])
+        by smtp.gmail.com with ESMTPSA id r15sm8158058qte.9.2016.11.19.22.15.32
+        for <ubuntu@aseemagarwal.in>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sat, 19 Nov 2016 22:15:32 -0800 (PST)
+From: Aseem Agarwal <agara637@newschool.edu>
+Content-Type: multipart/mixed; boundary="Apple-Mail=_2A4A84EA-BE3E-497C-90AC-7F2CD703BBBD"
+Message-Id: <7FDAD930-991E-4E08-BF5F-7A6D3475628C@newschool.edu>
+Mime-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+Subject: attachment
+Date: Sun, 20 Nov 2016 01:15:31 -0500
+References: <CD1BCA6B-38C2-4CF1-8A44-FD29043E6CCB@newschool.edu> <50F1F998-7A05-4FA1-9420-50F38E4C0777@newschool.edu> <38C4B4EB-03E9-429F-93EB-436E1ACB2A57@newschool.edu> <DF65B795-78E6-4FF0-87E0-141697D923A7@newschool.edu> <3F1E9EB3-4F52-48CE-A90C-4D52C49622C8@newschool.edu> <7F06D762-7D0D-419E-8101-91A9F2F26826@newschool.edu> <F36AE609-4516-4FB2-87F3-EDA41051DCB2@newschool.edu>
+To: ubuntu@aseemagarwal.in
+In-Reply-To: <F36AE609-4516-4FB2-87F3-EDA41051DCB2@newschool.edu>
+X-Mailer: Apple Mail (2.3124)
+
+
+--Apple-Mail=_2A4A84EA-BE3E-497C-90AC-7F2CD703BBBD
+Content-Disposition: attachment;
+	filename=text.js
+Content-Type: text/javascript;
+	name="text.js"
+Content-Transfer-Encoding: quoted-printable
+
+[{"text":"Photo:  http://tumblr.com/xbx3dlsz0b"},{"text":"Photo:  =
+http://tumblr.com/xtl3dlsypp"},{"text":"RT @texascollection: Did you =
+know Waco used to have a trolley system? Enjoy this photo of a trolley =
+running through the Waco square app  ..."},{"text":"@Lisadawn87 =
+Man,finally to get in shape felt good.My workout =
+routine:http://amzn.to/iSmBfJ"},{"text":"=E7=A5=9E=E6=88=B8=E5=B1=B1=E6=89=
+=8B=E5=A4=A7=EF=BC=9A=E9=82=84=E6=9A=A6=E3=81=AE=E5=A5=B3=E5=AD=90=E5=A4=A7=
+=E7=94=9F=E3=80=80=E6=95=99=E5=93=A1=E3=82=92=E7=9B=AE=E6=8C=87=E3=81=97=E3=
+=81=A6=E5=8B=89=E5=BC=B7=E3=81=AB=E5=8A=B1=E3=82=80 http://dlvr.it/ZLDdR =
+#followmeJP #news"},{"text":"Pagamento de professores injeta R$ 865,8 =
+mil na economia de RR http://dlvr.it/ZLDdT"},{"text":"=E3=82=B8=E3=83=83=E3=
+=83=9D=E3=82=A66:  http://amzn.to/iHBZ0O"},{"text":"(new): Forex =
+Technical Update - Action Forex =
+http://www.forex-vibes.com/2011/07/forex-technical-update-action-forex/"},=
+{"text":"MAC Blush \"Pet Me\" Fabulous Felines LE (2010) =
+http://bit.ly/q1esSB"},{"text":"Copaenvivo.com Guatemala sub 20 inici=C3=B3=
+ larga gira pre Mundial: GUATEMALA -- La selecci=C3=B3n sub'20 de =
+f=C3=BAtbol de Guat... http://es.pn/qihL7q"},{"text":"#Hamilton enjoy =
+$25 for $50 toward automotive services at Ladies Choice Auto Care =
+http://ow.ly/5zbQC #DailyDeal"},{"text":"Photo:  =
+http://tumblr.com/xci3dlsyou"},{"text":"E se eu disser que te amo? =
+http://tumblr.com/x243dlsywb"},{"text":"A @festadamusica 2011 ser=C3=A1 =
+de 17 a 20 de Outubro em Canela! No Laje de Pedra! Sempre em parceria =
+@visomdigital! Mais em http://bit.ly/Jp4JH"},{"text":"RT #Win a Peace =
+Silk Kimono and Silk/vintage lace garter worth over =C2=A3350 =
+@ethicallingerie http://t.co/lae30Ny @daisygreenmag"},{"text":"RT =
+@damjasmine: =D8=AF=D9=85=D8=B4=D9=82 =D8=A8=D8=B1=D8=B2=D8=A9 =
+=D9=85=D8=B3=D8=A7=D8=A6=D9=8A=D8=A9 =D8=B9=D9=84=D9=89 =D8=B6=D9=88 =
+=D8=A7=D9=84=D8=B4=D9=85=D9=88=D8=B9 =D8=B4=D8=A8=D8=A7=D8=A8 =D8=A8=D8=B1=
+=D8=B2=D8=A9 04/07=D8=AC2 http://t.co/RvwNwX3"},{"text":"RT =
+@cambioconnect: .@JoeJonas Performs at Paper Magazine's \"Sounds Like\" =
+Event in LA Last Night - Read more: http://t.co/GoMZQPB"},{"text":"The =
+Best Dslr Camera New Post - Lastest \"nikon Lens Dslr\" auctions. Read =
+it now at http://tinyurl.com/3z9w3d3"},{"text":"New report backs up =
+September iPhone 5 release date =
+http://t.co/chVWFRQ"},{"text":"Considera=C3=A7=C3=B5es sobre o Ava=C3=AD =
+http://wp.me/pZym7-jj"},{"text":"@Rumbacaracas  MIX DE ESTA SEMANA DJ =
+RUDEBOY SAUNDSYSTEM (PARA LAS PERSONAS QUE SOLICITARON REGGAE EN =
+ESPA=C3=91OL) http://bit.ly/ourjP1"},{"text":"Flight of the Horse:  =
+http://amzn.to/maLJty"},{"text":"Comic Studio =
+3D=E3=83=87=E3=83=BC=E3=82=BF=E3=82=B3=E3=83=AC=E3=82=AF=E3=82=B7=E3=83=A7=
+=E3=83=B3 Vol.8 =E5=85=B5=E5=99=A8=E3=83=BB=E9=8A=83=E3=83=BB=E3=83=90=E3=82=
+=A4=E3=82=AF:  http://amzn.to/m4Gtrz"},{"text":"@jelenaswagers =
+http://t.co/wXsWDBP :)"},{"text":"Infamous 3 Reader Ideas : =
+http://t.co/d2Tle0W"},{"text":"The Original Vw Beetle:  =
+http://amzn.to/lsa7OZ"},{"text":"Preiswert mobil surfen mit dem BILD =
+Surfstick. Weitere Infos unter http://goo.gl/ZtiD"},{"text":"Gunplay =
+Plankin On Booties Outside The Club! =
+http://bit.ly/rlfuTV"},{"text":"What is a Certificate Provider? =
+http://t.co/L62s7aK"},{"text":"Eye on Stars: Megan Fox Gives Good Face =
+and Other Hollywood News (6 pics) =
+http://dlvr.it/ZLDdV"},{"text":"Zamparini: \"El Napoles me pidi=C3=B3 a =
+Pastore\" http://bit.ly/oPJ5Ia"},{"text":"#NowPlaying SANDRA - Maria =
+Magdalena (Extended Version) http://0tr.im/=3D184.107.130.34:8514 via =
+KK's #PSPRadio"},{"text":"Universally Speaking:  =
+http://amzn.to/lXfO09"},{"text":"Photo:  =
+http://tumblr.com/xc93dlsyqe"},{"text":"David, te diria que te hicieras =
+un twitter, pero es para gente lista que no comete faltas ortogr=C3=A1fica=
+s as=C3=AD que quedate en facebook."},{"text":"Solid State Batteries: =
+Materials Design and Optimization (Kluwer International Series in =
+Engineering and Comput... http://amzn.to/j2KGsE"},{"text":"RT @AKB48jpn: =
+=E3=83=8B=E3=83=A5=E3=83=BC=E3=82=B9 : =
+=E4=BB=8A=E5=BA=A6=E3=81=AF=EF=BC=A3=EF=BC=AD=E7=B7=8F=E9=81=B8=E6=8C=99=EF=
+=BC=81=EF=BC=A1=EF=BC=AB=EF=BC=A2=EF=BC=8B=EF=BC=B3=EF=BC=AB=EF=BC=A5=EF=BC=
+=8B=EF=BC=AE=EF=BC=AD=EF=BC=A2  =C2=A0-   =
+=E4=BA=BA=E6=B0=97=E3=82=A2=E3=82=A4=E3=83=89=E3=83=AB=E3=82=B0=E3=83=AB=E3=
+=83=BC=E3=83=97=E3=81=AE=EF=BC=A1=EF=BC=AB=EF=BC=A2=EF=BC=94=EF=BC=98=E3=80=
+=81=EF=BC=B3=EF=BC=AB=EF=BC=A5=EF=BC=94=EF=BC=98=E3=80=81=EF=BC=AE=EF=BC=AD=
+=EF=BC=A2=EF=BC=94=EF=BC=98=E3=81=8C=E3=80=81=E3=83=86=E3=83=AC=E3=83=93=EF=
+=BC=A3=EF=BC=AD=E3=81=A7=E5=88=9D=E5=85=B1=E6=BC=94=E3=81=99=E3=82=8B=E3=81=
+=93=E3=81=A8=E3=81=8C=E3=80=81=E6=98=8E=E3=82=89=E3=81=8B=E3=81=AB=E3=81=AA=
+=E3=81=A3=E3=81=9F=E3=80=82=EF=BC=99=E6=97=A5=EF=BC=88=E5=9C=9F=EF=BC=89=E3=
+=81=8B=E3=82=89=E3=82=AA=E3=83=B3=E3=82=A8=E3=82=A2=E3=81=95... =
+http://bit.ly/orIvw ..."},{"text":"Votei em Bruno e Marrone no Pr=C3=AAmio=
+ Multishow. Vota l=C3=A1! #premiomultishow http://t.co/vs9byZs\nMelhor =
+M=C3=BAsica"},{"text":"\"A ora=C3=A7=C3=A3o faz desaparecer a dist=C3=A2nc=
+ia entre o homem e Deus. http://tumblr.com/xqz3dlsyyv"},{"text":"RT =
+@abc7 A man charged with murdering two women including Ashton Kutcher's =
+ex, has been charged with a murder in Chicago =
+http://t.co/QnqkaR2"},{"text":"My Cherry Tree House:  =
+http://amzn.to/k3xWnX"},{"text":"'excellent lobster macaroni', Mizuna =
+voted up - currently  ranked the 3rd best dining out venue in =
+#capitolhill #vibe http://mapq.st/lLuXRS"},{"text":"Men Cry Bullets =
+[VHS] [Import]:  =
+http://amzn.to/ixMTj8"},{"text":"=E2=98=85=E6=9C=9F=E9=96=93=E9=99=90=E5=AE=
+=9A=E3=80=90=E5=90=8D=E5=8F=A4=E5=B1=8B=E5=87=BA=E7=99=BA-=E9=A6=99=E6=B8=AF=
+=EF=BC=88=E3=83=9B=E3=83=B3=E3=82=B3=E3=83=B3=EF=BC=893=E6=97=A5=E9=96=932=
+7800=E5=86=86=EF=BD=9E=E3=80=91=E6=A0=BC=E5=AE=89=E3=83=84=E3=82=A2=E3=83=BC=
+=E6=B5=B7=E5=A4=96=E6=97=85=E8=A1=8C=E2=98=85=E3=82=A8=E3=83=8C=E3=82=AA=E3=
+=83=BC=E3=82=A4=E3=83=BC=EF=BC=8F=E6=96=B0=E6=97=A5=E6=9C=AC=E3=83=88=E3=83=
+=A9=E3=83=99=E3=83=AB=E3=83=BB=E3=81=BE=E3=81=A0=E4=BA=88=E7=B4=84=E3=81=A7=
+=E3=81=8D=E3=81=BE=E3=81=99=EF=BC=81(0503)=E2=87=92http://abcload.blog.fc2=
+.com/blog-entry-574.html"},{"text":"@Vodka2me voa ai xapa quente =
+http://t.co/SExP3hh"},{"text":"Check it out: http://goo.gl/U7yGC - =
+http://tumblr.com/xbb3dlsz0s"},{"text":"Photo:  =
+http://tumblr.com/xwo3dlsyub"},{"text":"=E3=82=AB=E3=83=95=E3=82=A7=E3=83=BB=
+=E3=83=89=E3=82=B9=E3=82=AF=E3=83=BC=E3=83=87=E3=83=AA=E3=82=A2=E3=81=AE=E3=
+=82=82=E3=81=86=E4=B8=80=E3=81=A4=E3=81=AE=E9=A1=94=E3=83=BB=E3=83=BB=E3=83=
+=BB=EF=BC=81=EF=BC=9F http://t.co/gwZ3AWt"},{"text":"=E3=82=BB=E3=83=BC=E3=
+=83=96(SAVE) =E3=82=BA=E3=83=BC=E3=83=A0=E4=BB=98=E3=81=8D3WLED=E3=82=B9=E3=
+=83=BC=E3=83=91=E3=83=BC=E3=83=88=E3=83=BC=E3=83=81 SV-3611: =
+=E6=9D=90=E8=B3=AA=EF=BC=8F=E6=9C=AC=E4=BD=93=EF=BC=9A=E3=82=A2=E3=83=AB=E3=
+=83=9F=E3=80=80=E3=80=80=E5=87=B8=E3=83=AC=E3=83=B3=E3=82=BA=EF=BC=9A=E3=82=
+=A2=E3=82=AF=E3=83=AA=E3=83=AB=E3=80=80=E3=80=80=E3=83=90=E3=83=8D=EF=BC=9A=
+=E3=82=B9=E3=83=81=E3=83=BC=E3=83=AB=E3=80=80=E3=80=80=E2=97=8B=E3=83=AA=E3=
+=83=B3=E3=82=B0=EF=BC=9A=E3=82=B4=E3=83=A0=E3=80=80=E3=80=80=E3=80=80=E3=82=
+=B9=E3=82=A4=E3=83=83=E3=83=81=E6=9D=BF=EF=BC=9A=EF=BC=A1=EF=BC=A2=EF=BC=B3=
+=E3=80=80=E3=80=80=E3=82=B9=E3=82=A4=E3=83=83=E3=83=81=E3=83=9C=E3=82=BF=E3=
+=83=B3=EF=BC=9A=E3=82=B4=E3=83=A0=E3=80=80=E3=80=80=E3=82=B9=E3=83=88=E3=83=
+=A9=E3=83=83=E3=83=97=EF=BC=9A=E3=83=9D=E3=83=AA=E3=83=97=E3=83=AD... =
+http://amzn.to/iTDkrn"},{"text":"#NP Freedom And Young Ghost Feat. The =
+Beatles - Lonely People - http://twitrax.com/s/9uyum6"},{"text":"When =
+you're so excited to talk to someone but you feel like they're not =
+excited to talk to you. http://tumblr.com/xjh3dlsywz"},{"text":"RT =
+@GirlUp: We're trying to get to 15,000 signatures to #stopchildmarriage =
+so we can deliver to @WhiteHouse soon. Sign here:\nhttp://bit. =
+..."},{"text":"crying over you ....  http://t.co/zZusR4D via =
+@youtube"},{"text":"@SageBravo check this out =
+http://t.co/b6ExkBO"},{"text":"I believe this article is the ultimate =
+definition of irony: http://t.co/rRQf7C0"},{"text":"RT @erikvanrosmalen: =
+Zeker, mooi! RT @RikGoverde: Zo, dit is kunst. Hier zit geweldige =
+fotografie bij...   http://bit.ly/dxJiql  (cc @da ..."},{"text":"RT =
+@twittersuggests: @bellysenna New suggestions for you: @k_biancad, =
+@HudinhowW and @hey_rafa. More at =
+http://twitter.com/#!/who_to_follow"},{"text":"Me trying to swim.. =
+http://media.tumblr.com/tumblr_lm6vsoeyd11qbebcb.gif"},{"text":"Photo: =
+garotoinvisivel: http://tumblr.com/xfb3dlsz51"},{"text":"Mexicano =
+condenado a muerte recibe =C3=BAltimas visitas =
+http://dlvr.it/ZLDdb"},{"text":"I'm at Grupo Fitta-C=C3=A2mbio E Turismo =
+(Manaus) http://4sq.com/ni0qKu"},{"text":"#RT LuChini - I TOLD YOU - =
+http://twitrax.com/s/ei0zqs"},{"text":"Photo: iisamonteiiro: =
+http://tumblr.com/xqs3dlsyvp"},{"text":"@hilalcebeciii =
+http://twitpic.com/5mnnj7 - o b=C4=B1ca=C4=9F=C4=B1 istiyorum =
+=3D))"},{"text":"http://andyouhadmeathello.tumblr.com/"},{"text":"http://t=
+witpic.com/5mnnuz"},{"text":"RT @nwlc: Call the White House at =
+888-245-0215 and ask the Admin. to protect programs for low-income =
+people http://ow.ly/5z7MN #fem2 #p2"},{"text":"Photo:  =
+http://tumblr.com/xtg3dlsysd"},{"text":"=E7=8B=AC=E3=82=8A=E8=A8=80=E5=86=8D=
+=E9=96=8B=E3=80=82=E3=80=82=E3=80=82=E3=83=8B=E3=82=B3=E7=94=9F=E6=94=BE=E9=
+=80=81=E4=B8=AD : =E6=9C=9D=E3=81=BE=E3=81=A7=E3=83=8E=E3=83=BC=E3=83=97=E3=
+=83=A9=E3=83=B3 #co52183 http://t.co/LsylBUa"},{"text":"@Pooly_ sim ja =
+Novas divas http://t.co/5OzmR0C Que lindas"},{"text":"OMG! I  think what =
+this web-site is speaking about. http://bit.ly/qpGzMm  Duck =
+#replaceawordinafamousquotewithduck #icantgoadaywithout =
+Skype"},{"text":"Photo: =E2=80=BA Jesus n=C3=A3o finge, Ele te ama de =
+verdade. http://tumblr.com/xct3dlsw8x"},{"text":"Got the actual =
+address!! Please support me by going to this website and clicking =
+'support caitlin' http://t.co/WmOuFG5 thank you xx"},{"text":"US: Call =
+for the Immediate Release of Bahrain's \"Freedom Poet\" =
+http://t.co/wgVOdCl via @change"},{"text":"Photo:  =
+http://tumblr.com/xbx3dlsyxm"},{"text":"Ah, if every morning was as lazy =
+as this cafe... =
+http://re.pn/7WUc1"},{"text":"http://aquienlau.blogspot.com/2011/07/1er-se=
+minario-eco-estrategias-e.html =
+http://fb.me/OTSDZUuP"},{"text":"Alarm-Systems-4-You : 3 Quotes ADT, =
+APX, GE Get 3 Home Alarm Quotes. Compare Rates, Service and Get The Best =
+Deal. http://dlvr.it/W24lD"},{"text":"Unos cosplays muy entretenidos de =
+Disney :) http://t.co/qYVkW9u"},{"text":"RT @Subaru4Life: Working Google =
+Social Network invites here while they last. =
+http://t.co/UD632gT"},{"text":"=E3=80=8C=E9=9D=99=EF=BD=9ESHIZUKA=EF=BD=9E=
+=E3=80=8D=E9=98=B2=E9=9F=B3=E3=83=BB=E6=96=AD=E7=86=B1=E3=83=BB=E9=98=B2=E5=
+=AF=92=E3=83=BB=E4=B8=80=E7=B4=9A=E9=81=AE=E5=85=89=EF=BC=88=E3=83=97=E3=83=
+=AA=E3=83=BC=E3=83=84=E5=8A=A0=E5=B7=A5=EF=BC=89=E3=82=AA=E3=83=BC=E3=83=80=
+=E3=83=BC=E3=82=AB=E3=83=BC=E3=83=86=E3=83=B3=E5=85=A812=E8=89=B2=EF=BC=88=
+=E3=83=94=E3=83=B3=E3=82=AF=E3=83=BB=E3=83=91=E3=83=BC=E3=83=97=E3=83=AB=E7=
+=B3=BB=EF=BC=89=E3=80=80=E3=82=B5=E3=82=A4=E3=82=BA=EF=BC=9A=EF=BC=88=E5=B9=
+=85=EF=BC=89200=C3=97=EF=BC=88=E4=B8=88=EF=BC=8985cm=C3=972=E6=9E=9A=E5=85=
+=A5:  http://amzn.to/jn65ey"},{"text":"Leading Ladies: How to Manage =
+Like a Star:  http://amzn.to/mTYc0z"},{"text":"Durham Brewery Temptation =
+| Chad'z Beer Reviews: \nust like the IPA, the Russian Imperial Stout =
+s... http://bit.ly/nerOjB (via @Chad9976)"},{"text":"Alarm-Systems-4-You =
+: 3 Quotes ADT, APX, GE Get 3 Home Alarm Quotes. Compare Rates, Service =
+and Get The Best Deal. http://dlvr.it/W253H"},{"text":"O site dela =C3=A9 =
+http://www.karlaassed.com.br/ !!"},{"text":"Di samarinda sayang,minta =
+fb.nya dong RT @devi_taemin: dimana tuh?? iyaa punya, kenapa? RT =
+@rezaAMG: Di unmul (cont) =
+http://wl.tl/lJ7r"},{"text":"maxell=E3=80=80N40(=C3=97400p)=E3=80=80=E3=82=
+=A8=E3=82=B3=E3=82=BB=E3=83=AC=E3=82=AF=E3=83=88=E3=82=B7=E3=83=AA=E3=83=BC=
+=E3=82=BA=E3=81=8A=E5=90=8D=E5=89=8D=E3=83=A9=E3=83=99=E3=83=AB=E3=80=80=E5=
+=85=89=E6=B2=A2=E3=83=A9=E3=83=99=E3=83=AB=E3=80=80100=C3=97148mm=E3=80=80=
+8=E6=9E=9A=E5=85=A5(=C3=97400=E3=83=91=E3=83=83=E3=82=AF): =
+=E3=81=94=E6=B3=A8=E6=96=87=E5=BE=8C1=E9=80=B1=E9=96=93=E5=89=8D=E5=BE=8C=E3=
+=81=A7=E5=87=BA=E8=8D=B7=E3=81=A8=E3=81=AA=E3=82=8A=E3=81=BE=E3=81=99=E6=96=
+=87=E6=88=BF=E5=85=B7=E3=82=84=E5=B0=8F=E7=89=A9=E9=A1=9E=E3=81=AE=E5=90=8D=
+=E5=89=8D=E4=BB=98=E3=81=91=E3=81=AB=E3=80=81=E7=94=A8=E9=80=94=E3=81=AB=E5=
+=90=88=E3=82=8F=E3=81=9B=E3=81=A6=E9=81=B8=E3=81=B9=E3=82=8B=E5=A4=9A=E5=BD=
+=A9=E3=81=AA=E3=83=A9=E3=82=A4... =
+http://amzn.to/m7z1h9"},{"text":"Alarm-Systems-4-You : 3 Quotes ADT, =
+APX, GE Get 3 Home Alarm Quotes. Compare Rates, Service and Get The Best =
+Deal. http://dlvr.it/W24l9"},{"text":"http://t.co/keTbKoQ\tbeach montana =
+resort villa"},{"text":"PHOENIX SUNS: Former Second-Overall Pick Dies =
+Playing Basketball http://t.co/ByPZ32A"},{"text":"Diretoria do Hospital =
+de Emerg=C3=AAncia e Trauma =C3=A9 exonerada e Cruz Vermelha Brasileira =
+assume a nova gest=C3=A3o da =
+Casa\nhttp://t.co/alVIgCP"},{"text":"http://t.co/SlrYmHv"},{"text":"Oh =
+jee, mijn disgenoot bestelt groene thee...... #turnen  =
+http://t.co/2C2g8Pe"},{"text":"HH:Stammtisch Harburg =
+http://bit.ly/pzq5v5"},{"text":"Entertainment Calendar | entertainment, =
+calendar, deadline - The News Herald http://bit.ly/oaBfaL"},{"text":"TA =
+PAS MONTRER LOTRE T-SHIRT THIB (@OmEgA_OFFICIEL live on =
+http://twitcam.com/5lbt4)"},{"text":"Photo:  =
+http://tumblr.com/x4c3dlsyfx"},{"text":"Mil seiscientos nuevos =
+servidores p=C3=BAblicos incorporados a la Carrera Administrativa =
+http://dlvr.it/ZLDdH"},{"text":"Photo: heypooh: =
+http://tumblr.com/x5y3dlsyx8"},{"text":"Photo:  =
+http://tumblr.com/xof3dlszdn"},{"text":"Photo:  =
+http://tumblr.com/x3t3dlszbp"},{"text":"RT @MarthaPlimpton: I now =
+forgive him for \"Did You Hear About The Morgans\" and pledge my undying =
+love to Hugh Grant once again: http://t ..."},{"text":"Yosemite Trout =
+Fishing Guide:  http://amzn.to/mOgDQY"},{"text":"Aggie Randy Bullock =
+named to Groza Award Watch List http://bit.ly/oAZpGU"},{"text":"Cindy en =
+ik zijn naar de klote en dat komt hier door:  =
+http://t.co/fE1NRTg"},{"text":"=E7=B4=A0=E7=84=BC=E3=81=8D=E3=83=91=E3=83=B3=
+=E3=83=97=E3=82=AD=E3=83=B3=E3=82=B7=E3=83=BC=E3=83=89=EF=BC=88=E3=81=8B=E3=
+=81=BC=E3=81=A1=E3=82=83=E3=81=AE=E7=A8=AE=EF=BC=89=E3=80=90300g=E3=80=91=E3=
+=80=90=E3=83=8A=E3=83=83=E3=83=84=E3=83=BB=E3=83=89=E3=83=A9=E3=82=A4=E3=83=
+=95=E3=83=AB=E3=83=BC=E3=83=84=E3=83=BB=E8=A3=BD=E8=8F=93=E6=9D=90=E6=96=99=
+=E3=80=91: =
+=E9=87=8E=E8=8F=9C=E3=81=A8=E3=81=97=E3=81=A6=E3=81=8A=E3=81=AA=E3=81=98=E3=
+=81=BF=E3=81=AE=E3=81=8B=E3=81=BC=E3=81=A1=E3=82=83=E3=81=A7=E3=81=99=E3=80=
+=82=E4=B8=96=E7=95=8C=E5=90=84=E5=9C=B0=E3=81=A7=E5=BA=83=E3=81=8F=E6=A0=BD=
+=E5=9F=B9=E3=81=95=E3=82=8C=E3=81=A6=E3=81=84=E3=82=8B=E3=81=8C=E3=80=81=E3=
+=82=B9=E3=83=91=E3=82=A4=E3=82=B9=E3=81=A8=E3=81=97=E3=81=A6=E5=88=A9=E7=94=
+=A8=E3=81=99=E3=82=8B=E3=81=AE=E3=81=AF=E3=80=81=E3=81=BB=E3=81=A8=E3=82=93=
+=E3=81=A9=E3=81=8C=E4=B8=AD=E5=9B=BD=E3=83=BB=E6=9D=B1=E5=8D=97=E3=82=A2=E3=
+=82=B8=E3=82=A2=E7=94=A3=E3=81=A7=E3=81=99=E3=80=82=E6=97=A5=E6=9C=AC... =
+http://amzn.to/l77fHJ"},{"text":"#NP phoenix - DUMB BITCH - =
+http://twitrax.com/s/j3aw54"},{"text":"Inversnaid =
+http://tumblr.com/xlz3dlszm2"},{"text":"=E7=B0=A1=E5=8D=98=E4=BD=9C=E6=A5=AD=
+ =
+=E5=85=A5=E5=8A=9B=E4=BD=9C=E6=A5=AD=E3=82=82=E3=81=AA=E3=81=97=EF=BC=91=E6=
+=97=A5=E3=81=9F=E3=81=A3=E3=81=9F=EF=BC=94=E5=9B=9E=E3=81=AE=E3=83=BB=E3=83=
+=BB=E3=83=BB=E3=80=8C=E8=87=AA=E5=8B=95=E5=8F=8E=E5=85=A5=E3=80=8D =
+=EF=BC=91=E6=97=A5=EF=BC=94=E5=9B=9E=E3=81=AE=E3=83=AF=E3=83=B3=E3=82=AF=E3=
+=83=AA=E3=81=A7=EF=BC=96=E4=B8=87=E5=86=86=E4=BB=A5=E4=B8=8A=E7=A8=BC=E3=81=
+=8E=E3=81=A0=E3=81=99=E8=87=AA=E5=8B=95=E3=83=84=E3=83=BC=E3=83=AB =
+http://www.infojapans.jp/link.php?i=3DI0003878&a=3DA0014860 =
+05:04"},{"text":"Mad Men Theme Song ... With a Twist - =
+http://heyvid.com/video/mad-men-theme-song--with-a-twist/"},{"text":"@_The=
+AntonioShow So Facebook unveils video chat. Cool feature, but not as big =
+as they made it out to be. Obviousl =
+http://t.co/zr2sazF"},{"text":"Liep=C4=81jas zi=C5=86as \"Liep=C4=81jas =
+metalurga\" futbolisti nosp=C4=93l=C4=93 neiz=C5=A1=C4=B7irti ar =
+\"Gulbeni\": \"Metalurgam\" jau pirmaj=C4=81s piec=C4=81s... =
+http://bit.ly/qMDU90"},{"text":"I will destroy my b/f if he spends a =
+different hour going to this internet site. http://bit.ly/nqsNqW  Scott =
+Morrison #icantgoadaywithout"},{"text":"5 of 5 stars to FOUCHE EL GENIO =
+TENEBROSO by Stefan Zweig =
+http://bit.ly/izKyPX"},{"text":"@_imalilmonstersee how i started getting =
+some extra money with some easy steps. Now sharing=E2=80=A6 =
+http://goo.gl/fb/u7Ha6"},{"text":"I LOVE KELLY SCOTT ORR (eu =
+simplesmente AMO esse v=C3=ADdeo! =E2=99=A5) @TEENHEARTS =
+http://t.co/EU3F5kL via @twitpic"},{"text":"07072011 - O FUTURO =C3=89 =
+AGORA http://nblo.gs/k7FQg"},{"text":"RT @caschy: Oh nein! Ist das ein =
+Fake? http://t.co/KMS3UU4 Ich.bin.blind"},{"text":"RT @KashMeOutTrick RT =
+@MsPanamaBOMB I =E2=99=A5333 #thongthursday http://moby.to/apy71t aWWW =
+yeaa# yea ya thong is cute but I like em off"},{"text":"I found =
+Smokeyland! http://t.co/rcKzp1R"},{"text":"@ABC45TV =
+http://tinyurl.com/432bdpn"},{"text":"@_mmmarii Siga @Maickshows e baixe =
+os sucessos de Maick Ferreira - http://t.co/azrMFnm"},{"text":"RT =
+@_Kist_: @Romaena niet super goed ofzo maar ook niet slecht :P maja ik =
+ga naar een horeca school dus moet het ... =
+http://tmi.me/cGFXN"},{"text":"The Best Dslr Camera New Post - Most =
+popular \"olympus Dslr\" auctions. Read it now at =
+http://tinyurl.com/3dfryyl"},{"text":"Photo: duchessliss: =
+http://tumblr.com/xmu3dlszkf"},{"text":"Treated myself to a new pair of =
+leopard pony hair miumiu sandals - my new furry friends!  =
+http://lockerz.com/s/117950606"},{"text":"New Gaudy Vintage Pillow Cases =
+Shabby Chic on eBid United Kingdom http://t.co/Ie5Ose4 via =
+@ebid"},{"text":"theres my night sorted =
+http://instagr.am/p/HKTXP/"},{"text":"Verify JAYBUMAOM!!! =
+http://twitition.com/tduw7"},{"text":"=D0=A1=D1=82=D0=B0=D1=82=D1=8C =
+=D0=B8=D0=B7=D0=B2=D0=B5=D1=81=D1=82=D0=BD=D1=8B=D0=BC =D1=87=D0=B5=D1=80=D0=
+=B5=D0=B7 =D1=82=D0=B2=D0=B8=D1=82=D1=82=D0=B5=D1=80 =
+http://t.co/4ssBInv"},{"text":"@MarceloAlaminos =
+http://t.co/PDBFBf0"},{"text":"Voorhoeve: 'VVD breekt met liberale =
+traditie' http://t.co/LU6TYxy"},{"text":"Photo: =
+timetravelandrocketpoweredapes: =
+http://tumblr.com/xao3dlszff"},{"text":"O @albanos, a @JovemPanBH e o =
+@eusoubh v=C3=A3o liberar 500l de chope em comemora=C3=A7=C3=A3o aos 15 =
+anos do Albanos. http://t.co/Z5lxmlz #soubh"},{"text":"FEATURE: BHF11: =
+Shad, In His Own Words http://bit.ly/lDO7f0 by @thecompanyman =
+@shadkmusic"},{"text":"https://www.facebook.com/avalanchetropical"},{"text=
+":"The Wrestler - Bruce Springsteen. Trilha do filme O LUTADOR  =
+http://t.co/8n29p2a"},{"text":"Photo:  =
+http://tumblr.com/x9e3dlszfg"},{"text":"Bubble tea and cupcakes at =
+#westport http://yfrog.com/kh6q3idj"},{"text":"RT  =
+=E2=98=85=E6=B3=A8=E7=9B=AE=E3=81=AE=E9=96=8B=E9=81=8B=E3=82=B0=E3=83=83=E3=
+=82=BA=E3=80=90=E8=AD=B7=E7=AC=A6=E3=80=91=E2=98=85=E3=80=80:bit.lygupHZ9 =
+http://bit.ly/kRsH55"},{"text":"@MarceloRF_SEP =
+http://bit.ly/p1sGTF"},{"text":"The Portrait Photography Course by Mark =
+Jenkinson =E2=80=93 Book Review http://bit.ly/pjpETo =
+#photography"},{"text":"Disney Year 2007 Pirates of the Caribbean Movie =
+Series =E2=80=9CAt World=E2=80=99s End=E2=80=9D 4 Inch Tall Action =
+Figure Set =E2=80=93 Jack Sparrow... http://dlvr.it/ZLDfD"},{"text":"RT =
+@BidzSaleh: http://t.co/0uTM4ZU Eysh Elly 6"},{"text":"Esse trem ta =
+doido :S\n (@_isabelasilva18 live on =
+http://twitcam.com/5lbho)"},{"text":"The Portrait Photography Course by =
+Mark Jenkinson =E2=80=93 Book Review http://bit.ly/qKarZ1 #portrait =
+#photo"},{"text":"@Biebermyheros2 Please check out this song and comment =
+and subscribe if you like it http://t.co/JWBdjSb"},{"text":"A dress made =
+of hair! http://t.co/HK9N8Bm"},{"text":"RT @TheOtherMaya: #Synchronicity =
+Art and #Life - http://lux-os.com/y/257"},{"text":"I'm looking at you =
+http://goo.gl/6ZfzP #Photo #Photography"},{"text":"Anklage gegen =
+islamischen Flughafen-Killer http://bit.ly/pqDvIt"},{"text":"Accounting =
+Coordinator-Baylor University: Title: Accounting Coordinator-Baylor =
+UniversityLocation: U... http://bit.ly/rs1eWG #job #texas"},{"text":"RT =
+@DellnoBrasil: Acordo garante banda larga por 35 reais =
+http://abr.io/1CIg #PNBL (via @_Info)"},{"text":"Photo:  =
+http://tumblr.com/x9e3dlszl0"},{"text":"#Giveaway for an Adorable =
+Girl=E2=80=99s Handmade Headband & Beanie Hat from Twice the Flower Hats =
+and Headbands! http://t.co/c618jDY Ends 7/19 #fb"},{"text":"Peter des =
+Psquare ne consomme aucun produit laitier #fact ... Demoiselles de la =
+#teamjach=C3=A8re c'est pour vous ! - =
+http://t.co/MsQT5y0"},{"text":"=E3=82=A2=E3=82=B7=E3=83=83=E3=82=AF=E3=82=B9=
+ 6=E4=BA=BA=E5=88=B6=E3=83=90=E3=83=AC=E3=83=BC=E3=83=9C=E3=83=BC=E3=83=AB=
+=E3=83=8D=E3=83=83=E3=83=88=E6=A4=9C=E5=AE=9AAA=E7=B4=9A: =
+=E2=96=A0=E4=B8=8A=E9=83=A8=E7=99=BD=E5=B8=AF=E3=81=AE=E3=83=90=E3=83=AC=E3=
+=83=BC=E3=83=9C=E3=83=BC=E3=83=AB=E3=83=8D=E3=83=83=E3=83=88=E2=96=A0=E4=B8=
+=8A=E9=83=A8=E3=83=86=E3=83=BC=E3=83=97=E3=81=AE=E7=99=BD=E3=81=95=E3=82=92=
+=E9=95=B7=E3=81=8F=E4=BF=9D=E3=81=A4=E3=80=8C=EF=BC=AB=EF=BC=A5=EF=BC=A5P=EF=
+=BC=B7=EF=BC=A8=EF=BC=A9=EF=BC=B4=EF=BC=A5=E3=80=8D=E5=8A=A0=E5=B7=A5=E2=96=
+=A0=E9=87=8D=E9=87=8F=EF=BC=9A=E7=B4=842.6Kg=E2=96=A0=E3=83=99=E3=82=AF=E3=
+=83=88=E3=83=A9=E3=83=B3=EF=BC=9A=E5=BE=93=E6=9D=A5=E3=81=AE=E7=B9=8A=E7=B6=
+=AD=E3=82=B3=E3=83=BC=E3=83=89=E3=81=AB=E6=AF=94=E3=81=B9=E5=A4=A7=E5=B9=85=
+=E3=81=AB=E8=80=90=E4=B9=85=E6=80=A7=E5=90=91=E4=B8=8A=E2=96=A0=E8=A6=8F=E6=
+=A0=BC=E7=B4=A0=E6=9D=90=EF=BC=9A=E3=83=8A=E3=82=A4... =
+http://amzn.to/lznUnN"},{"text":"The Portrait Photography Course by Mark =
+Jenkinson =E2=80=93 Book Review:  \nThe Portrait Photography ... =
+http://bit.ly/qKarZ1 #photography #photo"},{"text":"The Portrait =
+Photography Course by Mark Jenkinson =E2=80=93 Book Review:  \nThe =
+Portrait Photography Course =E2=80=93 Principles,... =
+http://bit.ly/qKarZ1"},{"text":"RT @jilevin: Atlantic: We've Attacked =
+Libya With $368 Million Worth of Bombs and Missiles http://t.co/KHuf1Wf =
+#p2 #topprog"},{"text":"The \"From\" Name: Perhaps Your Most Important =
+Email Marketing Decision | @silverpop http://t.co/SIKTGC3 =
+&lt;&lt;Excellent"},{"text":"Please check out the new updates and =
+changes to our website!!!!!! http://fb.me/PHwEbTN5"},{"text":"After the =
+massive success of the HTC Legend you might have thought that it would =
+be quite a while before its com... http://bit.ly/pnfhyV"},{"text":"Lmao! =
+RT @M0NEyM0VEsMe: Niggas photoshoppin they tattoos now?? I done seen it =
+ALL!!! \nhttp://twitpic.com/5mnklw"},{"text":"@peracomoregano =
+@jralexandrino @gabiroodrigues =
+http://colirios.capricho.abril.com.br/perfil.php?idColirio=3D237853264 =
+VOTE NO @erickmafra &lt;"},{"text":"dps: The Portrait Photography Course =
+by Mark Jenkinson =E2=80=93 Book Review:  \nThe Portrait Photogra... =
+http://bit.ly/nSkKXq #photography #tips"},{"text":"The Portrait =
+Photography Course by Mark Jenkinson =E2=80=93 Book Review =
+http://bit.ly/qKarZ1 #dps"},{"text":"RT @HarryPotterFilm: Emma Watson =
+tells Daniel Radcliffe that he is \"the perfect Harry.\" We completely =
+agree. #HarryPotterLive http://bit ..."},{"text":"Star Spangled Banner =
+[VHS] [Import]:  http://amzn.to/mCQlLB"},{"text":"Failing Teachers?:  =
+http://amzn.to/ihUsUb"},{"text":"RT @Kenny_Wormald: My mom just saw =
+wendy williams on tv and asked if it was ru paul. Watch 3,500 Channels =
+http://bit.ly/dYpHlW"},{"text":"i love her hair..how i wish i can have =
+dat kind of hair.. http://yfrog.com/kknundj"},{"text":"AAA EU =C3=91 =
+ABANDONEI =C3=91 HEIN!! (@Hiiroshy live on =
+http://twitcam.com/5l9eu)"},{"text":"%=E7=B7=8F=E5=90=88%=E3=80=90=E5=9D=90=
+=E9=AA=A8=E7=A5=9E=E7=B5=8C=E7=97=9B=E6=94=B9=E5=96=84=E3=80=91[=E7=97=87=E7=
+=8A=B6]=E8=85=B0=E9=83=A8=E3=81=AB=E7=97=9B=E3=81=BF=E3=81=8C=E9=95=B7=E6=99=
+=82=E9=96=93=E7=B6=9A=E3=81=84=E3=81=9F=E3=81=93=E3=81=A8=E3=81=8C=E3=81=82=
+=E3=82=8B http://yt.xp.mbsrv.net/069/ 504178 #followmejp #sougofollow =
+=E8=85=B0=E7=97=9B =E3=81=8E=E3=81=A3=E3=81=8F=E3=82=8A=E8=85=B0 =
+=E8=85=B0=E6=A4=8E=E6=A4=8E=E9=96=93=E6=9D=BF=E3=83=98=E3=83=AB=E3=83=8B=E3=
+=82=A2 =E3=82=B9=E3=83=99=E3=83=AA=E7=97=87"},{"text":"Soksi Desak =
+Kemendiknas Usut Pungutan Sekolah - Yahoo! News http://t.co/yUpmxSL via =
+@yahoo_id"},{"text":"masa=C3=BCst=C3=BCm=C3=BC s=C3=BCsl=C3=BCyorsun =
+aziz; =
+http://t.co/vK4yuXs"},{"text":"http://yfrog.com/kh88jmj"},{"text":"@artiph=
+acts New Beats | http://t.co/gsF4h41 | Free Downloads =
+http://t.co/MmysEaz"},{"text":"PhotoSchool: The Portrait Photography =
+Course by Mark Jenkinson =E2=80=93 Book Review =
+http://bit.ly/raJvd7"},{"text":"First Cook Opportunities - Houston =
+Regional Staffing Center: Title: First Cook Opportunities - Houst... =
+http://bit.ly/ohd4kn #job #texas"},{"text":"Photo: potterheaven: =
+http://tumblr.com/xnf3dlszg0"},{"text":"Mi super heroe favorito!!  =
+http://t.co/LfvWMFP"},{"text":"Photo:  =
+http://tumblr.com/xrr3dlt01b"},{"text":"comics18 =D9=85=D8=A7 =D9=8A=D9=85=
+=D9=84=D9=89 =D9=88=D9=82=D8=AA =D8=A7=D9=84=D8=B7=D9=84=D8=A7=D8=A8 =
+=D8=A7=D9=84=D8=B9=D8=B7=D9=84=D9=87 =D8=A7=D9=84=D8=B5=D9=8A=D9=81=D9=8A=D9=
+=87 =D8=A7=D9=84=D8=A7 =D8=A7=D9=84=D8=A8=D9=84=D8=A7=D9=8A=D8=B3=D8=AA=D9=
+=8A=D8=B4=D9=86 =D9=88=D8=A7=D9=84=D8=A7=D9=86=D8=AA=D8=B1=D9=86=D8=AA =
+=D9=88=D8=A7=D9=84=D8=AA=D9=82=D9=86=D9=8A=D9=87 =D8=A8=D8=B4=D9=83=D9=84 =
+=D8=B9=D8=A7=D9=85 http://goo.gl/fb/KWZto"},{"text":"Four injured in =
+opening Pamplona bull-run http://tinyurl.com/5tqycgo #AFP =
+#video"},{"text":"Photo:  http://tumblr.com/xrx3dlszsa"},{"text":"Ada =
+maux lg nieey hehhe :) RT @Qiqivabela: Gpp , mau baik2in dulu ya kan RT =
+@randyjulianth: Tumben lu Mau di'suruh, ... =
+http://tmi.me/cGFXQ"},{"text":"Mobile platforms are becoming =
+increasingly popular for all kinds of apps, which range from games to =
+scheduling a... http://bit.ly/qWCVZD"},{"text":"07072011 - O FUTURO =C3=89=
+ AGORA http://nblo.gs/k7FS5"},{"text":"=E3=82=AB=E3=83=89=E3=83=AA=E3=83=BC=
+ =E3=82=AF=E3=83=AA=E3=83=83=E3=83=94=E3=83=BC:  =
+http://amzn.to/j3THKd"},{"text":"RT @thinkingautism: MT @EightfoldEdu: =
+Todd Drezner of @LovingLampposts: Decoding the Language of #Autism - =
+http://goo.gl/news/xUIy -SR"},{"text":"=D8=AA=D9=83=D9=8A=D9=87 =D9=85=D8=B9=
+ =D8=A7=D9=84=D8=B2=D9=82=D8=B1=D8=AA @ =D9=83=D9=88=D8=B1=D9=86=D9=8A=D8=B4=
+ =D8=A7=D9=84=D8=AE=D8=A8=D8=B1 http://gowal.la/p/g7nA =
+#photo"},{"text":"miakosamuio: =
+http://tumblr.com/xvo3dlszw0"},{"text":"The Portrait Photography Course =
+by Mark Jenkinson =E2=80=93 Book Review:  \nThe Portrait Photography =
+Course =E2=80=93 Principles,... =
+http://bit.ly/oGwg9m"},{"text":"heissekatja hat 1 neues Video im Private =
+Shop hochgeladen: Schreibt mir alles was ihr wolltAlter: 32, =
+Haarfarbe:... http://bit.ly/oYmEgT"},{"text":"Freelance jobs: =
+International Overnight Writer/Editor =E2=80=93 PSFK =
+http://bit.ly/pQyX61 #freelance #jobs"},{"text":"RT @OMGBASEDROSS: =
+@realb23tv @RealJrob24 @BeerManMan @HDDesignz @MREUROCLUB @SavAlexandra =
+@cranberryshow http://t.co/pwVJFSw peep it, le ..."},{"text":"The =
+Portrait Photography Course by Mark Jenkinson =E2=80=93 Book Review:  =
+\nThe Portrait Photography Course =E2=80=93 Principles,... =
+http://bit.ly/qKarZ1"},{"text":"@ItsJustElla1 =
+http://tinyurl.com/6a4ls66"},{"text":"HTC Desire - Truly Desirable =
+http://bit.ly/pnfhyV"},{"text":"RT @CELEBUZZ: Whoa!!!! Neville =
+Longbottom is all grown up and looking GOOD! http://bit.ly/pPn5Th =
+(PHOTOS)"},{"text":"=D8=AF=D8=B9=D9=88=D8=A9 =D9=84=D8=AC=D9=85=D8=B9=D8=A9=
+ \"=D9=84=D8=A7 =D9=84=D9=84=D8=AD=D9=88=D8=A7=D8=B1\" =D8=A8=D8=B3=D9=88=D8=
+=B1=D9=8A=D8=A7 http://dlvr.it/ZLDdx"},{"text":"\"I Am Tabius Tate\" =
+mixtape. get your copy now http://bit.ly/lqSKDK @tabiustate  =
+#iamtabiustate"},{"text":"RT @BrownSKlN: When you know & love who you =
+are, you pray 4 & love others! Especially those who choose not ... =
+http://tmi.me/cGFXT"},{"text":"PERLASICILIA: EMANUELA ZUCCALA', Le =
+signore dell'obiettivo http://fb.me/19d32UR2g"},{"text":"=D8=A7=D9=84=D8=AD=
+=D9=8A=D8=A7=D8=A9 =D8=A8=D9=83=D8=B1=D8=A7: =D8=AD=D8=B1=D9=85=D9=87=D8=A7=
+ =D9=85=D9=86 =D9=82=D8=A8=D9=84=D8=A9 =D8=A3=D8=B7=D9=84=D9=82=D8=AA =
+=D8=A7=D9=84=D9=86=D8=A7=D8=B1 =D8=B9=D9=84=D9=89 =D9=85=D9=86 =
+=D8=AD=D8=B1=D9=85=D9=87=D8=A7 =D8=A7=D9=84=D9=82=D8=A8=D9=84=D9=87 =
+http://t.co/k55Wl4b"},{"text":"Job Lead: Pharmacy Manager Sam's at =
+Walmart (Tulsa, OK): Drives sales and profit in the Pharmacy and OTC =
+areas. ... http://bit.ly/q06tEw"},{"text":"#tuscan #kitchen #decor Find =
+discount Tuscan Kitchen Decor and Free Shipping at =
+http://tuscan-kitchen-decor.kitchennet.us"},{"text":"Court: Gamecock fan =
+family can continue fight for free parking =
+http://bit.ly/ojgN98"},{"text":"Job Emerging Markets DCM Team (London): =
+Emerging Markets DCM.+ MSc/PhD/... http://bit.ly/iACfCp Quant IB Finance =
+jobs 102"},{"text":"Photo: S W E E T =E2=80=98 =
+http://tumblr.com/xpu3dlt0hj"},{"text":"HTC Desire - Truly Desirable: =
+After the massive success of the HTC Legend you might have thought that =
+it would b... http://bit.ly/oqAsui"},{"text":"campanha bapho  da Versace =
+ teve dire=C3=A7=C3=A3o art=C3=ADstica de Giovanni Bianco @GB65  =
+http://bit.ly/rm1w5a"},{"text":"RT @feiradamusica: Veja quais bandas da =
+Feira 2011 entraram na programa=C3=A7=C3=A3o da nossa webr=C3=A1dio =
+hoje, em http://t.co/qeL5xK1"},{"text":"How To Start A Mobile App =
+Development Company http://bit.ly/nvB3K3"},{"text":"Santafe Checkin Wrap =
+@ Teayana .. 6/10 \n\n\nhttp://yfrog.com/kkt9xoj =
+\n\n#ibhmHatesJarjeer"},{"text":"http://t.co/MhSHR2K Song Games Olympics =
+Chevrolet Door Los Angeles Aston Martin Video Game =
+Management"},{"text":"@2cleann http://tinyurl.com/4xct3u3"},{"text":"RT =
+@YAYAisvanity i only keep pretty bitches roun' me =
+http://twitpic.com/5mbwxp &lt;--- LOLLLLLLLL at the 2nd =
+thing"},{"text":"Melomar By Ocean Reef =E2=80=93 Tang O Mar Rental Home =
+http://dlvr.it/ZLDgj"},{"text":"RT @InmanNews: Real Estate News: The =
+real estate fallout of a stalled government =
+http://ow.ly/1dFJfr"},{"text":"Photo:  =
+http://tumblr.com/xgj3dlt0ij"},{"text":"Read my response to \"Tem algum =
+gay na sua fam=C3=ADlia? #DONA\": =
+http://4ms.me/qQxb72"},{"text":"#Social #Analytics Here Come Google+ =
+Pages for Brands: What You Need to Know: This may include the unique =
+featur... http://bit.ly/osEjKF"},{"text":"RT @AT5: Een 17-jarige jongen =
+is vanavond neergestoken door twee 14-jarige meisjes in Nieuw-West. =
+http://at5.nl/s/gWw &gt; =3DO =3DO =3DO"},{"text":"=D9=85=D9=80=D8=B5=D8=B1=
+=D8=AC=D8=AF=D9=8A=D8=AF=D8=A9/ =D8=B4=D8=A8=D8=A7=D8=A8 =D8=A7=D9=84=D8=AB=
+=D9=88=D8=B1=D8=A9 =D9=8A=D8=AA=D9=88=D9=84=D9=89 =D8=AA=D8=A3=D9=85=D9=8A=
+=D9=86 \"=D8=A7=D9=84=D8=B4=D8=B1=D8=B7=D8=A9\" =D9=81=D9=89 =D8=AC=D9=85=D8=
+=B9=D8=A9 \"=D8=A7=D9=84=D9=82=D8=B5=D8=A7=D8=B5\": =D9=8A=D9=82=D9=88=D9=85=
+ =D8=A7=D8=A6=D8=AA=D9=84=D8=A7=D9=81 =D8=AB=D9=88=D8=B1=D8=A9 =D9=85=D8=B5=
+=D8=B1 =D8=A7=D9=84=D8=AD=D8=B1=D8=A9 =D8=A8=D8=A7=D9=84=D8=AA=D8=B9=D8=A7=
+=D9=88=D9=86 =D9=85=D8=B9 =D8=A7=D8=A6=D8=AA=D9=84=D8=A7=D9=81 =
+=D8=A7=D9=84=D9=88=D8=B9=D9=8A... http://dlvr.it/ZLDgh"},{"text":"After =
+30 years of marriage, the two Rabbis have proven that a husband and wife =
+can not only work together, but... =
+http://fb.me/Jh9YYqgg"},{"text":"After the massive success of the HTC =
+Legend you might have thought that it would be quite a while before its =
+com... http://bit.ly/pnfhyV"},{"text":"Photo: La Polic=C3=ADa identifica =
+al autor del #pu=C3=B1etazoarubalcaba: =C2=A1fue Teddy Bautista! Hay =
+prueba fotogr=C3=A1fica... =
+http://tumblr.com/xgi3dlt0a0"},{"text":"@sasa_abdulaziz  =D8=A7=D9=88=D9=86=
+=D9=8A =D8=A7=D9=84=D9=85=D9=88=D9=8A=D8=A9 =D8=A7=D9=84=D9=8A =
+=D8=B4=D8=B1=D9=8A=D8=AA=D9=8A=D9=87=D8=A7 =D9=84=D8=AF=D9=88=D9=86=D9=82=D8=
+=B3=D9=8A=D9=86=D9=82 =EE=90=97=EE=90=97=EE=90=97 =
+http://t.co/ezCUQHR"},{"text":"&lt;3 =D8=AD=D9=85=D8=AF =D8=A7=D9=84=D8=A8=
+=D8=B1=D9=8A=D8=AF=D9=8A =D8=A7=D9=84=D8=A7=D9=85=D8=AA=D8=B9=D9=87 =
+http://bit.ly/lcUOcm"},{"text":"I'm about to fine my mom a nigga while =
+I'm out cuz shit is getting outta hand.  And if any of u young niggas =
+make a ... http://tmi.me/cGFXH"},{"text":"@SDC_Larusso  check these =
+beats out http://bit.ly/hbxq40"},{"text":"Photo:  =
+http://tumblr.com/xtf3dlt03y"},{"text":"Photo: myheartforyouever: =
+http://tumblr.com/xik3dlt0d6"},{"text":"That Eli is adorable! RT =
+@letteredcottage: Kids room advice...from a really cool kid! :-D =
+http://fb.me/D422WoZ0"},{"text":"juliana por fa complaseme mi cancion =
+sola de alquilaos (live at http://ustre.am/AydS)"},{"text":"RT =
+@PolitieGldNOcom: Keijenborg, vrouw vermist, 53 jr, op omafiets, 1.65 =
+lang, tenger postuur, do. bruin haar, bril, groen vest, wi=E2=80=A6 (co =
+..."},{"text":"Wow, this can be just surprising. http://bit.ly/nMAqtr  =
+#icantgoadaywithout Kerl Messi Ducks #icantgoadaywithout Daniel =
+Radcliffe Duck Duck"},{"text":"Butterflies Gourmet Recipes for Walleye =
+and Venison and More On ...: This week's roundup features recipes, =
+libra... http://bit.ly/or5Tgs"},{"text":"New BOSS AUDIO CX1000 CHAOS =
+EXXTREME 4-CHANNEL MOSFET BRIDGEABLE POWER AMPLIFIER (2000W):  =
+http://bit.ly/rd5XML"},{"text":"go and try to get kadarshian hot video =
+!!!!! http://bit.ly/kAc7n2?n=3D19 #icantgoadaywithout Tom Felton =
+#icantgoadaywithout"},{"text":"=E2=98=85=E5=89=AF=E5=B3=B6=E9=9A=86=E5=BD=A6=
+=E6=B0=8F=E3=81=A8=E6=AD=A6=E7=94=B0=E9=82=A6=E5=BD=A6=E6=B0=8F=E3=81=AB=E3=
+=82=88=E3=82=8B=E3=80=81=E5=8E=9F=E7=99=BA=E4=BA=8B=E6=95=85=E3=80=81=E6=94=
+=BE=E5=B0=84=E8=83=BD=E3=81=AB=E3=81=A4=E3=81=84=E3=81=A6=E3=81=AE=E3=82=B1=
+=E3=83=B3=E3=82=AB=E5=AF=BE=E8=AB=87=E6=9C=AC #genpatsu  g05:04=E2=98=85 =
+=E3=80=8E=E5=8E=9F=E7=99=BA=E4=BA=8B=E6=95=85=E3=80=81=E6=94=BE=E5=B0=84=E8=
+=83=BD=E3=80=81=E3=82=B1=E3=83=B3=E3=82=AB=E5=AF=BE=E8=AB=87 =
+=E3=80=8F=E3=82=92=E8=A6=8B=E3=82=8B [=E6=A5=BD=E5=A4=A9]  =
+http://a.r10.to/hBurCt"},{"text":"Barnes & Noble Online Storytime =
+http://fb.me/RwAJ22tr"},{"text":"10 Klassik-Langspielplatten  #034;Musik =
+auf Villa H=C3=BCgel #034;: Essen, Ruhr | Ich verkaufe  10 Doppel-LPS =
+aus der... http://bit.ly/ono6Zh"},{"text":"http://t.co/EhhRjwU AMD =
+Banking Transport USB Days_of_Our_Lives Michael Jordan"},{"text":"\"Eu =
+quero o kit Make me Up da Sigma que a #ladynandy est=C3=A1 sorteando =
+http://t.co/NU2hY6W \" #sorteio"},{"text":"Photo: conflitosdeumgaroto: =
+http://tumblr.com/x5r3dlt0dy"},{"text":"&lt;b&gt;Marketing =
+Research&lt;/b&gt; Director at Airborne, Inc in Greater =
+&lt;b&gt;...&lt;/b&gt; http://bit.ly/oZkhge"},{"text":"Information About =
+Android Development Company http://bit.ly/pIe8uB"},{"text":"Meu pai =C3=A9=
+ um deus, minha m=C3=A3e =C3=A9 uma bruxa, eu estudo em Hogwarts e passo =
+as f=C3=A9rias no Acampamento... =
+http://tumblr.com/xmk3dlsxmh"},{"text":"Jajaja =
+http://yfrog.com/khonktj"},{"text":"Percee P - The Woman Behind Me =
+(Remix) Official Video =
+http://fb.me/tFU9TRCL"},{"text":"=E7=9C=9F=E9=9D=A2=E7=9B=AE=E3=81=AA=E5=A5=
+=B3=E5=AD=90=E5=A4=A7=E7=94=9F=E3=81=AE=E5=AE=B6=E4=BA=8B=E4=BB=A3=E8=A1=8C=
+=E3=82=92=E3=81=8A=E6=8E=A2=E3=81=97=E3=81=AA=E3=82=89=E6=98=AF=E9=9D=9E=E4=
+=B8=80=E5=BA=A6=E3=81=8A=E5=95=8F=E5=90=88=E3=81=9B=E4=B8=8B=E3=81=95=E3=81=
+=84=E3=80=82=E5=88=9D=E5=9B=9E=E9=99=90=E5=AE=9A=E3=81=AE=E3=81=8A=E5=BE=97=
+=E3=81=AA=E3=82=AD=E3=83=A3=E3=83=B3=E3=83=9A=E3=83=BC=E3=83=B3=E3=82=84=E3=
+=81=A3=E3=81=A6=E3=81=BE=E3=81=99=EF=BC=81http://ide911.com #followmejp =
+#sougofollow"},{"text":"@Stephaniie0707 http://t.co/lH9PlIo hier =
+waarchijnlijk of zaailand"},{"text":"Photoset: Feria Universitario en =
+Colegio Alem=C3=A1n de Santiago Martes 5 de julio =
+http://tumblr.com/xqs3dlt0y2"},{"text":"Produccion de fotos en =
+@MOTIVARTE con los peques jaaa  http://t.co/YLbH8aO"},{"text":"hey if u =
+inTaiwan join under USA & put your cntry in 3rd line of address =
+http://t.co/zYZP3FI #mlm"},{"text":"HotelesVisitados de hoy:Hotel El =
+Fuerte Marbella - Marbella - HotelesVisitados http://t.co/l93pi4R v=C3=ADa=
+ @Hotelevisitados"},{"text":"Read my response to \"Koks tavo =C5=ABgis?\":=
+ http://4ms.me/qQ0Gqf"},{"text":"http://t.co/nO5DBP4 JAJAJAJAJAJAJ NO =
+MAMEEEEN!  JAJAJAJAJAJAJAJ #noalpasodeprimido =
+JAJAJAJAJAJAJAJAJA"},{"text":"fog golden gate bridge: fog golden gate =
+bridge http://bit.ly/qkyWz4"},{"text":"Mantega acusa China de manipular =
+moeda http://dlvr.it/ZLDhG"},{"text":"\"@Murderous1Mix: Rt @Gmitch123 =
+Check out music from da murderous mixtapes =
+http://t.co/dmnvmEp\""},{"text":"Apr=C3=A8s Coast - Apr=C3=A8s Coast | =
+The Home of UGG Australia in Australia www.aprescoast.com.au/ =
+http://t.co/5Iy6wIh"},{"text":"South Sudan says it can export oil =
+through East Africa, bypassing Khartoum-run pipelines =
+http://bit.ly/r4eTII"},{"text":"http://youtu.be/Nhh0GxozSNA"},{"text":"Sou=
+th Sudan says it can export oil through East Africa, bypassing =
+Khartoum-run pipelines http://p.ost.im/p/EqUNt"},{"text":"@Casablancas_J =
+http://yfrog.com/kewg3oj interesting . . ."},{"text":"North Carolina Tar =
+Heels UNC NCAA Slip On Slippers Small: Who can resist!? Our slippers are =
+a great gift for kid... http://bit.ly/ntAp1Z"},{"text":"Blue Shield Of =
+California Pledges To Limit Profits Following Criticism Of CEO =E2=80=A6 =
+http://dlvr.it/ZLDh9"},{"text":"nil karaibrahimgil by nihat odabasi 2: =
+nil karaibrahimgil by nihat odabasi 2 =
+http://bit.ly/qGCEoZ"},{"text":"Hurricanes News- Honda EB 6500X gas =
+powered Generator - http://tinyurl.com/3pbgvp2"},{"text":"You See a $5 =
+Aspirin, Dana Rohrabacher Sees an Illegal Alien =
+http://bit.ly/pdWfEH"},{"text":"Aventar: Obrigado Moody=E2=80=99s =
+http://kapa.biz/117y"},{"text":"=E3=80=90B-st=E2=86=91=E2=86=91jel(=E3=83=93=
+=E3=83=BC=E3=82=B9=E3=83=88=E3=82=A2=E3=82=B2=E3=82=A2=E3=82=B2=E3=82=B8=E3=
+=82=A7=E3=83=AB)=E3=80=91 [=E6=A5=BD=E5=A4=A9] =
+http://a.r10.to/hBdlcB"},{"text":"Job Lead: AT&T Bilingual Preferred =
+Full Time Retail at AT&T (Yukon, OK): AT&T is at the center of the =
+communicat... http://bit.ly/n8zGAY"},{"text":"New post: What ty =
+http://www.sportalk.org/cycling/what-type-of-speedtime-advantage-can-i-exp=
+ect-to-get-from-shaving-my-legs-for-cycling.html"},{"text":"=E2=80=8E''Bol=
+ bol d=C3=BCz=C3=BC=C5=9Fen insanlar, ba=C5=9Fkalar=C4=B1 =
+d=C3=BCz=C3=BC=C5=9Femedi=C4=9Finde bunu g=C3=BCl=C3=BCn=C3=A7 =
+bulurlar.''  http://t.co/qe1tcyo"},{"text":"Stocks jump as investors =
+cheer strong jobs reports. Dow adds 95 points, Nasdaq gains 1.4% and S&P =
+climbs 1.1%. http://CNNMoney.com"},{"text":"omega swiss watch =
+http://watchesomegawomensstation.co.cc/omega_swiss_watch.html #fb #a =
+#red #Nhon #anime #lp10 #cc"},{"text":"A @vox90 me completa e vai me =
+fazer sorrir com a guitarra autografada do @RockRestart =
+http://t.co/ff9RaDe  ,"},{"text":"@I_Breathe_MAC Summer Vacation? 4 Free =
+Six Flags Tickets - Details Apply =
+http://t.co/9NPLsZh"},{"text":"=E3=83=93=E3=83=BC=E3=83=95=E3=82=AB=E3=83=AC=
+=E3=83=BC=E3=81=AA=E3=81=86=E2=98=86 =
+http://p.twipple.jp/r9gYy"},{"text":"Read my response to \"how many =
+scars do you have?&lt;3\": http://4ms.me/pO5okS"},{"text":"#NEWMUSIC =
+S.I.R - \"Let's Get It Pop'N\" - =
+http://twitrax.com/s/bh6a75"},{"text":"RT @slamxhype: Stussy =
+=E2=80=9CGrease=E2=80=9D Glasses Collection http://bit.ly/o2MOSM =
+#slamxhype"},{"text":"RT @dukepress: Informative and funny RT =
+@nationbooks The first of 10 videos explaining the history of English =
+language:http://t.co/3mQfIFl"},{"text":"Read my response to \"What's =
+your style ?\": http://4ms.me/pifZLT"},{"text":"RT @jimmyfallon: =
+Cornhole, croquet, bocce and I parked my bike right in the middle. What =
+should I play with? http://t.co/wga3Yo4"},{"text":"@BiancaRinaldi3 =
+http://krz.ch/zrrc"},{"text":"@LabelMee_PM lol no were near a killer.. =
+But I never really understood judgmental people.. Lol but google and =
+identify me always works."},{"text":"@LukaBassin Lele, yesterday, signed =
+his sttelement :( Nothing new, all gossip: Bellinelli, Gelabal, =
+Nachbar... (cont) http://tl.gd/bjighf"},{"text":"APARECEN FOTOS HOT DE =
+VARIAS FAMOSAS.... http://fb.me/15B9NSs46"},{"text":"Popinga: Il chimico =
+folle e la decomposizione dell=E2=80=99acqua - =
+http://goo.gl/1r0Qw"},{"text":"RT @philpostro: HELP US: Please take 1 =
+min to vote for the @WarrantyLife Launch @growconf 2011 entry! =
+http://ow.ly/5wptN #startup #tech  ..."},{"text":"So maybe I'm late to =
+the party with this but thought it was funny and sad... you know what =
+I'm trying to say #twandobson http://t.co/V9VNX5J"},{"text":"what are =
+you waiting for ??? #GO Check out Cash Bilz - =
+http://t.co/mNGpb2D"},{"text":"Libido Enhancers For Women - The Top =
+Natural Libido Enhancers For Women =
+http://dlvr.it/ZLDhJ"},{"text":"Photo: A PIC OF ME FROM 9TH GRADE LMFAO =
+http://tumblr.com/xnc3dlt1g5"},{"text":"Ayah Aguero: Anakku Bertahan di =
+Atletico http://dlvr.it/ZLDg5"},{"text":"SAVE $5 on Summer Vacation =
+Fruit & Snack Basket from Cherry Mon Farms, only $34.99 =C2=BB =
+http://t.co/0rly0K8"},{"text":"hawtdamnsteben: =
+http://tumblr.com/xj83dlt12o"},{"text":"@yesteen: Quero ganhar um =
+megakit e cantar junto com o Justin Bieber na tarde de hoje! =
+http://kingo.to/I9D 40"},{"text":"Photo:  =
+http://tumblr.com/xxr3dlt1di"},{"text":"=D9=87=D9=87=D9=87=D9=87 =
+=D8=A8=D8=B1=D9=88=D9=81=D8=A7=D9=8A=D9=84=D9=8A =D8=B1=D8=A7=D8=AD =
+=D9=8A=D9=86=D9=81=D8=AC=D8=B1 =D9=85=D9=86 =D9=83=D8=AB=D8=B1 =
+=D8=A7=D9=84=D8=B2=D9=88=D8=A7=D8=B1 =D8=A7=D9=84=D9=84=D9=87 =D8=A7=D9=8A=
+=D9=83=D8=AB=D8=B1 =D8=A7=D9=84=D9=85=D8=AD=D8=A8=D9=8A=D9=86 =
+\n\n\nhttps://www.facebook.com/See.All.Profiles =
+http://fb.me/ZBZMm8V2"},{"text":"@hilalcebeciii =
+http://yfrog.com/h8teowij hilal cebeci memelerinin resmini buldum =
+http://bit.ly/ib3pis"},{"text":"@1Will1Way =
+http://krz.ch/zrX1"},{"text":"Photo: =E2=80=BA O que eu sinto agora =C3=A9=
+ diferente, sabe? Ali=C3=A1s, tudo =C3=A9. Voc=C3=AA, principalmente. Eu =
+gosto da sua voz.... http://tumblr.com/x6x3dlt1ex"},{"text":"@HOTSHOTXD =
+ok :D so I'm in! Its a  10 day  no #facebook #challenge =
+indeed!!!!"},{"text":"Ya vieron el video de @CatyMellado? =
+http://www.youtube.com/Catymellado :D"},{"text":"A=C3=A7=C3=B5es Sociais =
+no NBB | lnb.com.br - Site Oficial da Liga Nacional de Basquete =
+http://t.co/HZPaxi5 via @NBB_Oficial"},{"text":"RT @metropolitanafm: =
+Corre gente! Temos 5 pares para a @PittyLeone + 5 do @Chimarruts... Vai =
+perder essa? Curta nosso Facebook e partici ..."},{"text":"Photo: =E2=80=BA=
+ Nada =C3=A9 imposs=C3=ADvel se voc=C3=AA acreditar. =
+http://tumblr.com/xdl3dlt1h1"},{"text":"=E3=83=96=E3=83=A9=E3=83=B3=E3=83=89=
+=E5=B7=BB=E7=B4=99=EF=BC=81=E3=80=80URL=E2=96=A0=EF=BC=9Ahttp://www.taimay=
+a.jp/"},{"text":"RT @735songs: RT @kiehea: Remember, when you are in =
+deep sh*t look straight ahead, keep your mouth shut & say nothing. =
+http://twitpic.co ..."},{"text":"Photo: lehhla: =
+http://tumblr.com/xsv3dlt1ee"},{"text":"[Video] Raekwon ft. Nas - Rich & =
+Black http://bit.ly/q6Jwcv via =
+@XclusiveCitycom"},{"text":"@jonnybreakdown Hey! Guys,there are many =
+pretty girls on this dating online.Get swirling! =
+http://t.co/rOwB168"},{"text":"@IsaiasUmSabio Come visit me ? Dancingg =
+at the #HelloKitty Massive this Friday at the FOX ... =
+http://t.co/mKMSlQY"},{"text":"Photo: quando fiquei pela primeia vez =
+abra=C3=A7ada com voce , foi assim : na escola eu estava com frio e voce =
+me... http://tumblr.com/xoh3dlt1ix"},{"text":"RT @WrecklessLove: RT =
+@Calliediva: Look who we finally see =
+http://www.celebuzz.com/2011-07-07/alicia-keys-and-swizz-beatz-have-a-baby=
+s-d ..."},{"text":"Add me on =
+facebook.com/Johnnyboyent1979"},{"text":"OMFG http://tinyurl.com/6jt4vwo =
+Andy morre de felicidade. =C3=A9!"},{"text":"Gracias x acompa=C3=B1arnos =
+x Azteca 7 Brasil vs Uruguay un cl=C3=A1sico! Un legado y ojal=C3=A1 el =
+rival de M=C3=A9xico en la Final http://mypict.me/lmVmt"},{"text":"RT =
+@PiersTonight: Jeff Ashton: If #CaseyAnthonyVerdict was based on George =
+Anthony it is a \"breach of their duty as a juror.\" VIDEO: htt =
+..."},{"text":"=E3=80=8E=E3=80=90=E3=81=94=E8=87=AA=E5=AE=85=E7=94=A8=E3=80=
+=91=E3=81=B5=E3=81=9E=E3=82=8D=E3=81=84=E3=83=81=E3=83=BC=E3=82=BA=E3=82=B1=
+=E3=83=BC=E3=82=AD3=E7=A7=92=E3=81=AB1=E8=A2=8B=E6=BF=80=E5=A3=B2=EF=BC=81=
+TV=E9=9B=91=E8=AA=8C=E7=B4=B9=E4=BB=8B=EF=BC=81=E3=83=A1=E3=82=AC=E7=9B=9B=
+=E3=82=8A500g=EF=BC=81=E3=83=A9=E3=83=B3=E3=82=AD=E3=83=B3=E3=82=B01=E4=BD=
+=8D=E3=81=AE=E3=83=81...=E3=80=8F=E3=82=92=E8=A6=8B=E3=82=8B =E2=87=92 =
+http://a.r10.to/hBtIRs #followmeJP"},{"text":"@lilllmiss =
+http://tinyurl.com/3bg2hze"},{"text":"Season 1, Episode 2 episode, Major =
+League Bowhunter 7 Jul, 2011 http://bit.ly/pNf3dJ"},{"text":"Photo: =
+popcutie: http://tumblr.com/xcs3dlt1cx"},{"text":"@carissahelm is a =
+freak=EE=84=85 http://instagr.am/p/HKTM_/"},{"text":"RT @SKRILLA100: RT =
+@djaonee: #Support @THEBOUNCESQUAD @ShadyRay104 @SNAGGAPUSSs New Bounce =
+Squad CD Free Download ... http://tmi.me/cGDVY"},{"text":"=C2=A1A =
+moverse! Investigadores suman los riesgos de salud por estar sentado =
+mucho tiempo http://bit.ly/mVvEuX"},{"text":"Nieuw shirt is vers Patrick =
+http://yfrog.com/kf3cjvsj"},{"text":"Chicago producers/DJs/remix artists =
+w/ tracks - get @ me. I want to play some of your cuts this Sunday @ =
+TSAHT http://t.co/oNgeNQ7"},{"text":"Aumenta aposta de mais duas altas =
+na taxa Selic http://t.co/iSk1MJ4"},{"text":"RT @iiM_FlawLess =
+=E2=80=9C@Simply___Char: @iiM_FlawLess oh lawd Bee Dazzle is gonna be =
+out tonight!=E2=80=9D=E2=80=A2=E2=80=A2=E2=80=A2 yeah (cont) =
+http://tl.gd/bjighe"},{"text":"Beyonce Confirmed For Clint Eastwood Film =
+With Leonardo DiCaprio: Beyonce has confirmed that she will star in =
+Cl... http://bit.ly/nK47VY"},{"text":"Didn't get to do the hike we =
+wanted but the fire road trail was still awesome. Bee tee dub. Mostly a =
+biking trail. http://t.co/zwOz5gt"},{"text":"Cutie Flower Makeup - =
+http://tinyurl.com/632r87s"},{"text":"RT @pricefilms: Interested in =
+having @9thwondermusic and @liftedresearch come to your school and =
+screen The Wonder Year? Get info here:  ..."},{"text":"Free iTunes App =
+of the Day - Dayta (US/Canada) http://nblo.gs/k7FRB"},{"text":"Damn, =
+what happened?   RT @edwardkoenning Das Boot!  =
+http://twitpic.com/5mlcba"},{"text":"Louisiana: Gov Jindal Signs Bill to =
+Stop Coerced Abortions | LifeNews.com: =
+\n\t\tlifenews.com\n\t\n\t\n\t\tGovernor Bobby ... =
+http://bit.ly/qASJfE"},{"text":"Site 100% Pronto http://t.co/kUSA4zm =
+(Tags: FL Studio Fruity Loops VST VSTs VSTi VSTis Cubase Ableton Sonar =
+Mixcraft Reaper Nuendo Produ=C3=A7=C3=A3o)"},{"text":"Aprenda a ganhar =
+seguidores reais  http://is.gd/M8FOaG  Com surpresa de =
+seguidores"},{"text":"Mayo Clinic: NP or PA CV Surgery Hospitalist Job ( =
+#Rochester , MN) http://bit.ly/g9oMU7 #mayoclinicjobs #Healthcare #Jobs =
+#Job"},{"text":"Katy, TX resident Nicholas Swierc was given a service =
+dog through the Canine Assistants program; ceremony marks... =
+http://fb.me/C6mBlXKO"},{"text":"where can I find this? =
+http://simurl.com/jewzat #harrypotterlive Lester Skype Pyeongchang Adam =
+Spencer Tony Montana Ducks Casey Anthony =
+Duck"},{"text":"http://twitpic.com/5mnnzi"},{"text":"Photo:  =
+http://tumblr.com/xfr3dlt1vi"},{"text":"Noah Rosen of Velocolour and =
+@michaelibarry's collaboration on a Pinarello Dogma http://t.co/dmHFeVb =
+@ChrisatGita @UnoImports"},{"text":"RT @MylesConnor: Connor - keep an =
+eye on our website www.mylesandconnor.com and facebook =
+www.facebook.com/mylesandconnor, events tab!!:)"},{"text":"#SAFC changed =
+nicknames? @SAFCofficial  http://t.co/aDML9tH"},{"text":"RT =
+@FelipeHeiderich: @prantoniocirilo Pastor d=C3=A1 uma olhada neste texto =
+sobre ora=C3=A7=C3=A3o http://bit.ly/padbXR"},{"text":"D.C. settlement, =
+payment to Medicaid contractor on hold http://t.co/qJv5evL via =
+@WBJonline"},{"text":"Photo:  =
+http://tumblr.com/xrp3dlt1rm"},{"text":"Astronomy for Beginners =
+http://bit.ly/c9ZYL0 #hobby #hobbies #astronomy"},{"text":"#NEWMUSIC =
+Infamous & Da'Man - Hoes & Money - =
+http://twitrax.com/s/7etnf7"},{"text":"Puma Coupons-Save up to 40%  =
+PUMA=E2=80=99s Semi-Annual Sale! exp 7/26 =E2=80=93 Puma Coupon Codes: =
+http://t.co/Df0o4Id"},{"text":"Tampa Bay Real Estate Market - =
+Exceptionally Good: If you're looking for investment property, Tampa Bay =
+Real Est... http://bit.ly/pBetf0"},{"text":"M=C3=93RBIDA SEMELHAN=C3=87A =
+http://migre.me/5cwk5 (via @kibeloco) #Neymar =
+#Futebol"},{"text":"=E3=82=B7=E3=83=9E=E3=83=8E(SHIMANO) 99 =E9=9B=BB=E5=8B=
+=95=E4=B8=B8 3000XH =
+=E3=83=91=E3=83=BC=E3=83=84:=E6=B8=9B=E9=80=9F=E3=82=AE=E3=83=A4=E7=94=A8=E3=
+=83=97=E3=83=AC=E3=83=BC=E3=83=88(B)=E8=BB=B8=E5=8F=97=E3=82=B1(=E9=83=A8=E5=
+=93=81No.064) 01442:  http://amzn.to/iYys5x"},{"text":"thanks for =
+posting interesting article RT @JamieCrager A Step By Step Guide To =
+Effective Online Article Marketing http://t.co/k5eTGoF"},{"text":"O =
+@albanos, a @JovemPanBH e o @eusoubh v=C3=A3o liberar 500l de chope em =
+comemora=C3=A7=C3=A3o aos 15 anos do Albanos. http://t.co/z7KYoV9 =
+#soubh"},{"text":"I could eat and drink at Madison,  WI's, =
+@Theoldfashioned every day.  http://yfrog.com/kfppiztj"},{"text":"Photo: =
+=E2=80=BA =E2=80=9CHogwarts will always be there to welcome you home.=E2=80=
+=9D =E2=80=BA =E2=80=BA =E2=80=94J.K. Rowling =
+http://tumblr.com/xui3dlt1tq"},{"text":"=E6=9F=8F=E6=9C=A8=E7=94=B1=E7=B4=80=
+=E3=83=9E=E3=83=81=E3=82=A6=E3=82=B1 =
+http://i.yimg.jp/images/4b/contents/1008/special/image_special0306_01.jpg =
+=E6=9F=8F=E6=9C=A8=E7=94=B1=E7=B4=80Love Letter =
+http://t.co/U9vkfFL"},{"text":"RT @PointPromocoes: \" Quer ganhar um =
+Super Kit de Tratamento para Cabelos Pos Escova Progressiva? Eh facil: =
+inscreva-se http://t.co/GMGW ..."},{"text":"Leyendo 'Emprendedores e =
+inversores apuestan por proyectos de internet y e-commerce' =
+http://t.co/FAdiJEn v=C3=ADa @expansioncom"},{"text":"I'm obsessed with =
+this website, http://t.co/me4UW7h. Perhaps a little late to the =
+party."},{"text":"parente, @souza_biel  =
+http://twitpic.com/5mnnzj"},{"text":"Luis Walter Alvarez =
+(Hispanicamerican Biographies):  http://amzn.to/iGxPlr"},{"text":"RT =
+@godsgirl8494: Found a message from -A http://t.co/WNJLflT"},{"text":"RT =
+@ThePSF: Realtime image processing in Python =
+http://ow.ly/5zb4w"},{"text":"times square =
+http://twitpic.com/5mnnzk"},{"text":"Nueva burbuja econ=C3=B3mica? =
+http://t.co/UfoI2WG"},{"text":"#yayayayay  =
+http://t.co/26d7UKq"},{"text":"Minha m=C3=A3e quer que pinte dessa cor =
+http://t.co/cK8Ab1T"},{"text":"Photo:  =
+http://tumblr.com/xgn3dlt1i3"},{"text":"RT @Criatives: Tivemos 5 =
+excelentes posts na criatives hoje. Confira e espalhe. =
+http://t.co/p9evrgX"},{"text":"RT @caioshucletz: Photo: =E2=80=9CVoc=C3=AA=
+ t=C3=A1 com ci=C3=BAmes dos meus amigos novos?=E2=80=9D - =E2=80=9C=C3=93=
+bvio que n=C3=A3o=E2=80=9D - =E2=80=9CEnt=C3=A3o me d=C3=A1 um =
+abra=C3=A7o?=E2=80=9D - =E2=80=9CU=C3=89,VAI... http://tu =
+..."},{"text":"Blog: The Social Ventures Consulting program is now =
+accepting applications for the Fall semester!  In... =
+http://bit.ly/nmujAA #nonprofit"},{"text":"Check this video out -- =
+Declaration of Thingamajig http://t.co/b9BZaeV"},{"text":"Have you seen =
+fellow Canuck rocker Sebastian Bach's new girlfriend? Wow! =
+http://ow.ly/5zbS0"},{"text":"good night and sweet dreams evry1 :)\nso =
+glad to be with u guys today :)\nsee u all 2morow :)\nhugs and =
+kisses..... http://fb.me/12eT9PPI9"},{"text":"Photo: en argentina no =
+quiere a messi por maluco y tu pones esta cara jejejejej =
+http://tumblr.com/xfn3dlt1vx"},{"text":"El nuevo LUPO (izq) con Canuto =
+http://yfrog.com/kfwwncj"},{"text":"@Susaa1997 Please check out this =
+song and comment and subscribe if you like it =
+http://t.co/JWBdjSb"},{"text":"Er zijn gwn bomen in dit stadion gegroeid =
+http://lockerz.com/s/117950632"},{"text":"RT @silverfoxxz: Photo:  =
+http://tumblr.com/x3u3dktkq3"},{"text":"One more month and Ill neeeever =
+have to wake up for my stupid booring job again - so happy I found this! =
+http://tinyurl.com/3l3elro"},{"text":"Tib souhaite un joyeux =
+anniversaire a seb (@OmEgA_OFFICIEL live on =
+http://twitcam.com/5lbt4)"},{"text":"RT @xhelogo: I'm at Pasarela El =
+Abrazo (Camino a Melipilla 16580, Maipu, Santiago) http://4sq.com/n6D4Gd =
+http://dlvr.it/ZLDh6"},{"text":"te gusta selena?:P:P (@JeyciDrew live on =
+http://twitcam.com/5la58)"},{"text":"Vai ficar enfeiti=C3=A7ado quando =
+eu empinar o bumbum http://t.co/V46IoJm - adorei haha"},{"text":"El =
+reloj VEA Sportive Watch monitoriza el entrenamiento y tiene funci=C3=B3n =
+de rescate http://goo.gl/fb/YhIGT"},{"text":"please vote =
+@Mizz_Unda_Ztood for Ms. Twitter http://faxo.com/t"},{"text":"Eating Raw =
+Foods: How It Can Help You Lose Weight, Avoid Disease, Stay Fit, And =
+Give You Energy http://bit.ly/oAPtW5"},{"text":"Vote for Cass Tech for =
+Bst High School! http://fb.me/OXO8qNDP"},{"text":"L =E2=99=A5 v e it! =
+Check out our new shops http://t.co/Ly6mthn An Online marketplace. Shop, =
+Sell, Share."},{"text":"@DJDRAMA Mixtapes &gt; @T_Hussle_ : Money =
+Machines &amp; Vacuum Sealers [Cover Art]: http://t.co/bRKk5f9  =
+#LOOKATIT"},{"text":"Teacher's Guide to World Resources, 1992-93:  =
+http://amzn.to/ld5Znj"},{"text":"Photo:  =
+http://tumblr.com/xla3dlt1vy"},{"text":"Photo: Sabe de uma coisa? Eu =
+cansei! =C3=89 =E2=80=A6 eu cansei de mal entendido, de briguinhas, de =
+fofocas, de sorrir... http://tumblr.com/x8j3dlt28o"},{"text":"I'm at 24 =
+Hour Fitness (915 W. Parker Road, Alma & Parker, Collin) =
+http://4sq.com/nCCuKO"},{"text":"viendo premier, Watching Harry Potter =
+and the Deathly Hallows- Part 2 http://t.co/ODXNRsD v=C3=ADa =
+@livestream"},{"text":"Exciting things in the works today. And thank =
+goodness because there has been much hard work and late nights... =
+http://fb.me/VCSnuiEv"},{"text":"Glamour   Energy   California =3D THIS  =
+http://bit.ly/hBYr7Z  #haute #couture #glamour #fashion =
+#losangeles"},{"text":"I'm at WEH Borivali =
+http://4sq.com/n5voOw"},{"text":"#linux #watchdog  Re: [PATCH V3 0/4] =
+ARM: smp_twd: mpcore_wdt: Fix MPCORE watchdog setup =
+http://dlvr.it/ZLDkg"},{"text":"filmagem da logo da MGM em 1924 =
+http://t.co/6CTLZAi"},{"text":"RT @portaldemeli: EN UN MATADERO DE =
+MELIPILLA FUERON RECUPERADOS 8 CABALLOS ROBADOS EN LA SEXTA REGI=C3=93N...=
+ http://dlvr.it/ZLDkb"},{"text":"U2 montreal hippodrome ~~andy =
+http://fb.me/18I1oMsYg"},{"text":"Quinn signs bill promising 'universal =
+fare card,' free WiFi on CTA, Metra and Pace | Greg Hinz | Blogs | =
+Crain's Chi... http://post.ly/2Lxzb"},{"text":"@BCBG25 =
+http://bit.ly/qHqOyP"},{"text":"RT @dejakester: @flairCreativ Tweets =
+about various things http://flaircreativ.blogspot.com | =
+http://lorarfisher.blogspot.com & @LoraFisher"},{"text":"News: Apple =
+Cuts the Price of iAds =E2=80=94 Again [REPORT] - http://bit.ly/nQ9g1x - =
+#Again #Apple #Cuts"},{"text":"@imtheblondekid Just showing you some =
+#MsTF Luv R*E*T*W*E*E*T & Follow ME Im #autoFollowback --- =
+http://t.co/d3f8cEb"},{"text":"Photo:  =
+http://tumblr.com/xel3dlt1pt"},{"text":"MEu blog : =
+http://t.co/zvSIfZ5"},{"text":"Liquid Stranger - Shake My Ass =
+http://t.co/LFVSg8D Ridiculous name, but a killer track. #bassline =
+#dnb"},{"text":"Remix para darle una vuelta a la tarde: =
+http://t.co/TQWcheQ"},{"text":"I'm at @ Mi casa....... (cabinet way, =
+39th st, Pittsburgh) http://4sq.com/rlPEDX"},{"text":"Space Battleship =
+Yamato ready for a reboot - TG Daily =
+http://bit.ly/oafz9G"},{"text":"Photo: =E2=80=BA As pessoas te usam, te =
+criticam, te fazem chorar, te iludem e ainda perguntam o que voc=C3=AA =
+tem. http://tumblr.com/xn33dlt1z4"},{"text":"Word 2000 Introductory =
+Course (Briefcase 2000):  http://amzn.to/lGDXSr"},{"text":"RT =
+@gigicandela: as much as i care about people i need to value myself =
+first... with that being said... welcome the ... =
+http://tmi.me/cGFY8"},{"text":"Say What? Thanks To Digital Music, Album =
+Sales Up For The First Time Since=C2=A02004 http://t.co/MVdrsAI via =
+@techcrunch"},{"text":"News Post: E-Discovery Sanctions: Scare Tactic or =
+Serious Concern http://goo.gl/fb/pQMsy"},{"text":"RT @PasteMagazine: =
+Muse Wants to Record Next Album in Space =
+http://bit.ly/rhTWm2"},{"text":"=E2=80=9CA thousand words will not leave =
+so deep an impression as one deed.=E2=80=9D =E2=80=93 Henrik Ibsen, =
+=E2=80=9Cthe godfather of modern drama.=E2=80=9D  =
+http://t.co/Nq2tnWI"},{"text":"RT @stolenthunder: We're giving away 5 =
+necklaces when we reach 2000 followers on Facebook, head over and like =
+us! CLICK &gt; http://t.co ..."},{"text":"Mayo Clinic: Pharmacist Job ( =
+#Mankato , MN) http://bit.ly/g3dwN0 #mayoclinicjobs #Healthcare #Jobs =
+#Job #TweetMyJOBS"},{"text":"RT @NHSMoodometer: Men, monitoring =
+wellbeing and using technology http://t.co/VK0EQF1 =
+@MensHealthForum"},{"text":"Hello by RayRei via #soundcloud =
+http://t.co/W4azgVy"},{"text":"#3: =
+=E3=80=90Dickies=E3=80=91=E3=83=A9=E3=82=A4=E3=83=88=E3=82=AA=E3=83=B3=E5=88=
+=A5=E6=B3=A8=E3=80=80=E3=82=AB=E3=83=BC=E3=82=B4=E3=82=AF=E3=83=AD=E3=83=83=
+=E3=83=97=E3=83=89=E3=83=91=E3=83=B3=E3=83=84 =E3=82=A6=E3=82=A3=E3=83=A1=E3=
+=83=B3=E3=82=BA http://dlvr.it/ZLDkK"},{"text":"RT @weeklyfitnessch: =
+@JeanetteJoy \"THE GIFT OF HEALTH\" video - #weeklyfitnesschallenge =
+Knoxville, TN Kick-Off. http://t.co/UoDdBMW"},{"text":"Mods for =
+&lt;b&gt;pc games&lt;/b&gt; windows 7 - config-customize - windows-7 =
+http://bit.ly/oPaQm2"},{"text":"Wonderful Sign =E2=80=93 Juanjo Martin, =
+Toni Rico, Bobkomyns album download: Juanjo Martin, Toni Rico, Bobkomyns =
+mp3 dow... http://bit.ly/qMy6qu"},{"text":"O @albanos, a @JovemPanBH e o =
+@eusoubh v=C3=A3o liberar 500l de chope em comemora=C3=A7=C3=A3o aos 15 =
+anos do Albanos. http://t.co/d4xF7TC #soubh"},{"text":"Soziale =
+Netzwerke: Google+ ist ein Erfolg =E2=80=93 f=C3=BCr den Moment - Google =
+- FOCUS Online http://t.co/V0aYACP via @focusonline"},{"text":"RT =
+@FelipeHeiderich: @prantoniocirilo Pastor d=C3=A1 uma olhada neste texto =
+sobre ora=C3=A7=C3=A3o http://bit.ly/padbXR"},{"text":"@instagram lovers =
+rejoice!!! An iPhone SLR Mount!  This is incredible. http://t.co/8BEgiCC =
+ cc: @vibedotme"},{"text":"RT @CorinthiansNews: 16h41. #Corinthians tem =
+a melhor campanha da hist=C3=B3ria dos pontos corridos =
+http://olha.biz/pjc"},{"text":"@b_wildered this amazes me  =
+http://t.co/QrWVM57"},{"text":"Een korte presentatie over onze =
+dienstverlening. http://fb.me/xVo0naVZ"},{"text":"@aYGfanUK =
+http://bit.ly/qKqMP8 PT 2"},{"text":"RT @PizzaExpress: #WIN a =C2=A3100 =
+holiday voucher NOW! at http://ow.ly/5yG5j #PolloAdAstra @PizzaExpress =
+@peppadew_uk"},{"text":"Now, where was I? Here Comes the Sun.  No! =
+(watching Doctor Who, 42 S03E07) =
+http://gomiso.com/r/3sJY"},{"text":"=E3=82=84=E3=81=A3=E3=81=A1=E3=82=83=E3=
+=82=93=E3=81=8B=E3=82=89=E8=B2=B0=E3=81=A3=E3=81=9F=E3=83=91=E3=82=B8=E3=83=
+=A3=E3=83=9E=E5=88=9D=E3=82=81=E3=81=A6=E7=9D=80=E3=81=A6=E3=81=BF=E3=81=9F=
+=EF=BC=81\n\n=E3=81=93=E3=82=93=E3=81=AA=E5=A5=B3=E3=81=AE=E5=AD=90=E5=A5=B3=
+=E3=81=AE=E5=AD=90=E3=81=AA=E3=81=AE=E5=88=9D=E3=82=81=E3=81=A6=E3=81=A7=E6=
+=81=A5=E3=81=9A=E3=81=8B=E3=81=97=E3=81=84(///)=E7=AC=91\n\n=E3=81=95=E3=81=
+=A6=E3=80=81=E5=AF=9D=E3=81=BE=E3=81=99=EF=BC=81\n=E3=81=8A=E3=82=84=E3=81=
+=99=E3=81=BF=E3=81=AA=E3=81=95=E3=81=84(=E0=B9=91=E2=80=B2=CF=89=E2=80=B5=E0=
+=B9=91) http://twitpic.com/5mnnzb"},{"text":"8 x 8 Smart Phone Scalloped =
+corner Topper by designer Carol Clarke on craftsuprint =
+http://t.co/FfrqBhy"},{"text":"Photo:  =
+http://tumblr.com/xfr3dlt2rj"},{"text":"@mmmmyrthe This government don't =
+have a clue what they doing MAC DONALDS IS TO HIGH =
+http://t.co/a2Zywuq"},{"text":"Sushi nachos & a 20-person new media mtg. =
+Having fun. We've got a great team @ www.ResetSF.org/team #sfmayor  =
+http://lockerz.com/s/117950476"},{"text":"So far @primesuspect suggested =
+Billy Jo Moxie & @tristajaye threw out Francine or Rhonda. Any others? =
+http://j.mp/qORXfJ"},{"text":"#NEWMUSIC The S.I.R Featuring Teez - You =
+Ain't Rockin - http://twitrax.com/s/0q20yx"},{"text":"Existem =
+9873495346587 nomes, mas o seu cora=C3=A7=C3=A3o s=C3=B3 acelera quando =
+voc=C3=AA ouve um deles, n=C3=A3o =C3=A9? =
+http://tumblr.com/xnt3dlt2tw"},{"text":"@POTTERperfect =
+http://yfrog.com/kf4d0aj Loved it! Can i borrow it to my =
+background?"},{"text":"@adambouse I'm looking forward to this: =
+http://t.co/7xXIcSm"},{"text":"Photo:  =
+http://tumblr.com/x2s3dlt2qf"},{"text":"Photo: OMG T_T (via imgTumble) =
+http://tumblr.com/xvr3dlt2rz"},{"text":"$149,600 :: 29 Florentine, Aliso =
+Viejo CA, 92656: 1 bed, 1 full bathHome size: 454 sq ftLot Si... =
+http://bit.ly/pfMjhw - TheHomsTeam.com"},{"text":"RT @marcgrotenhuis Te =
+Grotenhuis in Woudenberg ontvangt prestigieuze internationale prijs: =
+http://bit.ly/q23qIy"},{"text":"@serge4hair I appreciate that the faggot =
+part isnt cut out(: http://t.co/Z4ONIut"},{"text":"@_talespiva =
+http://bit.ly/oqXWcE"},{"text":"http://t.co/gHkG3yp"},{"text":"Re: How =
+much should I be eating please help =
+http://tumblr.com/xzd3dlt2sn"},{"text":"Only For Doctor's =
+http://t.co/OuczKp9"},{"text":"Providers: Don't forget to check our =
+Exclusions Database monthly! http://t.co/2220Krp"},{"text":"Top 6 de =
+autos para ahorrar gasolina http://bit.ly/qZAu0u"},{"text":"Video: =
+=CE=91=CF=80=CE=BF=CE=BA=CE=B1=CE=BB=CF=8D=CF=88=CE=B5=CE=B9=CF=82 =
+=CE=9D=CF=84=CE=AD=CE=BC=CE=B7 =CE=B3=CE=B9=CE=B1 =CF=84=CE=B1 =
+=CF=83=CF=84=CE=B7=CE=BC=CE=AD=CE=BD=CE=B1! =
+http://nblo.gs/k7FQL"},{"text":"@iLAM0Ni =
+http://bit.ly/pUOzBi"},{"text":"@UstyugovaAlyona iPhon=D0=B5 3G =D0=B7=D0=B0=
+ 2000=D1=80=D1=83=D0=B1=D0=BB=D0=B5=D0=B9! =
+http://t.co/vw4gj4q"},{"text":"@danbrozek still on =
+#facebook"},{"text":"http://www.youtube.com/watch?v=3DbZuEGRvdg10 || vom =
+salzer gestern. :D"},{"text":"Read my response to \"What's the best way =
+to cool off on a summer day?\": http://4ms.me/q9uR6y"},{"text":"1ST SONG =
+OFF THE ALBUM \"NO HOLDS BARRED\" 'BY AR-16 'CALL HIM UP ' =
+http://limelinx.com/files/1f34195a73461019a0f4cbded37c47af"},{"text":"RT =
+@Christag_banner: Introducing  80's Power Ballad Contest =
+http://bit.ly/jwkf51"},{"text":"Kid's Box 4 Teacher's Resource Pack with =
+Audio CD:  http://amzn.to/mimoOy"},{"text":"=C2=ABN=C3=A3o esperava um =
+FC Porto t=C3=A3o agressivo=C2=BB, diz treinador do Tourizense\n\nO =
+treinador do Tourizense ficou... =
+http://fb.me/13UzTUOKG"},{"text":"http://yfrog.com/kjp0eenj y para cenar =
+presa ib=C3=A9rico a la piedra"},{"text":"=D9=85=D8=A8=D8=B1=D9=88=D9=83 =
+=D8=A7=D9=84=D8=AE=D8=B7=D9=88=D8=A8=D8=A9: =D8=A7=D9=84=D8=B3=D9=84=D8=A7=
+=D9=85 =D8=B9=D9=84=D9=8A=D9=83=D9=85 =D9=88=D8=B1=D8=AD=D9=85=D9=87 =
+=D8=A7=D9=84=D9=84=D9=87 =D9=88=D8=A8=D8=B1=D9=83=D8=A7=D8=AA=D9=87 \n =
+\n=D8=A8=D8=B3=D9=85 =D8=A7=D9=84=D9=84=D9=87 =D8=A7=D9=84=D8=B1=D8=AD=D9=85=
+=D9=86 =D8=A7=D9=84=D8=B1=D8=AD=D9=8A=D9=85 \n \n{=D9=88=D9=8E=D9=85=D9=90=
+=D9=86=D9=92 =D8=A2=D9=8A=D9=8E=D8=A7=D8=AA=D9=90=D9=87=D9=90 =D8=A3=D9=8E=
+=D9=86=D9=92 =D8=AE=D9=8E=D9=84=D9=8E=D9=82=D9=8E =D9=84=D9=8E=D9=83=D9=8F=
+=D9=85 =D9=85... http://bit.ly/qid7fn"},{"text":"Photo:  =
+http://tumblr.com/x7a3dlt2xg"},{"text":"=E9=BB=92=E6=B0=B4=E6=B0=B4=E7=89=9B=
+=EF=BC=92=E6=9C=AC=E3=82=BB=E3=83=83=E3=83=88 16.5mm=E3=81=A818.0mm =
+=E5=8C=96=E7=B2=A7=E7=AE=B1=E3=83=BB=E7=89=9B=E3=82=82=E3=81=BF=E7=9A=AE=E5=
+=8D=B0=E9=91=91=E3=82=B1=E3=83=BC=E3=82=B9=E4=BB=98:  =
+http://amzn.to/mzR38F"},{"text":"Don't you miss the view at Point =
+Emerald Villas C203? http://conta.cc/p6NsBy via =
+#constantcontact"},{"text":"Again this is what I saw when I went to see =
+where they found Caylee.. #CaseyAnthony =
+http://t.co/TRonxoN"},{"text":"#9: =
+=E3=80=90=E3=83=8D=E3=83=83=E3=83=88=E4=BB=98=EF=BC=81=E3=80=91=E3=81=8A=E3=
+=81=97=E3=82=83=E3=82=8C=E3=82=A6=E3=82=A3=E3=83=83=E3=82=B0/=E3=83=95=E3=83=
+=AB=E3=82=A6=E3=82=A3=E3=83=83=E3=82=B0/WIG/=E6=89=8B=E8=BB=BD=E3=81=AB=E3=
+=82=A4=E3=83=A1=E3=83=81=E3=82=A7=E3=83=B3/=EF=BC=A4103 =
+http://dlvr.it/ZLDlQ"},{"text":"Nice. :) RT @suttonnick Tomorrow's i =
+front page - \"The end of the world\" =
+http://twitpic.com/5mnl5k"},{"text":"=E6=A1=9C=E5=BF=97=E9=87=8E=E7=B5=84=E6=
+=B9=AF=E5=91=91: =E5=A4=A7=CE=A67=EF=BD=98H9=E3=80=80=E5=B0=8F=CE=A66=EF=BD=
+=98H8cm http://amzn.to/iLIPc0"},{"text":"Mark (Interpretation Ser.: a =
+Bible Commentary for Teaching and Preaching):  =
+http://amzn.to/m5ZJIj"},{"text":"RT @naosalvo: Porra S=C3=A3o =
+Paulino.... http://t.co/AuEZgSj ai fica dificil n=C3=A9 =
+Richarlyson..."},{"text":"@GabyQuezia pedi um amigo seu para me Aceitar =
+no Facebook rsrsrs"},{"text":"RT @GuyKawasaki: American history =
+Facebook-style http://is.gd/Ov9z12"},{"text":"Photo:  =
+http://tumblr.com/xag3dlt2m1"},{"text":"We have updated our events =
+calendar with some new information on upcoming workshops including one =
+of the 21st... http://fb.me/18Dw9JYDk"},{"text":"Cart=C3=A3o do Cidad=C3=A3=
+o tem falha Grave e n=C3=A3o consegue concretizar a promessa =
+revolucion=C3=A1ria de relacionar dados =
+http://t.co/yCNfTm7"},{"text":"La Excelencia Del Vendedor Profesional:  =
+http://amzn.to/iuhcA6"},{"text":"Web1 new result for \"Indiana\" =
+\"lawyer\"=C2=A0Seeking an Indianapolis, Indiana Lawyer | Indianapolis =
+Car AccidentAn Ind... http://bit.ly/mXRjnB"},{"text":"Street Fighter x =
+Tekken continue le teasing:  http://bit.ly/oLJUic"},{"text":"Cinco anos =
+de lei anti-fumo em Porto Alegre http://t.co/2IkUmsX"},{"text":"RT =
+@godsgirl8494: Found a message from -A =
+http://t.co/WNJLflT"},{"text":"The Japanese are awesome, check out their =
+latest live music sensation, a 20-foot-tall hologram in concert =
+http://t.co/p9An5MO #crazy"},{"text":"Face First - Goodnight New York: =
+Face First - Goodnight New York =
+http://bit.ly/pb4Nlm"},{"text":"=E8=87=AA=E7=A7=B0=E3=82=B7=E3=83=AA=E3=83=
+=BC=E3=82=BA=E3=80=80=E8=87=AA=E7=A7=B0=E3=82=A8=E3=82=B9=E3=83=91=E3=83=BC=
+ =E3=83=AA=E3=83=96=E3=82=AD=E3=83=A3=E3=83=9F=E3=82=BD=E3=83=BC=E3=83=AB(=
+=E3=83=9B=E3=83=AF=E3=82=A4=E3=83=88) L: =
+=E8=87=AA=E7=A7=B0=E3=82=B7=E3=83=AA=E3=83=BC=E3=82=BA=E3=80=80=E8=87=AA=E7=
+=A7=B0=E3=82=A8=E3=82=B9=E3=83=91=E3=83=BC=E3=81=A7=E3=81=99=E3=80=82=E8=87=
+=AA=E7=A7=B0=E3=83=97=E3=83=AD=E3=82=B5=E3=83=BC=E3=83=95=E3=82=A1=E3=83=BC=
+=E3=81=8B=E2=80=A6=E7=A7=81=E3=82=82=E4=BB=8A=E6=97=A5=E3=81=8B=E3=82=89=E8=
+=87=AA=E7=A7=B0=E3=81=97=E3=82=88=E3=81=8B=E3=81=AA=EF=BC=9F=E5=88=A5=E3=81=
+=AB=E8=87=AA=E7=A7=B0=E3=81=A7=E3=81=84=E3=81=84=E3=82=93=E3=81=A0=E2=80=A6=
+=E8=87=AA=E7=A7=B0=E3=81=A7=E2=80=A6=E8=87=AA=E7=A7=B0=E3=81=AA=E3=82=89=E3=
+=80=81=E7=A7=81=E3=80=81=E3=82=A8=E3=82=B9=E3=83=91=E3=83=BC=E3=81=A7=E3=81=
+=99=EF=BC=81=E4=BC=8A=E6=9D=B1=E3=81=A7=E3=81=99=EF=BC=81=E7=BE=8E=E5=92=B2=
+=E3=81=A7=E3=81=99=EF=BC=81=E9=AD=94... =
+http://amzn.to/l8QkRW"},{"text":"HELP THIS PAGE LETS TRY TO GET THEM TO =
+AT LEAST 25(:\n\n-ChrissyCastronovo&lt;3 =
+http://fb.me/zkzmmjXO"},{"text":"[=EC=95=84=EC=9D=B4=ED=8F=B0 =
+=EC=9C=84=EC=B9=98=EC=B6=94=EC=A0=81=EC=96=B4=ED=94=8C =EC=A7=84=EB=8F=97=EA=
+=B0=9C] 07=EC=9B=9408=EC=9D=BC=EC=98=A4=EC=A0=8405=EC=8B=9C04=EB=B6=8438=EC=
+=B4=88,=ED=98=84=EC=9E=AC=EC=9C=84=EC=B9=98=ED=99=95=EC=9D=B8=E2=96=B6=E2=96=
+=B6 =
+http://maps.google.com/maps?q=3D35.3138,128.758"},{"text":"The-House-Board=
+shop : Gator Wakeboards Up to 60percent Off at The-House.com =
+http://dlvr.it/Vs5TC"},{"text":"RT @CortesiasRN: L=C3=A1 vem o Sorteio =
+de \"3 SKOL 600ML + Costelinha Suina Barbecue\" P/ #VOZeVIOL=C3=83O =
+SEXTA no @Rezenhas_ | http://kingo.to/HSh |"},{"text":"RT @Labour_News: =
+The News of the World's sensational history - Guardian =
+http://aggbot.com/link.php?id=3D14161098&r=3Dtw&t=3Dlab"},{"text":"Achieve=
+d a new personal record with @RunKeeper: Farthest distance... =
+http://bit.ly/l9Fn5V #FitnessAlerts"},{"text":"78 =
+http://instagr.am/p/HKTmr/"},{"text":"RT @justinbieber: CONE-ING IS THE =
+NEW PLANKING - haha - =
+http://t.co/8US8MK3"},{"text":"http://t.co/OIvlSRb\tnorwich football =
+club uk"},{"text":"Washington Nationals vs Chicago Cubs watch live =
+stream 7 Jul, 2011 http://bit.ly/qpmh2g"},{"text":"SImple way to get =
+started video call on fb ! :) =
+http://youtu.be/6hQrMfShKcI"},{"text":"The-House-Boardshop : Gator =
+Wakeboards Up to 60percent Off at The-House.com =
+http://dlvr.it/Vs5Qv"},{"text":"=E8=BF=91=E4=BB=A3=E9=BA=BB=E9=9B=80=E3=82=
+=AA=E3=83=AA=E3=82=B8=E3=83=8A=E3=83=AB 2009=E5=B9=B4 06=E6=9C=88=E5=8F=B7=
+ [=E9=9B=91=E8=AA=8C]:  http://amzn.to/mLMc9X"},{"text":"check out this =
+cool article:: What Is A Good Bodybuilder Recommended Whey Protein? =
+http://bit.ly/ehM2Yw"},{"text":"Read my response to \"Sabias ke el =
+humano puede idear mas de 20 preguntas por minutos? :O ers uno de =
+ellos?\": http://4ms.me/rjUuq2"},{"text":"Pediatric Diagnosis: =
+Interpretation of Symptoms and Signs in Different Age Periods:  =
+http://amzn.to/jdw57b"},{"text":"http://t.co/ASVcQmx #Tuite1Sonho =
+'-'"},{"text":"I am watching The Apprentice: The Final Five on BBC1 N =
+East 9:00pm Thu 7 Jul @tvguideshows #ApprenticeTheFinalFive =
+http://bit.ly/rcJB4B"},{"text":"@storewithcoupon =
+http://krz.ch/zsP4"},{"text":"=E9=81=8A=E6=88=AF=E7=8E=8B OCG =
+=E3=83=87=E3=83=A5=E3=82=A8=E3=83=AB=E3=83=A2=E3=83=B3=E3=82=B9=E3=82=BF=E3=
+=83=BC=E3=82=BA TACTICAL EVOLUTION ( =
+=E3=82=BF=E3=82=AF=E3=83=86=E3=82=A3=E3=82=AB=E3=83=AB=E3=83=BB=E3=82=A8=E3=
+=83=9C=E3=83=AA=E3=83=A5=E3=83=BC=E3=82=B7=E3=83=A7=E3=83=B3 ) =E8=8B=B1=E8=
+=AA=9E=E7=89=88 3=E3=83=91=E3=83=83=E3=82=AF=E3=82=BB=E3=83=83=E3=83=88=E3=
+=80=90=E3=82=B2=E3=83=BC=E3=83=A0=E3=82=AB=E3=83=BC=E3=83=89=E3=80=91:  =
+http://amzn.to/krYjI3"},{"text":"Playa Praia do Garr=C3=A3o ~ Turismo en =
+Portugal: http://t.co/udu7hmD #garrao #playa #algarve #portugal =
+#turismo"},{"text":"Twitter Co-Founder Biz Stone Now Advising on Startup =
+Investments http://dlvr.it/ZLDm5 #twitter"},{"text":"audio-technica =
+=E3=82=AA=E3=83=BC=E3=83=87=E3=82=A3=E3=82=AA=E3=83=86=E3=82=AF=E3=83=8B=E3=
+=82=AB TPC12 BK =E8=BB=8A=E8=BC=89=E7=94=A8 =
+OFC=E3=83=91=E3=83=AF=E3=83=BC=E3=82=B1=E3=83=BC=E3=83=96=E3=83=AB12=E3=82=
+=B2=E3=83=BC=E3=82=B8=EF=BC=881m=E5=8D=98=E4=BD=8D=E5=88=87=E3=82=8A=E5=A3=
+=B2=E3=82=8A=EF=BC=89=E3=82=AB=E3=83=A9=E3=83=BC=E3=83=96=E3=83=A9=E3=83=83=
+=E3=82=AF: =
+=E2=80=BB=E3=81=93=E3=81=A1=E3=82=89=E3=81=AE=E5=95=86=E5=93=81=E3=81=AF=E5=
+=88=87=E3=82=8A=E5=A3=B2=E3=82=8A=E3=81=A7=E3=81=AE=E8=B2=A9=E5=A3=B2=E3=81=
+=AB=E3=81=AA=E3=82=8A=E3=81=BE=E3=81=99=E3=80=82\n=E6=95=B0=E9=87=8F1=E3=81=
+=A71m=E3=81=AE=E3=81=94=E6=B3=A8=E6=96=87=E3=81=AB=E3=81=AA=E3=82=8A=E3=81=
+=BE=E3=81=99=E3=80=82 http://amzn.to/kWJMmX"},{"text":"Daniel Radcliffe, =
+he really knows how to dress well http://t.co/tVOqst5 via =
+@SnitchSeeker"},{"text":"RT @vaipensandoai: 43% das mulheres j=C3=A1 =
+foram v=C3=ADtimas de viol=C3=AAncia dom=C3=A9stica http://shar.es/Hwizw =
+Al=C3=A9m do Video 1 do Profiss=C3=A3o Reporter - =
+..."},{"text":"Dante=E2=80=99s Inferno: =
+http://wwwesportline.blogspot.com/2011/06/dantes-inferno.html"},{"text":"N=
+ew @5OrangePotatoes hedgehog plush stuffed animal in green and stripes, =
+eco friendly, upcycled http://dlvr.it/ZLDm3 #etsy"},{"text":"@SMStats =
+Thanks for reading our article. Have you already tried the Socialbakers =
+Analytics? http://t.co/GZTJvgi"},{"text":"http://bit.ly/o2zHYW 5 places =
+for online workers to make more money online =
+http://tumblr.com/xxi3dlt3dk"},{"text":"9 Pilot Work Sites =
+http://t.co/jWUaV1w"},{"text":"RT @Forbes Is Microsoft's ability to =
+shake down Android an example of the patent system failing us? =
+http://onforb.es/qi2eC3"},{"text":"RT @josepauta: Lele 'El Arma Secreta' =
+Ft @Lawrentis & @Pouliryc - Pasaje A La Muerte  http://t.co/5Ds3HR4 v=C3=AD=
+a @youtube"},{"text":"RT @justinbieber: CONE-ING IS THE NEW PLANKING - =
+haha - http://t.co/8US8MK3"},{"text":"@Jessygirlcaty Ei Amore assine ae =
+o abaixo assinado? http://t.co/HkfVzuZ bjus e obg"},{"text":"RT =
+@m78_magma: =E3=83=9E =E3=82=B0 =E3=83=9E =E6=98=9F =E4=BA=BA =E3=81=AE =
+=E7=94=9F =E6=94=BE =E9=80=81 =E3=81=8C =E6=A5=BD =E3=81=97 =E3=81=BF =
+=E3=81=AA =E4=BA=BA =E3=81=AF =E5=85=AC =E5=BC=8F RT =
+http://t.co/PLbAhwr"},{"text":"Realnay Devyshka, 29, =D0=A5=D0=B0=D1=80=D1=
+=8C=D0=BA=D0=BE=D0=B2 http://rusflat.com/hiJuMe #love =
+#sex"},{"text":"Ainda da tempo de curtir o UFC Rio ao VIVO e com pacotes =
+COMPLETOS pra la de especiais, confira: http://t.co/kVpo3qn a partir de =
+R$ 1.540,00"},{"text":"RT @112Twente: Close-Up Foto1 bouwkraan op de =
+Grolsch Veste in Enschede. http://twente112.nl/?f=3D543"},{"text":"Photo: =
+oopostodasociedade: http://tumblr.com/xkb3dlt2xz"},{"text":"onde voc=C3=AA=
+s est=C3=A3o ?  come=C3=A7ar o que ?  kkk :x (@juaalok live on =
+http://twitcam.com/5lbri)"},{"text":"=E8=99=B9=E4=BC=9D=E8=AA=AC2=E3=83=A9=
+=E3=82=A4=E3=83=B4=E3=83=BB=E3=82=A2=E3=83=83=E3=83=88=E3=83=BB=E3=83=96=E3=
+=83=89=E3=82=A6=E3=82=AB=E3=83=B3=EF=BD=9E=E9=81=8E=E5=8E=BB=E3=81=B8=E3=81=
+=AE=E3=82=BF=E3=82=A4=E3=83=A0=E3=83=9E=E3=82=B7=E3=83=B3:  =
+http://amzn.to/mnDv9O"},{"text":"ils vont d=C3=A9monter la baraque avec =
+leur yoyo (@OmEgA_OFFICIEL live on =
+http://twitcam.com/5lbt4)"},{"text":"@hayleywwfc @Newey_7 :) =
+http://twitpic.com/5mnnzt"},{"text":"golden shower pee | ich will Dich! =
+http://goo.gl/fb/xxcIh"},{"text":"Mist=C3=A9rio...: Vem a=C3=AD mais uma =
+edi=C3=A7=C3=A3o do pol=C3=AAmico Habbo Rancho =
+http://hab.bo/ngIcVr"},{"text":"#vaga secret=C3=A1ria jr  =
+&gt;&gt;http://bitly.com/kmlMkQ&lt;&lt;&lt; #sp #jobs #jabaquara precisa =
+de um #emprego? vagas@codetalentos.com.br  assunto =
+Twitter"},{"text":"Mist=C3=A9rio...: Vem a=C3=AD mais uma edi=C3=A7=C3=A3o=
+ do pol=C3=AAmico Habbo Rancho =
+http://hab.bo/q4Q7Ne"},{"text":"@AsyaMeleshenko =D0=B0=D0=BA=D1=86=D0=B8=D1=
+=8F o=D1=82 Apple: iPhone 3G =D0=B7=D0=B0 2000=D1=80=D1=83=D0=B1=D0=BB=D0=B5=
+=D0=B9! http://t.co/Ca7PTwQ"},{"text":"Photo: Port Vell - Barcelona =
+(Taken with instagram) http://tumblr.com/x1q3dlt3p0"},{"text":"Photo: =
+onedifferentgirl: http://tumblr.com/xj83dlt3oj"},{"text":"Turtle rescue =
+| turtle, rescue, endangered - WPEC 12 West Palm Beach =
+http://t.co/NEk8HF1"},{"text":"Hayley Bear Fine Wine Brokers Seek Sales =
+Manager (marina / cow hollow) http://bit.ly/oYEj45 #SF =
+#SFbay"},{"text":"Double dip. @mattfry @chrispipes @tjayw @benturnerlive =
+@michelle_live  http://lockerz.com/s/117950643"},{"text":"@SimplyMarlee =
+, @katukuru , @JonasticTRS18 and 18 others unfollowed me today ... =
+checked by http://fllwrs.com"},{"text":"http://t.co/cscUx5a Essa =C3=A9 =
+pra quem curti musica de verdade Marvin Gaye - Sexual Healing i pra =
+outros momentos ai UAHSUAS ' ."},{"text":"Madison Avenue in Asia: =
+Politics and Transnational Advertising:  =
+http://amzn.to/kxipwt"},{"text":"AAAAA!! RT @N_Fraiture =
+http://t.co/sgsp1xQ 'Taken For A Fool' video premiering tmrw on Vevo for =
+24hrs!"},{"text":"Leo Utamakan Inter Milan =
+http://dlvr.it/ZLDmy"},{"text":"#LISTEN Living in Sin  - I HATE FAKE =
+feat Bid Lo - =
+http://twitrax.com/s/fctlsj"},{"text":"http://t.co/0AvhDfZ\nJA TAO NAS =
+DORGAS?"},{"text":"Checkout our Variety of Mens Tees!=46rom Sneaker =
+tees,2The Freshest Styles in Streetwear! http://tinyurl.com/6jglava =
+Always something 4 u ! RT"},{"text":"Have you  this on him on camera =
+http://tinyurl.com/3t9r68f Piers #replaceawordinafamousquotewithduck =
+#harrypotterlive Michael Beasley Sweden"},{"text":"Membresia de Acceso =
+Completo al Centro de Entrenamiento (CreandoNegociosconeBay.com) =
+http://dld.bz/ab7yv"},{"text":"OMG you have to read this if you HAAATE =
+your boss :/ craaazy http://tinyurl.com/3blwlfa"},{"text":"agostino b =
+2010: musik und bildern Posts Related to agostino b 2010 Share this on =
+del.icio.us Digg this! Post th... http://bit.ly/pR1tTO"},{"text":";) =
+http://t.co/mPz4QIg toothbrushes Medline Toothbrushes - 30-Tuft, =
+Extra-Soft Nylon Bristles Individually Wrapped - Qty of 144 =
+Reviews"},{"text":"I need a new pho place. 1st bite I spit out cuz there =
+was long dirty thick thread in my soup!Owner didnt care =
+http://lockerz.com/s/117950230"},{"text":"Photo:  =
+http://tumblr.com/xng3dlt3op"},{"text":"Mist=C3=A9rio...: Vem a=C3=AD =
+mais uma edi=C3=A7=C3=A3o do pol=C3=AAmico Habbo Rancho =
+http://hab.bo/qiJkj1"},{"text":"Excuse me? =
+http://t.co/w1PJQ3Y"},{"text":"Don't forget to tune into TruckBuddy =
+tonight as well. http://soc.li/UemUwWJ"},{"text":"RT @jeanphilip: RT =
+@_mindblow: Driejarige Lily stuurt brief naar supermarkt (en krijgt =
+antwoord). #allesiseenverhaal http://t.co/aVy2AIY"},{"text":"@dalganq8 =
+@q81whm @wekleks @shmshom10 @bu_najm @nashe6aaq8 @q81a \n =
+http://t.co/vcSiBx9"},{"text":"RT @xx_evelien: RT @DjanaiCL: RT =
+@xx_evelien: Lekker dan bb wordt elke avond afgepakt om 10 uur... ;S // =
+hoezo (cont) http://tl.gd/bjigib"},{"text":"@itsohsotvd =
+http://twitpic.com/5mno0b"},{"text":"Photo: gabrielcezar: =
+http://tumblr.com/xag3dlt3oz"},{"text":"Very Experienced Waitress & Line =
+Cook (sausalito) http://bit.ly/pxUO7C #SF =
+#SFbay"},{"text":"http://fb.me/15sN4k1BA"},{"text":"GO-Airlink-NYC : =
+LaGuardia Airport Transportation http://dlvr.it/Vr4KX"},{"text":"Photo: =
+whats-with-the-birds: http://tumblr.com/xhc3dlt3nh"},{"text":"Photo:  =
+http://tumblr.com/x3j3dlt3jp"},{"text":"Mist=C3=A9rio...: Vem a=C3=AD =
+mais uma edi=C3=A7=C3=A3o do pol=C3=AAmico Habbo Rancho =
+http://hab.bo/q4Q7Ne"},{"text":"RT @metroidmaster_: RT @xtoetttie: RT =
+@metroidmaster_:  Ik jou ook &bull; Haha damn, ging ook over jou, maar =
+had ... http://tmi.me/cGFYl"},{"text":"RT @MoHead_LesTalk: People liking =
+my status from a week ago on Facebook proves that I have =
+stalkers"},{"text":"I liked a @YouTube video =
+http://youtu.be/-skziLjVReo?a Tunisian House arab Mix Tunisia Tunisie =
+music"},{"text":"ITF Aschaffenburg: Schoofs bereikt kwartfinale: Bibiane =
+#Schoofs heeft in het ITF-toernooi van #Aschaffenburg de kw... =
+http://bit.ly/o30cSb"},{"text":"saindo beijos =
+http://tumblr.com/xrw3dlt3ok"},{"text":"Se ve bien Google + =
+:)"},{"text":"http://tumblr.com/xic3dlt3pg"},{"text":"Mist=C3=A9rio...: =
+Vem a=C3=AD mais uma edi=C3=A7=C3=A3o do pol=C3=AAmico Habbo Rancho =
+http://hab.bo/q4Q7Ne"},{"text":"=E3=80=8E=E7=9C=81=E3=82=B9=E3=83=9A=E3=83=
+=BC=E3=82=B9=E3=81=A7=E5=82=99=E8=93=84=E3=83=BB=E5=8F=8E=E7=B4=8D=E3=81=A7=
+=E3=81=8D=E3=82=8B=E3=83=98=E3=83=AB=E3=83=A1=E3=83=83=E3=83=88=E3=80=82=E3=
+=82=BF=E3=82=BF=E3=83=A1=E3=83=83=E3=83=88=E3=80=80=E3=83=97=E3=83=AC=E3=83=
+=BC=E3=83=B3=E3=80=8F=E3=82=92=E8=A6=8B=E3=82=8B =E2=87=92 =
+http://a.r10.to/hByLOK #followmeJP"},{"text":"trrrrrrrrr (@Digitzz live =
+on http://twitcam.com/5lc14)"},{"text":"I GOT OVER 400 HAPPY BIRTHDAY =
+WISHES....I JUST WANNA THANK YALL FOR ALL THE LUV....... THANK U! =
+http://tag.me/qgKgPx"},{"text":"Giro d'Vos kleurt Oranje: In de schaduw =
+van de Tour de France rijden de dames in Itali=C3=AB de Giro d'Italia, =
+maar d... http://bit.ly/o3nFqV"},{"text":"NPR News: In A Fish-Eat-Fish =
+World, Order Asian Carp And Lionfish To Save The Rest =
+http://n.pr/ruCCGy"},{"text":"Photo:  =
+http://tumblr.com/xhu3dlt3vd"},{"text":"RT @archiemcphee: One of he most =
+awesome pictures ever? =
+http://bit.ly/n3Xvh4"},{"text":"http://iadorejobros.tumblr.com/post/734752=
+4991 someone wanted to hear me sing please be mine. so here you =
+go:}"},{"text":"RT @hosteltur: Las aerol=C3=ADneas de EEUU piden a =
+Europa que no las castigue por sus emisiones de CO2 =
+http://bit.ly/n7YBVB"},{"text":"[indonesia] What's new =
+http://dlvr.it/ZLDnw"},{"text":"Muricy elogia Dagoberto, mas avisa que =
+Peixe n=C3=A3o entrar=C3=A1 em leil=C3=A3o http://t.co/eSEulXH =
+#ge3"},{"text":"I'm ready to go back overseas...Japan that =
+is"},{"text":"Venture Capital Term Sheets =E2=80=93 Redemption Rights: =
+Introduction\nThis post originally appeared in the =E2=80=9CAsk the =
+Atto... http://bit.ly/o2QhUR"},{"text":"if only sex was as good as this =
+http://simurl.com/jewzat Wes Brown Ice Cube Goodnight Twitter Emma =
+Watson #harrypotterlive Duck Gucci Mane"},{"text":"RT @GabbyQuinteros: =
+http://yfrog.com/kh6ri1j Mi amiga #Pornstar ~ @VickyVette ~ #Hot blonde =
+follow! RETWEET"},{"text":"Got myself 4 FREE tickets to Six-Flags =
+WOOOW!! http://bit.ly/pp1Mks"},{"text":"RT @monoxyd: Ab 22:00 Uhr: Blue =
+Moon auf @fritzde =C3=BCber Soziale Netzwerke. Anrufen & mitmachen unter =
+0331/7097110 http://t.co/kHz5cyf"},{"text":"@iMorontaa en q lao tu vive? =
+Enserio tu ta en SouthBeach??? B) (@EnnioSkoto live on =
+http://twitcam.com/5la62)"},{"text":"@vellajhoananda unfollowed me today =
+... checked by http://fllwrs.com"},{"text":"RT @Eater: Chefs Weigh In: =
+Does America Have a Culinary Identity? =
+http://t.co/gGkuNj9"},{"text":"Mesti antene jupuk layangan RT @detikcom: =
+Atap Stadion Twente Roboh, Satu Meninggal Dunia http://de.tk/ZGbkg via =
+@detiksport"},{"text":"We want The Wanted to do glad you came signings =
+please? :) TheWantedMusic http://twitition.com/9lflk"},{"text":"gay =
+marriage advocates still aren't satisfied RT @mormontimes: Gay marriage =
+debate shows threat to religious freedom =
+http://ow.ly/1dBLPh"},{"text":"RT @kimononohituji: @sekenniikaru =
+@basilsauce =
+=E3=81=8A=E5=AD=90=E3=81=95=E3=82=93=E3=81=AB=E3=81=8A=E8=95=8E=E9=BA=A6=E9=
+=A3=9F=E3=81=B9=E3=81=95=E3=81=9B=E3=81=A6=E3=81=82=E3=81=92=E3=81=A6=E4=B8=
+=8B=E3=81=95=E3=81=84=E3=80=82=E3=83=AB=E3=83=81=E3=83=B3=E5=A4=9A=E3=81=8F=
+=E3=81=A8=E3=81=A3=E3=81=9F=E3=81=BB=E3=81=86=E3=81=8C=E3=81=84=E3=81=84=E3=
+=81=A8=E6=80=9D=E3=81=84=E3=81=BE=E3=81=99=E3=80=82=E3=83=AB=E3=83=81=E3=83=
+=B3=E3=81=AF=E6=94=BE=E5=B0=84=E7=B7=9A=E9=9A=9C=E5=AE=B3=E3=81=AB=E6=9C=89=
+=E5=8A=B9=E3=81=A8=E3=81=AE=E5=A0=B1=E5=91=8A=E3=81=82=E3=82=8A=E3=81=BE=E3=
+=81=99http://t.co/mnA8zvd=E3=80=80=E6=9F=91=E6=A9=98=E9=A1=9E=E6=9E=9C=E7=9A=
+=AE=E3=81=AE=E7=99=BD=E3=81=84=E3=83=88=E3=82=B3=E3=81=AE =
+..."},{"text":"@MisszSharii what IS his facebook...his full =
+name?"},{"text":"You were there from beg! buy tix early for 7/22 =
+9pm-drinks after! http://t.co/Bq8JwMJ RT @philmarzullo looking forward 2 =
+watching in Chi!"},{"text":"@Saiyai http://krz.ch/zrHP"},{"text":"Didnt =
+ask u RT @ACiESUPREME Just get cuffs for that RT @CaramelBeautyy_ Ever =
+used duck tape to bond someones (cont) =
+http://tl.gd/bjigig"},{"text":"Wkwkwkwk:DRT @ecikecik: Sangat pakcik =
+:pRT @riokhairuman: @ecikecik enakkan?:p =
+http://myloc.me/lmVoW"},{"text":"http://t.co/GVyornF Kitchen Louis =
+Vuitton Photography Betting Games Supreme Court Magic List of =
+Universities"},{"text":"Executive Chef, Line Cooks, and Sous Chefs (NYC) =
+http://bit.ly/potks1 #SF #SFbay"},{"text":"\"We are closest to people =
+when we help them grow.\"~Milton Mayeroff~Join us over @ the Village! =
+#mytag http://bit.ly/m6Ceq4"},{"text":"M=C3=BAsica retro: Si quieres =
+verme llorar =E2=80=93 Lisa L=C3=B3pez: Lisa L=C3=B3pez nos dejo una =
+canci=C3=B3n muy rom=C3=A1ntica en 1981 esta m... =
+http://bit.ly/qHSfNy"},{"text":"RT @VoluntadPopular: En El Tiempo: =
+Elecciones de partido Voluntad Popular ser=C3=A1n =E2=80=9Cin=C3=A9ditas=E2=
+=80=9D y tendr=C3=A1n respaldo del CNE =
+http://bit.ly/nx6dLa"},{"text":"Photo: too right =
+http://tumblr.com/x733dlt48j"},{"text":"Times of India: Karunanidhi =
+backs Maran, accuses media of defaming his grandnephew =
+http://goo.gl/0w7Q9 #news"},{"text":"RT @FrankeArchitect: Cheers to the =
+Peak Series for allowing me a gorgeous solution to the rising minimalist =
+trend! http://t.co/M9x4vTe"},{"text":"Adele, Katy Perry help music sales =
+go up for the first time in seven years http://bit.ly/oTUWUG =
+#KPR"},{"text":"Today Daily Android Newsletter #androidnews 03-07-11 =
+http://bit.ly/n6zTuY #Incredible #Incredible #ROMS"},{"text":"Check this =
+video out -- \"NIBURU\" by ELLIS (prod by Legin) http://t.co/43P2WPA via =
+@youtube"},{"text":"Stunning Video clip - You may be ! =
+http://bit.ly/nldsyU  South Korea #brb #onetimeanniversary =
+#donttalktomeif Mac Miller Duck Skype Ice Cube"},{"text":"#Ukraine =
+=D0=AF=D0=BD=D1=83=D0=BA=D0=BE=D0=B2=D0=B8=D1=87 =D0=BF=D0=BE=D0=BE=D0=B1=D1=
+=89=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D1=81 =D0=B6=D1=83=D1=80=D0=BD=D0=B0=D0=
+=BB=D0=B8=D1=81=D1=82=D0=B0=D0=BC=D0=B8 =
+http://bit.ly/oDpO0H"},{"text":"Just a reminder \"Take your Daughter to =
+the Course Week\" will end on July 10th.  You still have time to share =
+your... http://fb.me/Wsz527bC"},{"text":"#Mannheim #Quoka Junge Familie =
+sucht sch=C3=B6nes zu Hause 4 k=C3=B6pfige Familie sucht ab 1.11.2011 =
+ei... http://bit.ly/qylG82 #Mietwohnungen =
+#MA"},{"text":"=E3=83=A1=E3=82=A4=E3=83=89=E3=82=A4=E3=83=B3=E3=82=B8=E3=83=
+=A3=E3=83=91=E3=83=B3=E3=83=92=E3=82=B9=E3=83=88=E3=83=AA=E3=83=BC=E2=80=95=
+=E4=B8=96=E7=95=8C=E3=82=92=E5=B8=AD=E6=8D=B2=E3=81=97=E3=81=9F=E6=97=A5=E6=
+=9C=AC=E8=A3=BD=E5=93=81=E3=81=AE=E5=8D=8A=E4=B8=96=E7=B4=80 =
+(=E5=BE=B3=E9=96=93=E6=96=87=E5=BA=AB):  =
+http://amzn.to/ikgOxq"},{"text":"Photo:  =
+http://tumblr.com/xx83dlt48s"},{"text":"@hb_boots pronto minha =
+loukuraaa..\nhttp://t.co/Cofupqj"},{"text":"#NEWMUSIC Sky Boyz - 300 The =
+Movie Sample Beat - http://twitrax.com/s/i875ib"},{"text":"Photo:  =
+http://tumblr.com/xxn3dlt44c"},{"text":"Los Jaivas emocionaron en su =
+reencuentro con Machu Picchu. http://t.co/8eJQwVO v=C3=ADa =
+@laterceracom. =C2=A1Con el coraz=C3=B3n en la mano!"},{"text":"Dreams =
+of Burma for iPhone, iPod touch, and iPad on the iTunes App Store: =
+http://t.co/WmJMrAi via @addthis"},{"text":"Treat Everyone As =
+Special\nBegining today, treat everyone you meet as if they were going =
+to be dead by midnight.... http://fb.me/FfnMDTUF"},{"text":"Caramba, =
+acabei de conseguir  seguidores com o sistema =
+http://t.co/ISutfMv"},{"text":"In A Fish-Eat-Fish World, Order Asian =
+Carp And Lionfish To Save The Rest: Environmental groups want consum... =
+http://tinyurl.com/3o3rp9m"},{"text":"\"Money doesn't change men, it =
+merely unmasks them. If a man is naturally selfish or arrogant, or =
+greedy, the money ... http://twtw.co/puETb9"},{"text":"SAAAAAALVE ' =
+(@mckauankoringa live on http://twitcam.com/5laq4)"},{"text":"RT =
+@TheOnion: Kind, Bearded Christian Has Guitar, Story To Tell =
+http://onion.com/b8Ra7q #OnionMusic"},{"text":"Lg twittan sama dgerin =
+lagu . Kamu ? RT @Gitseeh: haha , lg apa chingu ? RT @faRa_hiMe1011: Mwo =
+?? Kalongers (cont) http://wl.tl/nJ7r"},{"text":"Photo:  =
+http://tumblr.com/xvn3dlt4me"},{"text":"RT @bonecamp: #NP Bone Thugs N =
+Harmony  - Clog Up Yo Mind   - =
+http://twitrax.com/s/xlbriy"},{"text":"Chandon - @biooficial no ar: =
+http://t.co/vlw4pYA"},{"text":"Bordem. =
+http://twitpic.com/5mno07"},{"text":"=E3=81=95=E3=81=A4=E3=81=BE=E3=81=84=E3=
+=82=82=E3=83=80=E3=82=A4=E3=82=B9=E3=80=8040g =
+=E3=82=AF=E3=83=B4=E3=82=A7=E3=83=BC=E3=83=AB=E3=80=80=E3=80=90=E8=87=AA=E7=
+=84=B6=E6=B4=BE=E3=81=8A=E3=82=84=E3=81=A4=E3=82=B7=E3=83=AA=E3=83=BC=E3=82=
+=BA=E3=80=91: =
+=E3=82=AF=E3=83=B4=E3=82=A7=E3=83=BC=E3=83=AB=E8=A3=BD=E5=93=81=E3=81=AF=E3=
+=80=81=E7=B4=A0=E6=9D=90=E3=81=AE=E9=A2=A8=E5=91=B3=E3=82=92=E7=94=9F=E3=81=
+=8B=E3=81=97=E3=81=A4=E3=81=A4=E4=B8=81=E5=AF=A7=E3=81=AB=E5=8A=A0=E5=B7=A5=
+=E3=81=97=E3=81=9F=E7=BE=8E=E5=91=B3=E3=81=97=E3=81=84=E8=87=AA=E7=84=B6=E6=
+=B4=BE=E3=81=8A=E3=82=84=E3=81=A4=E3=81=A7=E3=81=99=E3=80=82=E3=81=BE=E3=81=
+=9F=E3=80=81=E9=A3=9F=E4=BA=8B=E6=80=A7=E3=81=AE=E3=82=A2=E3=83=AC=E3=83=AB=
+=E3=82=AE=E3=83=BC=E3=82=92=E6=8C=81=E3=81=A4=E3=83=9A=E3=83=83=E3=83=88=E3=
+=81=A7=E3=82=82=E6=A5=BD=E3=81=97=E3=82=81=E3=82=8B=E3=82=88=E3=81=86=E3=81=
+=AB=E6=A7=98=E3=80=85=E3=81=AA=E9=A3=9F=E6=9D=90=E3=82=92=E3=80=81=E3=83=88=
+=E3=83=AC=E3=83=BC=E3=83=8B... =
+http://amzn.to/jiZJaB"},{"text":"@Sanno_HiPiSm =
+=E3=81=AF3947=E6=97=A5=E7=94=9F=E3=81=8D=E3=81=9F=E3=80=82=E4=BA=BA=E7=94=9F=
+=E3=81=82=E3=81=A826053=E6=97=A5=E3=81=97=E3=81=8B=E3=81=AA=E3=81=84=E3=80=
+=82=E4=BB=8A=E6=97=A5=E3=81=AF=E6=9C=89=E6=84=8F=E7=BE=A9=E3=81=A0=E3=81=A3=
+=E3=81=9F=E3=81=8B=EF=BC=9F #30thou =
+http://30thou.com/280013"},{"text":"Wow, this can be just surprising. =
+http://bit.ly/nP0aT3  #icantgoadaywithout Duck #brb #donttalktomeif Cit =
+Rugrats Noel Gallagher #leakyboat"},{"text":"Photo: =E2=80=BA Em seus =
+bra=C3=A7os que eu quero estar. Sentir o barulho do seu cora=C3=A7=C3=A3o =
+e ouvir dizer que ele me ama.... =
+http://tumblr.com/xks3dlt35m"},{"text":"=E7=B2=89=E3=83=9F=E3=83=AB=E3=82=AF=
+=E4=BA=BA=E6=B0=97=E3=83=A9=E3=83=B3=E3=82=AD=E3=83=B3=E3=82=B0=E3=80=80ht=
+tp://kona-milk.blogspot.com/2011/06/blog-post_1498.html #milk #baby =
+#akachan"},{"text":"RT @itsHERmoney: Trouble brewing for Canadian =
+inflation? http://viigo.im/6JpJ"},{"text":"RT  TANITA =
+=E3=82=A4=E3=83=B3=E3=83=8A=E3=83=BC=E3=82=B9=E3=82=AD=E3=83=A3=E3=83=B3 =
+=E5=86=85=E8=87=93=E8=84=82=E8=82=AA=E8=A8=88=E3=83=81=E3=82=A7=E3=83=83=E3=
+=82=AF=E4=BB=98=E8=84=82=E8=82=AA=E8=A8=88 =E3=83=9B=E3=83=AF=E3=82=A4=E3=83=
+=88 TF-751:... http://bit.ly/izL4kU"},{"text":"Photo: =E2=80=BA Se sua =
+opini=C3=A3o fosse importante para mim, eu pediria. (meninahere) =
+http://tumblr.com/xiw3dlt4gk"},{"text":"Photo:  =
+http://tumblr.com/xnm3dlt46z"},{"text":"@JOHNERICLAROCA Entrevista: John =
+Eric @ La Mega, Philadelphia http://bit.ly/ppKUK4 =
+#RT"},{"text":"@R_Muradeli iPhon=D0=B5 3G =D0=B7=D0=B0 2000=D1=80=D1=83=D0=
+=B1=D0=BB=D0=B5=D0=B9! http://t.co/RUnKaTV"},{"text":"#NEWMUSIC Seis =
+@SeisOfTSNY - Everything I Know (Intro) @SeisOfTSNY - =
+http://twitrax.com/s/qbpx4x"},{"text":"Help protect polar bears, whales =
+and walrus. http://t.co/Pefopu0"},{"text":"RT =
+=E3=83=8B=E3=83=BC=E3=83=89=E3=81=AC=E3=81=8B=E3=81=A3=E3=81=93=E3=82=B9=E3=
+=82=AD=E3=83=B3=E3=82=AF=E3=83=AA=E3=83=BC=E3=83=A0 162g =
+=E3=80=80=E3=80=80=E7=94=B0=E4=B8=AD=E5=96=84: =
+=E7=B1=B3=E3=81=AC=E3=81=8B=E6=88=90=E5=88=86=E3=82=92=E9=85=8D=E5=90=88=E3=
+=81=97=E3=81=9F=E3=82=AF=E3=83=AA=E3=83=BC=E3=83=A0=E3=81=A7=E3=81=99=E3=80=
+=82=E8=82=8C=E8=8D=92=E3=82=8C=E3=82=84=E4=B9=BE=E7=87=A5=E3=81=8B=E3=82=89=
+=E3=81=8A=E8=82=8C=E3=82=92=E5=AE=88=E3=82=8A=E3=80=81=E7=9A=AE=E8=86=9A=E3=
+=81=AB=E3=81=86=E3=82=8B=E3=81=8A=E3=81=84=E3=82=92=E4=B8=8E=E3=81=88=E3=81=
+=BE=E3=81=99=E3=80=82=E3=81=B2=E3=81=92=E3=81=9D=E3=82=8A=E5=BE=8C=E3=81=AB=
+=E3=82=82=E3=81=8A=E4=BD=BF=E3=81=84=E3=81=8F=E3=81=A0=E3=81=95=E3=81=84=E3=
+=80=82 =E3=80=90=E6=88=90=E5=88=86=E3=80=91... :bit.lylVeXYQ =
+http://bit.ly/lVeXYQ"},{"text":"http://fb.me/137mI43b6"},{"text":"@SafiraI=
+sAGleek http://tinyurl.com/3nqm9yt"},{"text":"RT @us_itunes: New Remix =
+EP Hold On (feat. Ed Unger) - EP - Dima: Dima Pre-order [Aug 09, 2011] =
+http://bit.ly/qeq4B8"},{"text":"Ik wil deze schoenen ff halen. =
+http://lockerz.com/s/117950656"},{"text":"[ #Tistory ][=EC=9E=A5=ED=8E=B8=EC=
+=86=8C=EC=84=A4] =EA=B7=B8=EB=82=A0 71. =EA=B1=B0=EC=9D=B8 =
+http://durl.me/bya4y"},{"text":"Lmaoo hahaha yea some cases tato ita =
+nuttin pero en otra se pasan.. ya tu sabe lol RT @vickr0ck @__SCUBA__ =
+lol (cont) http://tl.gd/bjigij"},{"text":"Wasted: The Incredible True =
+Story of Cricket=E2=80=99s First Rock =E2=80=98n=E2=80=99 Roll Star =
+http://goo.gl/fb/3KEDX"},{"text":"brittanytft: =
+http://tumblr.com/xyi3dlt4iz"},{"text":"Pierre Jean nous a abandonn=C3=A9s=
+ avec son yoyo. XD (@OmEgA_OFFICIEL live on =
+http://twitcam.com/5lbt4)"},{"text":"seguiiindo COOOOOOOOOOOOOOONGA DA =
+ROOO=C3=87A *O* CUURTE AAQUI? http://t.co/wzlSxZd =
+@Need_NNova"},{"text":"RT @DeScherpePen: Nieuwe reactie op: Vraag en =
+Antwoord over tijdelijke verlaging overdrachtsbelasting - =
+http://bit.ly/ld8ImF #2%"},{"text":"wordsandbadwords: =
+http://tumblr.com/xgi3dlt4lg"},{"text":"Nieuwe foto: Rivierrombout, =
+bijzondere libel!! ~ Yellow - legged Dragonfly: llovmaartje posted a =
+photo:\n\t\n http://bit.ly/reID1Q"},{"text":"14K GOLD HEART CHARM =
+http://yardsellr.com/ecil"},{"text":"RT @BobbyBrackins: RT @RosaAcosta =
+#ThongThursday Supreme - =
+http://moby.to/47ojnz"},{"text":"=E3=81=93=E3=82=8C=E3=81=A7=E5=AE=8C=E7=92=
+=A7Shade7:  http://amzn.to/mHFFQE"},{"text":"Photo:  =
+http://tumblr.com/xti3dlt4mq"},{"text":"OPS KKKK, KAUAN * FOI MAL  =
+(@mckauankoringa live on =
+http://twitcam.com/5laq4)"},{"text":"=E3=80=8E=E3=80=90=E9=80=81=E6=96=99=E7=
+=84=A1=E6=96=99=E3=80=91Yes!=E3=83=97=E3=83=AA=E3=82=AD=E3=83=A5=E3=82=A25=
+GoGo! Web=E3=83=A9=E3=82=B8=E3=82=AA CLUB =E3=82=B3=E3=82=B3&=E3=83=8A=E3=83=
+=83=E3=83=84 Vol.3+June Cinderel=E3=80=8F=E3=82=92=E8=A6=8B=E3=82=8B =E2=87=
+=92 http://a.r10.to/hBWlVZ #followmeJP"},{"text":"ai gente! Que absurdo! =
+RT @FHOXonline: Levando a fotografia com iPhone 4 MUITO a s=C3=A9rio =
+http://ow.ly/5z8UB"},{"text":"Smua org sukses tdk luput dr kegagalan dlm =
+mencapai kesuksesannya RT @aryaprabu: Cape' gagal mulu masalah yg (cont) =
+http://tl.gd/bjigiv"},{"text":"#Promo via @premiosparavoce Adorei a =
+Cole=C3=A7=C3=A3o METAMORPHOSE @_Missbella_ e quero ganhar Vale Compras. =
+Clique e concorra http://premios.ws/31"},{"text":"MAN CONNECTED TO =
+NOTORIOUS BIG MURDER CONFESSES?! PLANKING CAME FROM SLAVERY?? =
+http://www.therealcompound.com"},{"text":"iFrames for Facebook Part 1: =
+How to Implement http://t.co/zTvnXYh via @lunametrics"},{"text":"Photo:  =
+http://tumblr.com/xiu3dlt4j8"},{"text":"RT @TheBigEscobar: RT =
+@iilovekelly: Altijd in de ochtend heb ik trek ik kfc & maccie =
+..&bull;rare maag heb jij ... http://tmi.me/cGFYr"},{"text":"Photo:  =
+http://tumblr.com/xvg3dlt4g9"},{"text":"I'm at Gary, IN =
+http://4sq.com/pXOxaB"},{"text":"Mount Your Canon/Nikon SLR Lenses on =
+Your iPhone: \nA new SLR adapter for iPhones 3 and 4 is out from online =
+phot... http://bit.ly/r4CluC"},{"text":"Paulina (14) aus K=C3=B6ln in =
+=C3=96sterreich get=C3=B6tet - News Ausland - Bild.de =
+http://t.co/R2XKKxU via @BILD_aktuell"},{"text":"Photo:  =
+http://tumblr.com/xin3dlt48d"},{"text":"@RafaRib14 =
+http://twitpic.com/5mnjyu - HAHAHHAHAH ! E eu l=C3=A1=C3=A1 em baixo =
+morrendo com voces em cima hushudshdhsuhdus"},{"text":"New @gaspedal =
+Delta=E2=80=99s case study: How we used customer service to get started =
+in social media http://bit.ly/py55oU"},{"text":"http://t.co/c5pOH3S =
+PODRE --' KKKKKKKKK"},{"text":"Best Bang for the Environmental Buck by =
+@RunOnEnergy: http://bit.ly/aSvOI0"},{"text":"RT  yawa sangu simeibiwa =
+kadha very pugnaciously audacious @joewmuchiri: LOL...if u r gonna steal =
+a tweet (cont) http://wl.tl/NJ7r"},{"text":"RT @lisasamples Colgate =
+Building Smiles Tour is #BuildingSmiles Together at Walmart =
+http://bit.ly/qk69bP #health"},{"text":"Verify The @ICONicBoyz : =
+http://t.co/uYMWTno 53"},{"text":"MSNBC: Tips on how to help your child =
+buy a home http://fb.me/OttJBRL5"},{"text":"the newest news on =
+Kadarshian Sexy Video http://bit.ly/kAc7n2?k=3D28 Darren Lockyer =
+Goodnight Twitter Rugrats"},{"text":"http://t.co/vsfML5Q\tto hell with =
+dying"},{"text":"Having dinner with @_3thb, @ashes_sa, and @f9ool1.  @ =
+Route 7 Diner =D8=B1=D9=88=D8=AA 7 =D8=AF=D8=A7=D9=8A=D9=86=D8=B1 =
+http://gowal.la/c/4yEwL"},{"text":"Photo:  =
+http://tumblr.com/xbj3dlt50w"},{"text":"@TeamSimpsonATL @IBiebs_Simpson =
+http://twiffo.com/o73"},{"text":"Jennifer Lopez posing in long black =
+dress http://t.co/pdARPha"},{"text":"Great American Bites: Muffuletta =
+Sandwich at Central Grocery, New Orleans - USATODAY.com =
+http://t.co/iNzGdDT via @USATODAY"},{"text":"so tem eu vendo,mande =
+perguntas por favor (@victor27h live on =
+http://twitcam.com/5lbyl)"},{"text":"BEM MELHORRR AKIII VEMMM =
+&gt;&gt;&gt; Q LAPA D PEITO VEI!  http://twitcam.com/5laz6 (@priabreu_zl =
+live on http://twitcam.com/5lamb)"},{"text":"E amanh=C3=A3 pode ser =
+tarde demais pra voc=C3=AA fazer o que poderia ter feito hoje. =
+http://tumblr.com/x8m3dlt56e"},{"text":"@SnoozeAMEatery Cinnful =
+pancake... Holy Moly! Please order...even I not on menu It's ridiculous =
+good. Cinnamon... http://bit.ly/nNA14M"},{"text":"Download gratis de =
+complete eBook thriller \\'De onthoofde stad\\' slechts in ruil voor een =
+retweet. http://bit.ly/8ZswRr"},{"text":"Daqui a pouco tem Renato Lage, =
+Louzada e Cid Carvalho debatendo Alegorias e Adere=C3=A7os =
+http://t.co/DwaqCFR"},{"text":"Half Billion Connected TVs sold by 2015 =
+http://t.co/PQXqjmj"},{"text":"yaaaa se viene algun ipad para el team? =
+@LaViviRocks en vivo http://vivi.cl"},{"text":"cade as minas... deixa =
+elas ai de boa ... vaza geral deixa as minas\n (@paulofortunelly live on =
+http://twitcam.com/5laz6)"},{"text":"Thai Food at the Club =
+http://icont.ac/1Kdi"},{"text":"Photo:  =
+http://tumblr.com/x8q3dlt4pu"},{"text":"BoB =E2=80=93 #Magic ft. #Rivers =
+#Cuomo [#Official #Music #Video]: Get B.oB exclusives @ www.bobatl=E2=80=A6=
+ http://goo.gl/fb/E3h35"},{"text":"Drama in Enschede: Toter bei Einsturz =
+von Stadiondach.\nBeim Einsturz eines ... =
+http://t.co/7eYdbY8"},{"text":"RT @premierefc1878: Bad timing but =
+already a great piece by @ChrisBasco_NOTW http://t.co/GDdHC9Q proves =
+this is working!"},{"text":"RAZWELL's  Blog: Dr. Stephan Guyenet:  Any =
+Satisfying Resolution To... http://t.co/ILcTVDS"},{"text":"Photo: =
+daradarapattycakes: http://tumblr.com/xyb3dlt4vq"},{"text":"I will never =
+be able to get over @yelyahwilliams' vocals in this song: =
+http://t.co/uxIUP5W #crazytalented!"},{"text":"http://t.co/xD51YVl =
+Musician Nanotechnology Angelina Jolie Music Technology USB =
+Stock"},{"text":"@LordOtter here are a few scenes from my office =
+inspired by your lovely cartoon. =
+http://twitpic.com/5mno13"},{"text":"(`'=E2=80=A2.=C2=B8 =
+(`'=E2=80=A2.=C2=B8(`'=E2=80=A2.=C2=B8 (`'=E2=80=A2.=C2=B8 =
+*=C2=A4*=C2=B8.=E2=80=A2'=C2=B4) =C2=B8.=E2=80=A2'=C2=B4)=C2=B8.=E2=80=A2'=
+=C2=B4) =C2=B8.=E2=80=A2'=C2=B4)\n=D8=A7=D9=84=D9=84=D9=80=D9=8E=D9=91=D9=80=
+=D9=87=D9=85=D9=8E=D9=91 =D9=8A=D9=80=D8=A7 =D9=85=D9=80=D9=8F=D9=82=D9=80=
+=D9=84=D9=80=D8=A8 =D8=A7=D9=84=D9=80=D9=80=D9=82=D9=8F=D9=84=D9=80=D9=80=D9=
+=88=D8=A8 =D8=AB=D9=80=D9=8E=D9=80=D8=A8=D9=80=D8=AA =D9=82=D9=80=D9=8E=D9=
+=84=D8=A8=D9=80=D9=8A... http://fb.me/xT2y7PM9"},{"text":"Amazing, I in =
+no way observed anyone  just before. http://bit.ly/qc07vq  =
+#donttalktomeif Monsters Only Emma Watson Nancy Grace Ice Cube =
+Sade"},{"text":"K=C4=B1l=C4=B1=C3=A7daro=C4=9Flu, Yemin Ederiz Ama=E2=80=A6=
+ http://goo.gl/fb/jFV55"},{"text":"RT @FantasyTackles #IDP Chiefs Free =
+Agency: These Guys Can Walk http://bit.ly/olKl8H #FantasyFootball: #IDP =
+Chie... http://bit.ly/qkiwRg"},{"text":"I checked in at Gogi's Korean =
+BBQ (1431 L St) on #Yelp =
+http://bit.ly/hYL5Hf"},{"text":"http://t.co/mibIsWp smart dutch =
+A4mVpresent still future @TFWC63 ..Philippe Starck.. Lagerfeld ..Armani =
+#A4 #7km #900miljoen #VVD #PVV #CDA."},{"text":"RT @iLikeGirlsDaily: Ass =
+of the year #Twitterafterdark http://t.co/FhtGX2J"},{"text":"Audio: =
+algonquin // dark mean download: amazon mp3 | itunes PS. Visit Dark =
+Mean=E2=80=99s BandCamp for a FREE... =
+http://tumblr.com/xf13dlqnpq"},{"text":"det er faktisk mulig ja.. =
+=E2=80=9C@pestrand: @RAREius Hah, det finnes dummere: =
+http://t.co/mzzZyVm=E2=80=9D"},{"text":"@katieecoco =
+http://krz.ch/zrSC"},{"text":"OMG! This trick is just awesome =
+http://bit.ly/nP0aT3  Rugrats Monsters Only #pid Leitzins =
+#onetimeanniversary Cour des Comptes Nancy Grace"},{"text":"Amei essa =
+promo=C3=A7=C3=A3o da @alicedisse a cara da #almaobesa --&gt;\"Vou =
+ganhar o primeiro peda=C3=A7o do bolo de anivers=C3=A1rio da Alice: =
+http://kingo.to/I9A"},{"text":"Fin sommarkv=C3=A4ll, perfekt f=C3=B6r =
+att njuta av en promenad - eller twitter!#facebook"},{"text":"COMO =
+LEVANTAR UMA PESSOA USANDO 2 DEDOS --- &gt; http://t.co/7TZd9pS  MUITO =
+FODA"},{"text":"I liked a @YouTube video http://youtu.be/_FYMXZdO9bY?a =
+Internetic (Technologic Remix)"},{"text":"Girl's Day release Mini Album; =
+\"Everyday\"! http://wp.me/p1gWN4-27r"},{"text":"@iamTravisBerry get 4 =
+free six flags tickets at http://t.co/mwlZDNF"},{"text":"RT =
+@justinbieber: another reason why #ilovemyfans - thank you girls. =
+@chrisbrown check this out. #NEXT2YOU #fanMade - =
+http://t.co/YW499sV"},{"text":"Mit einer 1:3-Niederlage zieht sich der =
+SSV Ulm 1846 gegen Drittligist Heidenheim wacker aus der Aff=C3=A4re. =
+Im... http://fb.me/KcXvoxbR"},{"text":"Windy out. Maybe not the best day =
+for the balloons.  http://instagr.am/p/HKTaS/"},{"text":"RT =
+@justinbieber: CONE-ING IS THE NEW PLANKING - haha - =
+http://t.co/8US8MK3"},{"text":"Dica pra ganhar seguidores  =
+http://is.gd/M8FOaG  Com surpresa de seguidores"},{"text":"Totally =
+loving Google +, the revamped GMAIL and Google Search, Google Maps and =
+now YouTube !! #GoogleFTW"},{"text":"Another 10 shares in (e)POD101 on =
+Empire Avenue http://t.co/lCLluL8"},{"text":"Hey check out this vid chat =
+room with 12 people in it - =
+http://tinychat.com/emosoulchild"},{"text":"@yesteen: Quero ganhar um =
+megakit e cantar junto com o Justin Bieber na tarde de hoje! =
+http://kingo.to/I9D 43"},{"text":"I HAVE NYANED FOR 14101.3 SECONDS! =
+http://t.co/6fJaElb via @nyannyancat"},{"text":"Dan dia ababil--=C2=BBRT =
+@Balita_Sinting: Jgn dengerin Ya Tuhan, dia alibi --&gt; RT @La2syalala: =
+Tuhan,jgn kau (cont) http://tl.gd/bjigja"},{"text":"@Tri4Ever Altijd =
+welkom! en de Vecht blijft mooi toch ;)) =
+http://t.co/4vghBdk"},{"text":"Watch live Milwaukee Brewers vs =
+Cincinnati Reds streaming 7 Jul, 2011 http://bit.ly/qlOASr"},{"text":"RT =
+@GooglePlusTweet: http://t.co/VFc2oDY Export your #facebook contacts to =
+#googleplus; time consuming, but also another way of sending  =
+..."},{"text":"Photo: =E2=80=BA Eu n=C3=A3o acho que esta hist=C3=B3ria =
+acaba hoje=E2=80=A6 porque cada pessoa vai levar esta hist=C3=B3ria =
+atrav=C3=A9s de... http://tumblr.com/xdr3dlt5f1"},{"text":"At work. =
+Getting off at 8. HMU.: http://yearbook.com/a/1gu94c"},{"text":"Usando =
+las Twit-Herramientas \"Buscador de Ex-Followers\": Encuentra a la gente =
+que te ha dejado de seguir. http://kcy.me/thn"},{"text":"\"@SECTUR_mx: =
+El CPTM refuerza campa=C3=B1as de promoci=C3=B3n para la temporada de =
+verano. http://t.co/16skEaZ\""},{"text":"@ZtotheOtotheE =
+http://t.co/1m2JY1R"},{"text":"#jobs Mechanical Engineer Lead / Absolute =
+Consulting, Inc. / St. Louis, MO http://bit.ly/nVXuEx"},{"text":"The =
+2018 Winter Olympics go to South Korea; http://t.co/F60Pc7y #Olympics =
+#WinterSports"},{"text":"Com o #bigfollow voc=C3=AA consegue milhares de =
+followers em pouco tempo: http://is.gd/go4HT"},{"text":"@GlowLounge as =
+fotos s=C3=A3o postadas pelo facebook?"},{"text":"YOU HAVE TO HEAR THE =
+NEW TRACK WITH ...DOGG POUND AND WU TANG CLAN =
+http://t.co/y9Z5zbT"},{"text":"RT @wmpoweruser: According to Best buy, =
+Windows Phone 7 looks like Windows, syncs documents =
+http://bit.ly/qTat8B"},{"text":"RT @AB_Clothing: http://t.co/gs2T8xV New =
+Video: Lloyd King Of Hearts NYC In-Store"},{"text":"My my, you cannot =
+defeat this. http://bit.ly/qPHwLW  #harrypotterlive #aprendicomochaves =
+Duck #icantgoadaywithout Nate Schierholtz =
+Embryonen"},{"text":"farawayfromthereality: =
+http://tumblr.com/xv73dlt5ba"},{"text":"#NEWMUSIC S.I.R,Myro-Hyrdo& =
+D-Smacka  - 1Hunnit - http://twitrax.com/s/jpvty1"},{"text":"RT =
+@TheOnion: Kind, Bearded Christian Has Guitar, Story To Tell =
+http://onion.com/b8Ra7q #OnionMusic"},{"text":"Photoset: the lovers [ =
+CNBLUE ] jonghyun and yonghwa =
+http://tumblr.com/xzy3dlt5oe"},{"text":"@JoseChelo =
+http://bit.ly/mTJMlZ"},{"text":"=E2=97=86=E9=87=91=E9=AB=AA=E2=97=86=E5=A4=
+=96=E5=9B=BD=E4=BA=BA=E2=97=86=E3=83=96=E3=83=AD=E3=83=B3=E3=83=89=E2=97=86=
+=E3=83=87=E3=83=AA=E3=83=90=E3=83=AA=E3=83=BC=E3=83=98=E3=83=AB=E3=82=B9=E2=
+=97=86\n\n=E2=97=8F=E9=80=9A=E5=B8=B8=EF=BC=91=EF=BC=93=EF=BC=90=EF=BC=90=EF=
+=BC=90=E5=86=86=E3=81=8C\n=E2=97=8F=E5=85=A5=E4=BC=9A=E9=87=91=E8=BE=BC=E3=
+=81=BF\n=E2=97=8F=EF=BC=96=EF=BC=90=E5=88=86=E2=87=94=EF=BC=91=EF=BC=90=EF=
+=BC=90=EF=BC=90=EF=BC=90=E5=86=86=E3=81=A7\n=E2=97=8F=E4=BA=A4=E9=80=9A=E8=
+=B2=BB=E7=84=A1=E6=96=99(=E6=97=A5=E6=9C=AC=E6=A9=8B=E3=81=AB=E3=81=A6) =
+=EF=BC=81(^^)=EF=BC=81\n =
+\n=E2=97=86=E2=97=86=EF=BC=97=E6=9C=88=E3=81=AE=E3=82=AD=E3=83=A3=E3=83=B3=
+=E3=83=9A=E3=83=BC=E3=83=B3=E5=AE=9F=E6=96=BD=E4=B8=AD=E2=99=AA=E2=97=86=E2=
+=97=86\n\n=E4=B8=96=E7=95=8C=E3=81=AE=E7=BE=8E=E5=A5=B3=E8=BB=8D=E5=9B=A3=E5=
+=9C=A8 http://twitpic.com/5mno1d"},{"text":"RT  =E3=80=90 =
+=E3=83=93=E3=82=AA=E3=82=B8=E3=82=A7=E3=83=8B=E3=83=83=E3=82=AF =
+=E3=82=B9=E3=82=AD=E3=83=B3=E3=83=AD=E3=83=BC=E3=82=B7=E3=83=A7=E3=83=B3 =
+=EF=BC=93=E6=9C=AC=E3=82=BB=E3=83=83=E3=83=88 =E3=80=91 =E8=B1=86=E4=B9=B3=
+ =EF=BC=8B =E4=B9=B3=E9=85=B8=E8=8F=8C=E3=81=A7=E7=94=9F=E3=81=BE=E3=82=8C=
+=E3=81=9F =E3=82=B9=E3=82=AD=E3=83=B3=E3=82=B1=E3=82=A2 =E3=83=AD=E3=83=BC=
+=E3=82=B7=E3=83=A7=E3=83=B3 =E8=82=8C=E3=83=BB=E8=85=95=E3=83=BB=E8=84=9A=E3=
+=83=BB=E3=83=9C=E3=83=87=E3=82=A3=E3=81=AB:... =
+http://bit.ly/lVeXYQ"},{"text":"@rickoshea! There's a film about you =
+just starting now at 9 o clock on TV3!! http://t.co/9FN2AiD =
+#ricochet"},{"text":"Like it on LUUUX =
+http://bit.ly/kbghgK"},{"text":"Incentive Rodrigo Santos Ao Vivo em =
+Ipanema no @movereme e ganhe recompensas! Acesse: =
+http://t.co/SDKYJsA"},{"text":"=D8=AD=D8=B1=D9=83=D9=88=D8=A7 =
+=D8=A7=D9=84=D8=B5=D9=88=D8=B1=D8=A9 =D9=8A=D9=85=D9=8A=D9=86 =D8=A7=D9=88=
+ =D9=8A=D8=B3=D8=A7=D8=B1...\n=D9=82=D8=A7=D8=B9=D8=AF =D8=A7=D8=AC=D8=B1=D8=
+=A8 =D8=A7=D9=84=D8=A8=D8=B1=D9=86=D8=A7=D9=85=D8=AC...\n=D8=B0=D8=A7 =
+=D8=A7=DA=86=D9=8A=D8=A8=D8=B4=D9=86 =D9=84=DA=A4=D9=86=D9=82 =D8=B1=D9=88=
+=D9=85... http://360.io/k7H9B4"},{"text":"Ask me anything (But if ur a =
+pussy ur'll hide ur name) http://formspring.me/JigsawD"},{"text":"=D0=BE=D0=
+=B4 =D1=88=D0=BE =D0=BD=D0=B5 =D0=B3=D0=BE =D0=BC=D0=BE=D0=B6=D0=B0=D0=BC =
+=D0=BF=D0=BE=D0=B2=D0=B5=D1=9C=D0=B5 =D1=84=D0=B1. =D1=81=D0=B8 =
+=D0=BF=D0=B8=D1=88=D0=B0=D0=B2 #protestiram =D0=BD=D0=B0 =D1=84=D0=B1 =
+=D0=BF=D1=80=D0=BE=D1=84=D0=B8=D0=BB=D0=BE=D1=82 =D1=81=D0=BE =D1=81=D0=BB=
+=D0=B8=D0=BA=D0=B8 http://is.gd/Zv2mTK"},{"text":"Asl=C4=B1nda hi=C3=A7 =
+kimse sevmedi,Bir ben sevdim seni...\nSevermi=C5=9F gibi de=C4=9Fil,Kana =
+kana sevdim seni.\nT=C4=B1ka basa... =
+http://fb.me/16GmfRNG8"},{"text":"Torrent: The Coming Economic =
+Armageddon http://bit.ly/on7CHR =
+#books"},{"text":"http://wall.in.th/p/GQu90"},{"text":"Segarra.. =
+#iphonesia #hdr  http://instagr.am/p/HKTmI/"},{"text":"I checked in at =
+ink! Coffee Company (1590 Little Raven St) on #Yelp =
+http://bit.ly/9KyJzg"},{"text":"Photo: ukparamore: =
+http://tumblr.com/xin3dlt4xf"},{"text":"Investing in Healthcare: Animal =
+Care a Hot Topic: By Alexander Schachtel 1) Natus Medical (NASDAQ:BABY) =
+stock wa... =
+http://bit.ly/nP9xrB"},{"text":"http://kaaswinkelloonopzand.blogspot.com/"=
+},{"text":"=C2=AB=CE=9F=CE=B9 =CE=B1=CE=BB=CE=BB=CE=B1=CE=B3=CE=AD=CF=82 =
+=CF=83=CF=84=CE=B7=CE=BD =CE=A0=CE=B1=CE=B9=CE=B4=CE=B5=CE=AF=CE=B1 =
+=CF=80=CF=81=CE=AD=CF=80=CE=B5=CE=B9 =CE=BD=CE=B1 =CE=B5=CE=AF=CE=BD=CE=B1=
+=CE=B9 =CF=80=CF=81=CE=BF=CF=8A=CF=8C=CE=BD =CF=83=CF=85=CE=B6=CE=AE=CF=84=
+=CE=B7=CF=83=CE=B7=CF=82=C2=BB http://bit.ly/pxq17T"},{"text":"=CE=9F=CE=B9=
+ =CE=B4=CE=B9=CE=AC=CF=83=CE=B7=CE=BC=CE=B5=CF=82 =CE=BA=CF=85=CF=81=CE=AF=
+=CE=B5=CF=82 =CE=BA=CE=B1=CE=B9 =CF=84=CE=B1 =CF=84=CE=B1=CF=84=CE=BF=CF=85=
+=CE=AC=CE=B6 =CF=84=CE=BF=CF=85=CF=82 =
+http://bit.ly/qkilDe"},{"text":"=CE=93=CE=B9=CE=AC=CE=BD=CE=BD=CE=B7=CF=82=
+ =CE=A0=CE=BB=CE=BF=CF=8D=CF=84=CE=B1=CF=81=CF=87=CE=BF=CF=82: =C2=AB=CE=A3=
+=CE=B5 =CE=B8=CE=AD=CE=BB=CF=89 =CE=BC=CE=B5 =CF=83=CF=8E=CE=BC=CE=B1 =
+=CE=BA=CE=B1=CE=B9 =CF=88=CF=85=CF=87=CE=AE=C2=BB =
+http://bit.ly/qGSBWe"},{"text":"Photo: letosslave: =
+http://tumblr.com/x6u3dlt5b7"},{"text":"Jesus, Facebook seems hardwired =
+into the very being of my HTC. Impossible to flush out the fucker.(No =
+technical advice needed, just venting)"},{"text":"=CE=93=CE=B9=CE=AC=CE=BD=
+=CE=BD=CE=B7=CF=82 =CE=A0=CE=BB=CE=BF=CF=8D=CF=84=CE=B1=CF=81=CF=87=CE=BF=CF=
+=82: =C2=AB=CE=A3=CE=B5 =CE=B8=CE=AD=CE=BB=CF=89 =CE=BC=CE=B5 =CF=83=CF=8E=
+=CE=BC=CE=B1 =CE=BA=CE=B1=CE=B9 =CF=88=CF=85=CF=87=CE=AE=C2=BB =
+http://bit.ly/qGSBWe"},{"text":"Photo: ianbrooks: =
+http://tumblr.com/xaf3dlt64a"},{"text":"SEEXTWOOD Background Pack - =
+GraphicRiver: SEEXTWOOD Background Pack - GraphicRiver 12 JPEG + 2 Bonus =
+|  3000 x 2... http://bit.ly/rlZ2Nv"},{"text":"@beeatrizfranco vota PF ? =
+http://t.co/KaqqXCF um voto por pc =C3=B1 . obgda @cinthiamagno  =
+@heloisakdl @Isa_O_Martinez I\n\nheloisakdl"},{"text":"RT @ChitownOnTap: =
+Time to beef up your beer calendar. Add these festivals now, Chitown. =
+http://t.co/MAnpVGL @chifestivale @wheatonalefes ..."},{"text":"RT =
+@SkorpionEnt: @WizsDailydose Get your @KINGMagazine Wet issue July17 to =
+see both @SkorpionEnt Models @missfaren ... =
+http://tmi.me/cGFYA"},{"text":"TerryOneWeb.com CV Webmaster / =
+Webdesigner / Int=C3=A9grateur HTML:  =
+http://bit.ly/n1Wviz"},{"text":"@sreddous http://t.co/0uY1vBB , with a =
+preview to ensure that I'm not jerking your chain or am trying to do any =
+harm.  Let's see if this -"},{"text":"jacuzia siberia: cerco =
+accompagnatore guida per la siberia del nord dal 28 luglio al 26 agosto =
+http://bit.ly/njHFw6"},{"text":"Top 20 Concert Tours from Pollstar \n    =
+(AP): AP - The Top 20 Concert Tours ranks artists by average box =
+office... http://yhoo.it/nb3a40"},{"text":"Excited to Represent our =
+sister company Suite Spa in the up and coming  ISPA Media Event in =
+Gotham Hall in... http://fb.me/16fFlvq4V"},{"text":"tv and media =
+furniture =
+http://media-cabinetsshopideal.co.cc/tv_and_media_furniture.html #amazon =
+#cheap #shopping #online #42"},{"text":"RT: RT: RT: RT: RT: RT: \"Wir =
+gehen n=C3=A4chste Woche online, k=C3=B6nnten Sie da vorher noch einen =
+Blick wegen der Usabil... http://bit.ly/qjkRXs"},{"text":"This week's =
+most notable performance on #SYTYCD is the girls' group jazz routine =
+choreographed by Ray Leeper http://lnkd.in/fy2wky"},{"text":"Bloomfield =
+Township board members could appoint a replacement July 25 for retiring =
+supervisor Dave Payne. =
+http://t.co/lea6oLs"},{"text":"http://twitpic.com/5mno1y"},{"text":"Ustrea=
+m: RT @michaelbuble: Live Chat with Michael July 14th =
+http://bit.ly/pJw7Vc"},{"text":"SemiLEDs Reports Third Quarter of Fiscal =
+Year 2011 Financial Results: HSINCHU, Taiwan--(BUSINESS W... =
+http://bit.ly/ow2EpR #energy #news"},{"text":"RT @417_Magazine: Wow! =
+8-weeks of Boot Camp, twice a week, for only $80. That's only $5 per =
+session! http://ow.ly/5z58d"},{"text":"Photo:  =
+http://tumblr.com/xak3dlt609"},{"text":"The most perfect!!!  RT =
+@EricaClois: Photo: cloisers: =
+http://tumblr.com/xnw3dl03xi"},{"text":"=D8=AD=D9=85=D9=84 =D9=85=D9=86 =
+=D8=AC=D9=85=D9=8A=D8=B9 =D9=85=D9=88=D8=A7=D9=82=D8=B9 =D8=A7=D9=84=D8=B1=
+=D9=81=D8=B9 Premium =D8=A8=D8=AF=D9=88=D9=86 =D9=85=D8=AC=D9=87=D9=88=D8=AF=
+ =
+http://www.promisr.com/showthread.php?t=3D9045&goto=3Dnewpost"},{"text":"@=
+/dubq Rift_Supremacy .. arrgh it's sucking me in! I'm Rifting! =
+http://bit.ly/mpU87o"},{"text":"Crian=C3=A7as participam de =
+'competi=C3=A7=C3=B5es de vale-tudo' nos EUA http://t.co/L9YZ59U =
+#G1"},{"text":"RT @saberdesexo: J=C3=B3venes protestan teniendo sexo en =
+misa dentro de catedral. http://t.co/GtZnDEo"},{"text":"Read my response =
+to \"t=C3=A1 feliz hoje ?\": http://4ms.me/qLmvGY"},{"text":"RT =
+@Jamin2g: Looked who fucked you again. #notw  =
+http://twitpic.com/5mng32"},{"text":"sudah terbangunku, tuhan, dari =
+hanyut mimpi itu. hanya saja, mohon pahami khilafku, jika hangat yang =
+terasai dalam ... http://tmi.me/cGFYC"},{"text":"=D0=B2=D0=B8=D1=88=D0=B5=D0=
+=BD=D0=BA=D0=B0 *.* =
+http://twitpic.com/5mno1s"},{"text":"tamachan0519=E3=80=8C=E7=86=B1=E4=B8=AD=
+=E7=97=87=E3=81=A3=E3=81=A6=E8=B6=85=E3=82=86=E3=81=A3=E3=81=8F=E3=82=8A=E8=
+=A8=80=E3=81=A3=E3=81=A6=E3=81=BF=E3=81=A6=EF=BC=9F=E3=80=8D=E5=A5=BD=E3=81=
+=8D=E3=81=AA=E5=AD=90=E3=80=8C=E3=81=9D=E3=82=8C=E7=9F=A5=E3=81=A3=E3=81=A6=
+=E3=82=8B=E3=82=88=E3=83=BC=E3=80=82=E3=81=A1=E3=82=85=E3=83=BC=E3=81=97=E3=
+=82=88=E3=83=BC=E3=81=A3=E3=81=A6=E8=A8=80=E3=82=8F=E3=81=9B=E3=82=8B=E3=82=
+=93=E3=81=A7=E3=81=97=E3=82=87=EF=BC=9F=E3=80=80=E2=80=A6=E3=81=82=E3=81=A8=
+=E3=81=A7=E3=81=AD=E3=80=82=E4=BA=BA=E3=81=84=E3=81=A3=E3=81=B1=E3=81=84=E3=
+=81=A7=E6=81=A5=E3=81=9A=E3=81=8B=E3=81=97=E3=81=84=E3=82=88=E3=80=82=E3=80=
+=8D http://t.co/Xp2hhqg  =
+=E3=83=95=E3=83=A9=E3=82=B0=EF=BD=B7=EF=BE=80=E2=94=81=E2=94=81=E2=94=81(=C2=
+=B0=E2=88=80=C2=B0)=E2=94=81=E2=94=81=E2=94=81!!"},{"text":"Photo: =
+27-06: http://tumblr.com/xaf3dlt605"},{"text":"dismantledbeyondrepair: =
+At the moment, Down. All time? Well since I am one of those New =
+Surrender fans you... http://tumblr.com/xbs3dlt619"},{"text":"New photo =
+on fubar.com! http://fubar.com/~5Fwvv #fubar"},{"text":"RT @RNVcontigo: =
+Medios comunitarios logran la plena libertad de expresi=C3=B3n del =
+pueblo: El ante proyecto de Ley de Medios Comunita... http =
+..."},{"text":"Sois de Marruecos? (@ToyFritoxd live on =
+http://twitcam.com/5lb0f)"},{"text":"La foto :P =
+http://t.co/tavzPud"},{"text":"MAYATEX SHOW SADDLE BLANKET PAD HORSE =
+TACK PURPLE SOLID COLOR: Product DescriptionPURPLE MAYATEX SADDLE SHOW =
+SAD... http://bit.ly/ndmDPr"},{"text":"RT @Tropo: [New Blog Post] Deploy =
+a Virtual Call Center in 10 minutes with @Tropo, @PhonoSDK and =
+@iriscouch. http://cot.ag/nuhTC0 #SIP # ..."},{"text":"RT @LaTerceraTV: =
+Fern=C3=A1ndez quedar=C3=ADa fuera y \"Mago\" Valdivia se ilusiona =
+http://t.co/LUXrHfP / El #Equipodelujo musicaliza con =
+#Radiohead"},{"text":"http://t.co/KZHXYJn #OneTime :')"},{"text":"Q: If =
+you could be reincarnated into anythin... A: An elephant. &lt;3: =
+http://yearbook.com/ask/cristhy9018/1gu94g"},{"text":"Black & Colorful =
+party by TahelSadot http://t.co/QKQNOVM via @Etsy #etsy #etsybot =
+#handmade"},{"text":"RT @JesseBrasil: @JesseMcCartney how was your =
+celebration on July 4? Tell us. Brazilians fans #JesseBrasil =
+http://t.co/QGovbGM"},{"text":"http://bit.ly/qx88fx Panasonic Lcd Tv =
+Comparison"},{"text":"#Dragonflies | RedGage =
+http://t.co/FBbwO7k"},{"text":"@bullysteria =
+http://t.co/eAfJpMX"},{"text":"Congress Whines, But Won't Defund Libya =
+War - Wired News (blog): Washington TimesCongress Whines, But Won... =
+http://bit.ly/rlr2QS #libya"},{"text":"Dedicace pour moi ^^ ? &lt;3 \nPJ =
+le pro xD\n (@OmEgA_OFFICIEL live on =
+http://twitcam.com/5lbt4)"},{"text":"if u r a guy and u hate Soccer, u r =
+GAY.....RT @AhhFee: 4real ooo. Confused people RT @soniabladetweet: U =
+gyz r (cont) http://tl.gd/bjigjj"},{"text":"Bueno, =C2=BFquienes ya =
+est=C3=A1n en Google+? Ya pueden ingresar todos los que tengan cuenta en =
+Google \"Gmail, Youtube, Reader, etc...\""},{"text":"I've just #run =
+4.25M in 00:40:00 and logged it on http://www.fetcheveryone.com =
+#fetcheveryone"},{"text":"Photo:  =
+http://tumblr.com/xjg3dlt6ab"},{"text":"Read my response to \"How has =
+your life changed this past year?\": =
+http://4ms.me/nh05x2"},{"text":"Photo:  =
+http://tumblr.com/xdu3dlt5qo"},{"text":"Like it on LUUUX =
+http://bit.ly/gCZgd6"},{"text":"=CE=A0=CE=BF=CE=B9=CE=B5=CF=82 =
+=CF=87=CF=8E=CF=81=CE=B5=CF=82 =CE=BA=CE=B1=CF=84=CE=AD=CF=87=CE=BF=CF=85=CE=
+=BD =CF=80=CE=BF=CF=81=CF=84=CE=BF=CE=B3=CE=B1=CE=BB=CE=B9=CE=BA=CE=AC =
+=CE=BF=CE=BC=CF=8C=CE=BB=CE=BF=CE=B3=CE=B1 =
+http://bit.ly/pCCB0h"},{"text":"SUPERNATURAL Season 6 Is Coming To DVD & =
+Blu-ray http://nblo.gs/k7FUL"},{"text":"The Back Seat =
+http://twitpic.com/4uyxfb"},{"text":"gabrielcezar: =
+http://tumblr.com/xgb3dlt6m9"},{"text":"@poesiaa_poema amor, porfavor me =
+ajuda?! .. comenta aqi =E2=86=92 http://t.co/CHOZnU7 .. basta colocar =
+meu user do tt! muito obg =E2=99=A5"},{"text":"I just commented: And =
+again :Phttp://is.gd/xgOMvt in the Drop Dead App =
+http://road.ie/drop-dead"},{"text":"Ha! RT @AndreaSpivey: I'm drinking =
+at 3:50pm. And my daughter who is 15 just yelled at me and said \"mom =
+its no=E2=80=A6 (cont) http://deck.ly/~RJkER"},{"text":"=CE=9F =CE=96=CE=B1=
+=CE=BD =CE=9A=CE=BB=CE=BF=CE=BD=CF=84 =CE=A4=CF=81=CE=B9=CF=83=CE=AD =
+=CE=B5=CF=80=CE=B9=CE=BA=CF=81=CE=AF=CE=BD=CE=B5=CE=B9 =CF=84=CE=B7=CE=BD =
+Moody's =CE=B3=CE=B9=CE=B1 =CF=84=CE=B7=CE=BD =CE=A0=CE=BF=CF=81=CF=84=CE=BF=
+=CE=B3=CE=B1=CE=BB=CE=AF=CE=B1 http://bit.ly/nTODGa"},{"text":"cara =
+install joomla di local server-bahasa indonesia: spinelink: =C2=A0=C2=A0 =
+- + var toggle_b =3D document.getElementById('... =
+http://bit.ly/oLmGV5"},{"text":"Photo:  =
+http://tumblr.com/x343dlt6fy"},{"text":"Cleaner air, costlier =
+electricity under EPA rule http://goo.gl/hOuil"},{"text":"#Cudillero. =
+Salida de la vuelta Asturias de vela etapa a #aviles. Patrocina #BMW =
+#Triocar hoy ha ganado el marara.  =
+http://t.co/INJc9tU"},{"text":"http://t.co/uOILEgI"},{"text":"Photo: =E2=80=
+=BA Eu e a minha mania, de achar que os outros fariam por mim, aquilo =
+que eu faria por eles. http://tumblr.com/x9v3dlt69v"},{"text":"Free =
+D.I.Y. Solar Power Presentation http://t.co/Aza9HTQ"},{"text":"De =
+@BarcelonaRealYA  Existe una nueva herramienta para parar desalojos :-) =
+RT plis. http://t.co/6aRbodu @LA_PAH @democraciareal #15m =
+#DRY"},{"text":"#Programa=C3=A7=C3=A3oShow    Quinta-feira bombada =C3=A9 =
+no @TeatroRiachuelo com #NXZERO - http://t.co/jDIiv8y =
+#SouMaisTeatroRiachuelo"},{"text":"5.6 quake rattles Japan near =
+Fukushima site - Yahoo! News http://t.co/OfBS2Qz via =
+@YahooNews"},{"text":"=CE=9C=CE=AD=CF=87=CF=81=CE=B9 =CF=84=CE=BF =
+=CF=84=CE=AD=CE=BB=CE=BF=CF=82 =CF=84=CE=BF=CF=85 =CF=87=CF=81=CF=8C=CE=BD=
+=CE=BF=CF=85 =CE=BF =CE=A7=CE=A5=CE=A4=CE=91 =CF=83=CF=84=CE=B7=CE=BD =
+=CE=9E=CE=B5=CF=81=CF=8C=CE=BB=CE=B1=CE=BA=CE=BA=CE=B1 =
+http://bit.ly/o8WKBF"},{"text":"Elena T: thanks!! :) =
+http://bit.ly/oFry7z"},{"text":"RT @msnbc_wow: Intoxicated men take dead =
+alligator off-roading http://on.msnbc.com/qWqrOY"},{"text":"#LISTEN =
+@YungGeeLUT feat. @Stampboy3 - Stand Up - =
+http://twitrax.com/s/z6m55y"},{"text":"RT @fieldproducer: Strong stuff =
+RT @suttonnick: Tomorrow's Independent front page - \"Newspaper =
+'sacrificed to save one woman'\" http://tw ..."},{"text":"I liked a =
+@YouTube video http://youtu.be/szd1qi3ymQs?a Don Trip \"Letter To My =
+Son\" Motion Picture directed by Joe \"Yun"},{"text":"@jess2165 =
+@larissa_esteves Linkin Park canta Adele =
+http://bit.ly/ocrZoB"},{"text":"Photo:  =
+http://tumblr.com/x9t3dlt6m7"},{"text":"=E9=BC=93=E8=86=9C=E3=81=8B=E3=82=89=
+=E7=8A=AF=E3=81=95=E3=82=8C=E3=80=81=E6=B7=AB=E7=8C=A5=E3=81=AB=E6=84=9B=E6=
+=B6=B2=E3=82=92=E5=9E=82=E3=82=8C=E6=B5=81=E3=81=97=E3=80=81=E7=99=BA=E3=81=
+=9B=E3=82=89=E3=82=8C=E3=82=8B=E8=A8=80=E8=91=89=E3=81=A8=E3=81=AF=E8=A3=8F=
+=E8=85=B9=E3=81=AB=E7=B5=B6=E9=A0=82=E3=82=92=E4=BD=95=E5=BA=A6=E3=82=82=E4=
+=BD=95=E5=BA=A6=E3=82=82=E7=B9=B0=E3=82=8A=E8=BF=94=E3=81=99=E2=80=A6=E3=80=
+=80http://adop.jp/Drm8?m=E3=80=80#followmejp #porn =
+18=E7=A6=81=E3=80=80AV=E3=80=80=E3=82=A8=E3=83=AD=E3=80=80=E5=8B=95=E7=94=BB=
+=E3=80=80=E5=A5=B3=E5=84=AA=E3=80=80=E7=B4=A0=E4=BA=BA"},{"text":"O =
+@albanos, a @JovemPanBH e o @eusoubh v=C3=A3o liberar 500l de chope em =
+comemora=C3=A7=C3=A3o aos 15 anos do Albanos. http://t.co/M8TghI0 =
+#soubh"},{"text":"@_luccas94 Ol=C3=A1,quer ganhar Galaxy tab sem pagar =
+nada ? acesse, cadastre-se e participe =
+http://bit.ly/l97AGE"},{"text":"acabei de attz : =
+http://t.co/xDcLPBl"},{"text":"I posted 2 photos on Facebook in the =
+album \"Traffic & Weather Together\" http://fb.me/ZPREawpL"},{"text":"I  =
+you cannot defeat this. http://bit.ly/nldsyU  #donttalktomeif Ian Wright =
+#onetimeanniversary Murdoch #notw Argentina Colombia =
+#leakyboat"},{"text":"Nuevo spray podr=C3=ADa deshacerse de los =
+calcetines con mal olor para siempre =
+http://bit.ly/rlIddH"},{"text":"Like it on LUUUX =
+http://bit.ly/dcRIjx"},{"text":"Lmao he told me that shit too, smh and =
+he dont think he is the hulk tho #TheLies RT @Cpt_Dynamo @cwright0564 =
+http://tl.gd/bjigjh"},{"text":"Photo:  =
+http://tumblr.com/xxk3dlt6lc"},{"text":"RT @FlyBoyE_Music: =
+@frannyfran_fran: I saw you in foresthill walk out favourite chicken =
+eating a burger with tomato ... http://tmi.me/cGFYJ"},{"text":"Marina =
+Silva foi sondada para se filiar a Avon e a Jequiti, mas assessoria nega =
+qualquer contato das concorrentes http://bit.ly/nSPfhY"},{"text":"Mi =
+Dash es pr=C3=A1cticamente Hogwarts. =
+http://tumblr.com/xe63dlt6x3"},{"text":"Pd dimanah?RT @mutiapermata: =
+with cantik2ku @shilviaayu @Kadenacini =E2=99=A1 =
+http://lockerz.com/s/117950393"},{"text":"=E3=83=87=E3=82=A3=E3=82=AF=E3=82=
+=BB=E3=83=AB =E3=83=96=E3=83=AC=E3=83=BC=E3=82=AD=E3=83=AD=E3=83=BC=E3=82=BF=
+=E3=83=BC SD =E3=82=AB=E3=83=AD=E3=83=BC=E3=83=A9 CE90 89/5=EF=BD=9E92/5 =
+=E3=83=95=E3=83=AD=E3=83=B3=E3=83=88=E7=94=A8=E5=B7=A6=E5=8F=B31=E3=82=BB=E3=
+=83=83=E3=83=88: =
+=E2=96=A0=E3=83=97=E3=83=A9=E3=82=B920=EF=BC=85=E3=81=AE=E5=88=B6=E5=8B=95=
+=E5=8A=9B=E3=81=8C=E3=82=82=E3=81=9F=E3=82=89=E3=81=99=E5=AE=89=E5=85=A8=E6=
+=80=A7=EF=BC=81 =
+=E2=96=A0=E3=82=B9=E3=83=AA=E3=83=83=E3=83=88=E6=9C=AC=E6=95=B0=E3=81=AF=E9=
+=B3=B4=E3=81=8D=E3=80=81=E6=91=A9=E8=80=97=E3=80=81=E3=82=AC=E3=82=B9=E3=81=
+=AE=E9=99=A4=E5=8E=BB=E5=8A=B9=E6=9E=9C=E3=81=AA=E3=81=A9=E6=A7=98=E3=80=85=
+=E3=81=AA=E4=BA=8B=E6=A1=88=E3=82=92=E8=80=83=E6=85=AE=E3=81=976=E6=9C=AC=E3=
+=81=AB=E6=B1=BA=E5=AE=9A=E3=80=82=E2=96=A0... =
+http://amzn.to/jx3zXs"},{"text":"=E3=81=AA=E3=82=93=E3=81=A0=E3=81=8B=E3=82=
+=93=E3=81=A0=E7=BF=94=E3=81=8F=E3=82=93=E3=81=8C=E5=A5=BD=E3=81=8D=E3=81=AA=
+=E3=82=93=E3=81=A7=E3=81=99=E3=80=80 =
+http://bit.ly/lx3hKv=E3=80=807/16"},{"text":"AAAAAAAAAAAAAAAAE *-* =
+KKKKKK A prima pega mal n=C3=A9 kkkk (@toty_f83 live on =
+http://twitcam.com/5lblk)"},{"text":"US HOT STOCKS: Target, JC Penney, =
+Affymetrix, Pfizer: DreamWorks Animation SKG Inc.'s (DWA, $21.19, =
++$1.07, +5.32%)... http://adf.ly/220zY"},{"text":"RT @barcastuff: =
+Picture: Bar=C3=A7a shirt in tv series 'Sons of Anarchy' =
+http://twitgoo.com/2ij9zd #fcblive [via @8vivamegan6]"},{"text":"Study: =
+CFOs call the shots in enterprise IT: \"CFO influence over enterprise IT =
+is on the up as CIOs lack the aut... =
+http://bit.ly/p06Szm"},{"text":"This trench is beyong AMAZING! Come see =
+it @dosemarket Opening Ceremony NWT $1965 Embellished Trench Coat SZ S =
+http://t.co/3ybfNxA"},{"text":"=CE=94=CE=B7=CE=BC=CE=B9=CE=BF=CF=85=CF=81=CE=
+=B3=CE=B5=CE=AF=CF=84=CE=B1=CE=B9 =CE=B7 =CF=80=CF=81=CF=8E=CF=84=CE=B7 =
+=CF=80=CE=B1=CE=B3=CE=BA=CF=8C=CF=83=CE=BC=CE=B9=CE=B1 =
+=CF=87=CF=81=CE=B7=CE=BC=CE=B1=CF=84=CE=B9=CF=83=CF=84=CE=B7=CF=81=CE=B9=CE=
+=B1=CE=BA=CE=AE =CF=80=CE=BB=CE=B1=CF=84=CF=86=CF=8C=CF=81=CE=BC=CE=B1 =
+http://bit.ly/p3znYP"},{"text":"I liked a @YouTube video =
+http://youtu.be/IRFtjvTxtKU?a Apocaliptica - Faraway (subtitulado =
+tradu"},{"text":"=E5=85=A8=E6=97=A5=E6=9C=AC=E3=82=B9=E3=83=8E=E3=83=BC=E3=
+=83=9C=E3=83=BC=E3=83=89=E6=95=99=E7=A8=8B:  =
+http://amzn.to/kC2869"},{"text":"gli tappi la bocca? -.- non la sopporto =
+gi=C3=A0 pi=C3=B9.! DDDDD: (@BeliberJust live on =
+http://twitcam.com/5la8w)"},{"text":"You need an emotionally neutral =
+setting so you can tell those ... More for Aries =
+http://twittascope.com/?sign=3D1"},{"text":"Hanging with the boys =
+http://yfrog.com/kl861wj"},{"text":"amo essa m=C3=BAsica *---* =
+http://t.co/qXBwYhX"},{"text":"igual el art=C3=ADculo que me qued=C3=B3 =
+lindo... al menos me emocion=C3=A9 buscando fotos... mil quedaron fuera =
+http://bit.ly/qo8l9Q #alg=C3=BAnd=C3=ADa"},{"text":"Photo:  =
+http://tumblr.com/xzb3dlt715"},{"text":"Model Scouts Eager to Sink Their =
+Talons Into Kate Moss=E2=80=99s Little Sister: Since she was one of =
+fifteen bridesmaids... =
+http://bit.ly/oiGno1"},{"text":"=E3=83=9E=E3=83=86=E3=83=AA=E3=82=A2=E3=83=
+=BB=E3=83=8F=E3=83=B3=E3=82=BF=E3=83=BC=E3=83=A6=E3=83=95=E3=82=A3=E3=81=A1=
+=E3=82=83=E3=82=93=E3=81=AE=E5=A4=A7=E5=86=92=E9=99=BA Neo Universe =
+http://www.dmm.co.jp/digital/doujin/-/detail/=3D/cid=3Dd_037257/mucchin-00=
+7"},{"text":"RT @jeanvidal: Anyone got a #Google+ invite to =
+spare?"},{"text":"http://twitpic.com/5mno2k"},{"text":"Acabo de =
+completar \"tom te pegaria?\" e meu resultado foi: teria poucas xanses! =
+Experimente: http://rdae.eu/hqu2ki"},{"text":"http://bit.ly/rpk7do The =
+current military terminology of \"cyber war\" makes about as much sense =
+as wearing camo fatigues in the datacenter"},{"text":"RT @blondedrummer: =
+The latest six photo books: http://t.co/6sZqott"},{"text":"RT =
+@signsofelegance: The perfect #crocheted #coasters for your Xmas decor! =
+http://ow.ly/5vbOB by @craftsbykeri #Less10 =
+#myhandmadetweet"},{"text":"RT @NatGeo: Join Peru in celebrating 100 =
+years of Machu Picchu http://on.natgeo.com/rhfqeL #mp100"},{"text":"I =
+just bought Bed on Stardoll. Check out my Suite! =
+http://www.stardoll.com/in/?pid=3D25720&gid=3D1&turl=3D%2Fuser%2F%3Fid%3D9=
+7936243"},{"text":"=C2=AB=CE=9A=CE=AC=CE=B8=CE=B1=CF=81=CF=83=CE=B7 =
+=CF=83=CF=84=CE=BF =CF=80=CE=BF=CE=B4=CF=8C=CF=83=CF=86=CE=B1=CE=B9=CF=81=CE=
+=BF =CE=AE =CE=B1=CF=80=CE=BF=CE=BA=CE=BB=CE=B5=CE=B9=CF=83=CE=BC=CF=8C=CF=
+=82 =CE=B1=CF=80=CF=8C =CF=84=CE=B7=CE=BD =CE=95=CF=85=CF=81=CF=8E=CF=80=CE=
+=B7=C2=BB http://bit.ly/rbAfyF"},{"text":"Photo: le due sorelle by =
+Adriano Peiretti on Flickr. http://tumblr.com/xhk3dlt71c"},{"text":"=CE=9F=
+ =CE=96=CE=B1=CE=BD =CE=9A=CE=BB=CE=BF=CE=BD=CF=84 =CE=A4=CF=81=CE=B9=CF=83=
+=CE=AD =CE=B5=CF=80=CE=B9=CE=BA=CF=81=CE=AF=CE=BD=CE=B5=CE=B9 =CF=84=CE=B7=
+=CE=BD Moody's =CE=B3=CE=B9=CE=B1 =CF=84=CE=B7=CE=BD =
+=CE=A0=CE=BF=CF=81=CF=84=CE=BF=CE=B3=CE=B1=CE=BB=CE=AF=CE=B1 =
+http://bit.ly/nTODGa"},{"text":"Come Dine With Me SA! =
+http://t.co/Rdumm9U @_AmyJohnson"},{"text":"your best source of news =
+about @minkakelly =
+http://meadd.com/minkadumontkelly/40117014"},{"text":"=CE=9F=CE=B9 =
+=CE=B4=CE=B9=CE=AC=CF=83=CE=B7=CE=BC=CE=B5=CF=82 =CE=BA=CF=85=CF=81=CE=AF=CE=
+=B5=CF=82 =CE=BA=CE=B1=CE=B9 =CF=84=CE=B1 =CF=84=CE=B1=CF=84=CE=BF=CF=85=CE=
+=AC=CE=B6 =CF=84=CE=BF=CF=85=CF=82 =
+http://bit.ly/qkilDe"},{"text":"=CE=91=CE=B4=CF=85=CE=BD=CE=B1=CE=BC=CE=AF=
+=CE=B1 =CF=84=CE=B7=CF=82 =CE=BA=CF=85=CE=B2=CE=AD=CF=81=CE=BD=CE=B7=CF=83=
+=CE=B7=CF=82 =CE=BD=CE=B1 =CE=B5=CE=B9=CF=83=CF=80=CF=81=CE=AC=CE=BE=CE=B5=
+=CE=B9 300 =CE=B5=CE=BA.=CE=B5=CF=85=CF=81=CF=8E =CE=B1=CF=80=CF=8C =
+=CF=80=CF=81=CF=8C=CF=83=CF=84=CE=B9=CE=BC=CE=B1 =CE=B3=CE=B9=CE=B1 =
+=CF=83=CE=BA=CE=AC=CF=86=CE=B7 =CE=B1=CE=BD=CE=B1=CF=88=CF=85=CF=87=CE=AE=CF=
+=82 http://bit.ly/nY2EbA"},{"text":"@rawrieborealisI found this pretty =
+helpful tough: http://is.gd/spBbxv"},{"text":"Finally at home after long =
+day at work . To be greeted by my cocker spaniel Lilley with lipstick =
+all over her http://tl.gd/bjigjl"},{"text":"=E3=83=92=E3=83=AB=E3=82=BA =
+=E7=8C=AB i/d =E3=83=89=E3=83=A9=E3=82=A4 2Kg 4=E5=80=8B=E5=85=A5 1=E7=AE=B1=
+ =EF=BC=88=E3=82=A2=E3=82=A4=EF=BC=8F=E3=83=87=E3=82=A3=E3=83=BC=EF=BC=89:=
+ =
+=E3=80=90=E8=A3=BD=E5=93=81=E7=89=B9=E9=95=B7=E3=80=91=E9=AB=98=E6=B6=88=E5=
+=8C=96=E6=80=A7=EF=BC=8F=E3=83=93=E3=82=BF=E3=83=9F=E3=83=B3B=E7=BE=A4=E3=80=
+=81=E3=82=AB=E3=83=AA=E3=82=A6=E3=83=A0=E5=A2=97=E9=87=8F=EF=BC=8F=E6=B7=B7=
+=E5=90=88=E7=B9=8A=E7=B6=AD=E5=BC=B7=E5=8C=96=E3=80=90=E4=BB=A3=E8=AC=9D=E3=
+=82=A8=E3=83=8D=E3=83=AB=E3=82=AE=E3=83=BC=E3=80=91390kcal/100g =
+http://amzn.to/jYZVEO"},{"text":"RT @FHERTIGOOD // aqui la se=C3=B1al =
+On-Line de @ENPORTADA  http://t.co/4PCzJF8 @danielexhuevo @CanalStream_ =
+@TWITCARTV"},{"text":"=E7=9B=B2=E7=9B=AE=E3=81=AE=E3=82=B8=E3=82=A8=E3=83=AD=
+=E3=83=8B=E3=83=A2=E3=81=A8=E3=81=9D=E3=81=AE=E5=85=84=E3=83=BB=E5=A4=96=E4=
+=BA=94=E7=AF=87 (=E6=98=AD=E5=92=8C=E5=88=9D=E6=9C=9F=E4=B8=96=E7=95=8C=E5=
+=90=8D=E4=BD=9C=E7=BF=BB=E8=A8=B3=E5=85=A8=E9=9B=86):  =
+http://amzn.to/lO1nsi"},{"text":"Como assim?!! RT @queridocachorro =
+Cachec=C3=B3is vendidos nas Lojas Marisa n=C3=A3o eram de poli=C3=A9ster =
+e sim de pelo de coelho =
+http://t.co/MUIM6ku"},{"text":"=DE=89=DE=AD=DE=94=DE=A6=DE=83=DE=AA=DE=86=DE=
+=A6=DE=89=DE=AA=DE=82=DE=B0 =DE=90=DE=A6=DE=83=DE=A6=DE=82=DE=8E=DE=AA =
+=DE=87=DE=A7=DE=8B=DE=A6=DE=89=DE=B0 =DE=89=DE=A6=DE=82=DE=A8=DE=86=DE=AA =
+=DE=87=DE=A8=DE=90=DE=B0=DE=8C=DE=A8=DE=87=DE=AA=DE=8A=DE=A7 =
+=DE=8B=DE=AC=DE=87=DE=B0=DE=88=DE=A6=DE=87=DE=A8=DE=8A=DE=A8: =
+=DE=89=DE=A7=DE=8D=DE=AD=DE=8E=DE=AC =DE=89=DE=AD=DE=94=DE=A6=DE=83=DE=AA=DE=
+=86=DE=A6=DE=89=DE=AA=DE=82=DE=B0 =
+=DE=87=DE=A8=DE=90=DE=B0=DE=8C=DE=A8=DE=87=DE=AA=DE=8A=DE=A7=DE=8B=DE=AC=DE=
+=87=DE=B0=DE=88=DE=A8=DE=86=DE=A6=DE=82=DE=B0 =DE=89=DE=A8=DE=83=DE=AD =
+=DE=86=DE=A6=DE=81=DE=A6=DE=88=DE=A6=DE=83=DE=AA... =
+http://bit.ly/rqc17s"},{"text":"=C2=AB=CE=9F=CE=B9 =CE=B1=CE=BB=CE=BB=CE=B1=
+=CE=B3=CE=AD=CF=82 =CF=83=CF=84=CE=B7=CE=BD =CE=A0=CE=B1=CE=B9=CE=B4=CE=B5=
+=CE=AF=CE=B1 =CF=80=CF=81=CE=AD=CF=80=CE=B5=CE=B9 =CE=BD=CE=B1 =
+=CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CF=80=CF=81=CE=BF=CF=8A=CF=8C=CE=BD =
+=CF=83=CF=85=CE=B6=CE=AE=CF=84=CE=B7=CF=83=CE=B7=CF=82=C2=BB =
+http://bit.ly/oDIpO4"},{"text":"***MIXTAPE*** Download the 'Independence =
+Day' mixtape from @dctheprez hosted by @DJELPLAGA ---&gt; =
+http://bit.ly/kDfBvX RT!"},{"text":"Thanks, everyone, for submitting =
+your requests. We shared 11 coupons for $50 in Facebook advertising. =
+More soon!"},{"text":"RT @sou1limd: 1 desespero :: =
+http://t.co/FkssU7X"},{"text":"Like it on LUUUX =
+http://bit.ly/pqJJ6p"},{"text":"RT @BigBrotherDish: iPeople- If u + the =
+mobile option ( http://bit.ly/FeedsDeal ) u will be able to access feeds =
+hub on ur iPhone/iPad a ..."},{"text":"=CE=96=CE=B5=CF=83=CF=84=CF=8C =
+=CE=BC=CF=80=CE=B1=CE=BD=CE=AC=CE=BA=CE=B9=E2=80=A6 =CE=B3=CE=B9=CE=B1 =
+=CE=BD=CE=B1 =CE=BC=CE=B7 =CE=BD=CE=B9=CF=8E=CE=B8=CE=B5=CF=84=CE=B5 =
+=CE=BC=CF=8C=CE=BD=CE=BF=CE=B9 http://bit.ly/qctKaj"},{"text":"Photo: =
+The King! =
+http://tumblr.com/xpq3dlt757"},{"text":"=CE=94=CE=B7=CE=BC=CE=BF=CF=83=CE=B9=
+=CE=BF=CF=80=CE=BF=CE=B9=CE=AE=CE=B8=CE=B7=CE=BA=CE=B5 =CF=84=CE=BF =
+=CE=B5=CF=80=CE=B9=CE=BA=CE=B1=CE=B9=CF=81=CE=BF=CF=80=CE=BF=CE=B9=CE=B7=CE=
+=BC=CE=AD=CE=BD=CE=BF =CE=BC=CE=BD=CE=B7=CE=BC=CF=8C=CE=BD=CE=B9=CE=BF =
+=CE=B1=CF=80=CF=8C =CF=84=CE=BF =CE=A5=CF=80=CE=BF=CF=85=CF=81=CE=B3=CE=B5=
+=CE=AF=CE=BF =CE=9F=CE=B9=CE=BA=CE=BF=CE=BD=CE=BF=CE=BC=CE=B9=CE=BA=CF=8E=CE=
+=BD http://bit.ly/oGM9oo"},{"text":"=E3=81=86=E3=81=95=E3=81=8E=E3=82=81=E3=
+=81=9D=E3=81=A3=E3=81=A9 =E3=83=88=E3=83=AC=E3=83=BC=E3=83=8A=E3=83=BC =
+(=E3=82=AA=E3=83=AA=E3=83=BC=E3=83=96) L: =
+=E3=82=A6=E3=82=B5=E3=82=AE=E3=81=A8=E9=9F=B3=E6=A5=BD=E3=82=92=E3=83=A2=E3=
+=83=81=E3=83=BC=E3=83=95=E3=81=AB=E3=81=97=E3=81=9F=E3=83=87=E3=82=B6=E3=82=
+=A4=E3=83=B3=E2=80=A6=EF=BC=8F=E3=80=90=E8=BF=94=E5=93=81=E3=83=BB=E4=BA=A4=
+=E6=8F=9B=E3=83=BB=E3=82=AD=E3=83=A3=E3=83=B3=E3=82=BB=E3=83=AB=E3=81=AB=E3=
+=81=A4=E3=81=84=E3=81=A6=E3=80=91ClubT=E3=81=A7=E3=81=AF=E5=9C=A8=E5=BA=AB=
+=E3=82=92=E6=8C=81=E3=81=9F=E3=81=AA=E3=81=84=E5=8F=97=E6=B3=A8=E7=94=9F=E7=
+=94=A3=E3=82=92=E8=A1=8C=E3=81=A3=E3=81=A6=E3=81=8A=E3=82=8A=E3=81=BE=E3=81=
+=99=E3=80=82=E3=81=94=E6=B3=A8=E6=96=87=E5=BE=8C=E3=81=99=E3=81=90=E3=81=AB=
+=E5=B7=A5=E5=A0=B4=E3=81=A7=E7=94=9F=E7=94=A3=E9=96=8B=E5=A7=8B=E3=81=84=E3=
+=81=9F=E3=81=97=E3=81=BE=E3=81=99=E3=81=AE=E3=81=A7=E3=80=81=E5=8E=9F... =
+http://amzn.to/mgg53f"},{"text":"Photo:  =
+http://tumblr.com/xwf3dlt7hz"},{"text":"sassy shoe from internship =
+http://twitpic.com/5mno30"},{"text":"@HappyBeliieber twitter y facebook =
+y msn \npasame tu msn :D"},{"text":"Fine felice! El final feliz de una =
+dura jornada. Ahora a por Tenerife! =
+http://fb.me/16zGeTN4C"},{"text":"Photo:  =
+http://tumblr.com/xho3dlt7gm"},{"text":"=EC=9D=B4=EA=B2=83=EB=8F=84 =
+=EC=8B=9C=EA=B0=84=EC=97=86=EB=8A=94 =EA=B3=A0=EB=94=A9=EC=97=90=EA=B2=90 =
+=EB=90=9C=EC=9E=A5=EC=A7=88+=ED=97=88=EC=84=B8=E3=85=8B=E3=85=8B =
+http://twitpic.com/5a19fq"},{"text":"=E3=80=90=E3=82=B5=E3=83=B3=E3=83=80=E3=
+=83=BC THUNDER =E3=82=B9=E3=82=B1=E3=83=9C=E3=83=BC =E3=83=88=E3=83=A9=E3=83=
+=83=E3=82=AF=E3=80=91145 LO Light Cole SERPENT WHT RED NO52: =
+=E3=80=90=E3=82=B5=E3=83=B3=E3=83=80=E3=83=BC THUNDER =E3=82=B9=E3=82=B1=E3=
+=83=9C=E3=83=BC =E3=83=88=E3=83=A9=E3=83=83=E3=82=AF=E3=80=91145 LO =
+Light Cole SERPE... http://amzn.to/kzQyim"},{"text":"A. to Z. Mini Great =
+Britain Road Atlas (Road atlases):  =
+http://amzn.to/mHnhCd"},{"text":"Sharing My Beliefs: Discovering =
+Real_life Witnesses (Faith Rules!):  =
+http://amzn.to/j3qr98"},{"text":"#video #music #hiphop RayDawn =
+(@raydawnthe86th): Pardon My Flipped Bird from the free album =
+#ControlledChaos2 http://bit.ly/mt7drm"},{"text":"Photo:  =
+http://tumblr.com/xkc3dlt7h3"},{"text":"Your key planet Jupiter is =
+naturally optimistic and today's tr... More for Sagittarius =
+http://twittascope.com/?sign=3D9"},{"text":"@iAmColorido vai participar? =
+http://t.co/JqjuHQL"},{"text":"Quinta temporada de El Hormiguero =
+http://t.co/2Q0spbx"},{"text":"Kier here.  We've got t-storms popping up =
+on SkyWACH Doppler Radar.  Looks like we'll see more tonight.  =
+http://t.co/V88R80k"},{"text":"=D0=BD=D0=B5=D1=83=D0=B6=D0=B5=D0=BB=D0=B8 =
+=D0=B2=D1=81=D0=B5=D0=B3=D0=BE =D0=BE=D0=B4=D0=B8=D0=BD =D0=BE=D1=81=D1=82=
+=D0=B0=D0=BB=D1=81=D1=8F? =D0=BE=D1=82=D0=BA=D1=83=D0=B4=D0=B0 =
+=D1=82=D0=B0=D0=BA=D0=B0=D1=8F =D0=B8=D0=BD=D1=84=D0=B0??? =
+http://j.mp/oRLk1G"},{"text":"=E3=82=B7=E3=83=A7=E3=83=83=E3=83=94=E3=83=B3=
+=E3=82=B0=E5=A4=A7=E5=A5=BD=E3=81=8D=EF=BC=81=E3=80=80=E3=80=80http://hp41=
+.0zero.jp/697/19761111/"},{"text":"RT @simplereviews: Bedtime has become =
+so much easier since we got our @ZAZOOKIDS photo clock. #Win your own =
+with @simplereviews! http:// ..."},{"text":"Mijn pa nog even helpen met =
+zijn Facebook."},{"text":"The Faber Book of Letters: Letters Written in =
+the English Language 1578-1939:  =
+http://amzn.to/mhBOMS"},{"text":"@TinaFFOE @BigSean  @mally9000 =
+@tharazorman FREE @Tip FREE @lilboosie  =
+http://t.co/vA6KMtA"},{"text":"Circle: The Moon:  =
+http://amzn.to/maQEkU"},{"text":"bibi!!!!!! (@Giiograssi live on =
+http://twitcam.com/5lbo6)"},{"text":"Photo:  =
+http://tumblr.com/xms3dlt7kd"},{"text":"iPod =
+Touch=E7=AC=AC4=E4=B8=96=E4=BB=A3=E7=94=A8=E3=82=B9=E3=82=AD=E3=83=B3=E3=82=
+=B7=E3=83=BC=E3=83=AB=E3=80=90City Nights=E3=80=91: =
+=E3=82=A2=E3=83=A1=E3=83=AA=E3=82=AB=E7=99=BA=E3=81=AE=E8=B6=85COOL=EF=BC=86=
+CUTE=E3=81=AA=E3=82=B9=E3=82=AD=E3=83=B3=E3=82=B7=E3=83=BC=E3=83=AB=E3=81=A7=
+=E3=80=81=E3=81=8A=E6=8C=81=E3=81=A1=E3=81=AEiPod =
+Touch=E3=82=92=E7=9D=80=E3=81=9B=E6=9B=BF=E3=81=88=E3=81=97=E3=81=A6=E3=81=
+=BF=E3=81=BE=E3=81=9B=E3=82=93=E3=81=8B=EF=BC=9F=E3=82=B9=E3=82=AD=E3=83=B3=
+=E3=82=B7=E3=83=BC=E3=83=AB=E3=81=AF=E4=BD=95=E5=BA=A6=E3=81=A7=E3=82=82=E8=
+=B2=BC=E3=82=8A=E7=9B=B4=E3=81=97=E3=81=8C=E5=8F=AF=E8=83=BD=E3=80=82=E6=9C=
+=AC=E4=BD=93=E3=81=AE=E4=BF=9D... =
+http://amzn.to/juIcVI"},{"text":"Structured Products: A Complete Toolkit =
+to Face Changing Financial Markets (The Wiley Finance Series):  =
+http://amzn.to/lAMe9k"},{"text":"Pillars of Faith: New Testament =
+Witnesses [VHS] [Import]:  http://amzn.to/mbrZF7"},{"text":"@Rheapowerr =
+ja hy is ook super leuk , MAAAR KYK DAN ZO'N CHICKIE ;  =
+http://t.co/zKutJ4H"},{"text":"Atravesse na faixa e morra com raz=C3=A3o. =
+http://t.co/wIeCoU8"},{"text":"=E3=82=AD=E3=83=A3=E3=82=B9=E3=82=B1=E3=83=83=
+=E3=83=88=E3=81=A8HAT=E3=81=AE=E8=89=AF=E3=81=95=E3=82=92MIX=E3=81=97=E3=81=
+=9F=E3=83=87=E3=82=B6=E3=82=A4=E3=83=B3 =
+=E3=81=B5=E3=81=A1=E3=81=A9=E3=82=8A=E3=83=81=E3=82=A7=E3=83=83=E3=82=AF=E3=
+=82=AF=E3=83=AD=E3=83=83=E3=82=B7=E3=82=A7HAT=E3=80=90=E7=A7=8B=E5=86=AC=E5=
+=95=86=E5=93=81=E3=80=91 =E8=8C=B6:  =
+http://amzn.to/j4xINe"},{"text":"=E2=80=BA Seu Madruga, sua v=C3=B3 =C3=A9=
+ o Gabriel Cezar? http://tumblr.com/xlx3dlt7az"},{"text":"Online =
+Petition for 'Caylee's Law' Goes Viral http://t.co/3tzh9mY via =
+@TIMEHealthland #cayleeanthony #justice"},{"text":"=DE=89=DE=A7=DE=8D=DE=AD=
+ =DE=90=DE=A8=DE=93=DE=A9=DE=8E=DE=AC =DE=89=DE=AD=DE=94=DE=A6=DE=83 =
+=DE=87=DE=A8=DE=90=DE=B0=DE=8C=DE=A8=DE=87=DE=AA=DE=8A=DE=A7 =
+=DE=8B=DE=AC=DE=87=DE=B0=DE=88=DE=A6=DE=87=DE=A8=DE=8A=DE=A8: - =
+=DE=83=DE=A6=DE=87=DE=A9=DE=90=DE=AA=DE=8D=DE=B0=DE=96=DE=AA=DE=89=DE=B0=DE=
+=80=DE=AB=DE=83=DE=A8=DE=87=DE=B0=DE=94=DE=A7 =DE=90=DE=B0=DE=95=DE=AC=DE=9D=
+=DE=A6=DE=8D=DE=B0 =DE=87=DE=AC=DE=82=DE=B0=DE=88=DE=AF=DE=87=DE=A8 =
+=DE=87=DE=AE=DE=8A=DE=B0 =DE=8B=DE=A6 =DE=95=DE=B0=DE=83=DE=AC=DE=92=DE=A8=
+=DE=91=DE=AC=DE=82=DE=B0=DE=93=DE=B0 =DE=87=DE=AE=DE=82=DE=B0 =
+=DE=87=DE=A8=DE=82=DE=B0... =
+http://bit.ly/nwCoNq"},{"text":"=E3=81=9D=E3=81=93=E3=81=AF=E3=82=BC=E3=83=
+=AD=E3=83=9B=E3=83=BC=E3=83=AB=EF=BC=9F=E4=BF=BA=E3=81=AE=E5=8F=8B=E9=81=94=
+=E3=82=82=E3=81=9D=E3=81=93=E3=81=A7=E7=B7=B4=E7=BF=92=E3=81=97=E3=81=A6=E3=
+=82=8B=E3=82=88=EF=BC=81(=E7=AC=91) RT @Big_Pon: =
+=E3=83=80=E3=83=B3=E3=82=B9=E3=81=A3=E3=81=A6=E3=80=82=E3=80=82=E3=80=82=E3=
+=81=8B=E3=81=A3=E3=81=93=E3=81=84=E3=81=84=E3=80=82=E3=80=82=E3=80=82 =
+http://instagr.am/p/HKPnT/"},{"text":"=E5=8D=B0=E9=91=91=E3=82=BB=E3=83=83=
+=E3=83=88 2=E6=9C=AC =E6=9C=AC=E3=83=AF=E3=83=8B(=E8=85=B9=E5=81=B4)=E4=BB=
+=98 SS =E3=82=AA=E3=83=8E=E3=82=AA=E3=83=AC=E3=82=AB=E3=83=B3=E3=83=90 =
+13.5mm12mm =E4=B8=8A=E5=BD=AB=E8=81=B7=E4=BA=BA=E5=BD=AB=E3=82=8A: =
+=E3=81=93=E3=81=AE=E5=8D=B0=E9=91=91=E3=81=AF=E6=96=A7=E3=81=8C=E6=8A=98=E3=
+=82=8C=E3=82=8B=E3=81=BB=E3=81=A9=E5=A0=85=E3=81=84=E3=81=A8=E3=81=84=E3=81=
+=86=E4=BA=8B(=E6=96=A7=E6=8A=98=E6=A8=BA)=E3=81=8B=E3=82=89=E6=9C=A8=E7=9B=
+=AE=E3=81=8C=E7=B4=B0=E3=81=8B=E3=81=8F=E8=80=90=E4=B9=85=E6=80=A7=E3=81=AF=
+=E6=8A=9C=E7=BE=A4=E3=81=AE=E7=84=A1=E5=9E=A2=E6=9D=90=E3=80=81=E3=82=AA=E3=
+=83=8E=E3=82=AA=E3=83=AC=E3=82=AB=E3=83=B3=E3=83=90=E3=81=AE=E5=AE=9F=E5=8D=
+=B013.5mm=E3=83=BB=E9=8A=80=E8=A1=8C=E5=8D=B01... =
+http://amzn.to/mh58ZY"},{"text":"RT @Solomonthewise1: Click on the link =
+and vote for X.O., it takes two secs =
+peeps!\n\nhttp://t.co/J2Bn2Tz"},{"text":"http://www.naked-lindsey.com/?uid=
+=3D985503 ( #bungie live at http://ustre.am/AARI)"},{"text":"=D7=94=D7=92=D7=
+=96 =D7=A9=D7=99=D7=99=D7=9A =D7=9C=D7=9B=D7=95=D7=9C=D7=A0=D7=95 =
+http://bit.ly/ilGas RT @davidohayon2011@YaelBeeri @jonathanross =D7=92=D7=96=
+ =D7=9E=D7=96=D7=92=D7=A0=D7=99=D7=9D =D7=9E=D7=96=D7=9E=D7=9F =D7=A0=D7=9E=
+=D7=9B=D7=A8 =D7=91=D7=9E=D7=97=D7=99=D7=A8=D7=99=D7=9D =D7=A9=D7=9C =
+=D7=A1=D7=9D"},{"text":"Senior Software Developer job in Atlanta, GA at =
+CCCi http://bit.ly/qryo8V #flash #developer"},{"text":"Photo: =
+25february: http://tumblr.com/xjh3dlt7jn"},{"text":"=CE=96=CE=B5=CF=83=CF=84=
+=CF=8C =CE=BC=CF=80=CE=B1=CE=BD=CE=AC=CE=BA=CE=B9=E2=80=A6 =CE=B3=CE=B9=CE=
+=B1 =CE=BD=CE=B1 =CE=BC=CE=B7 =CE=BD=CE=B9=CF=8E=CE=B8=CE=B5=CF=84=CE=B5 =
+=CE=BC=CF=8C=CE=BD=CE=BF=CE=B9 http://bit.ly/qctKaj"},{"text":"I'm at =
+Winterkost/ Zomerijs (Nieuwendijk 6, Amsterdam) =
+http://4sq.com/nyFsSO"},{"text":"Photo: effyeahibelieb: =
+http://tumblr.com/x9m3dlt78o"},{"text":"#LISTEN KING NITTY & STELLO  O - =
+ \"STREETS ARE HUNGRY\" - http://twitrax.com/s/tllwsw"},{"text":"Photo:  =
+http://tumblr.com/xnx3dlt7g7"},{"text":"Picking up (@ Jcc) =
+http://4sq.com/nt3CGq"},{"text":"Photo: =E2=80=BA eu quero voc=C3=AA. =
+http://tumblr.com/xcd3dlt7c6"},{"text":"=CE=93. =
+=CE=92=CE=B1=CF=81=CE=B4=CE=B9=CE=BD=CE=BF=CE=B3=CE=B9=CE=AC=CE=BD=CE=BD=CE=
+=B7=CF=82: =CE=9A=CE=AC=CF=80=CE=BF=CE=B9=CE=BF=CE=B9 =CE=B8=CE=AD=CE=BB=CE=
+=BF=CF=85=CE=BD =CE=B1=CE=BA=CF=85=CE=B2=CE=AD=CF=81=CE=BD=CE=B7=CF=84=CE=BF=
+ =CF=84=CE=BF=CE=BD =CE=A0=CE=B1=CE=BD=CE=B1=CE=B8=CE=B7=CE=BD=CE=B1=CF=8A=
+=CE=BA=CF=8C http://bit.ly/oBDchn"},{"text":"#RT YUNG JAYBO - JUUG - =
+http://twitrax.com/s/1k41lk"}]
+
+--Apple-Mail=_2A4A84EA-BE3E-497C-90AC-7F2CD703BBBD--
