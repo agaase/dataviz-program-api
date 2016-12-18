@@ -5,14 +5,15 @@ var connection = new SMTPConnection({ignoreTLS : true});
 
 var ApiCore = (function(){
 
-	var sendMail = function(email,id){
+	var sendMail = function(email,id,callback){
 		if(email && id){
-			var link = "http://35.161.122.132:8080/event/verify/"+id;
-			var msg = "Please click on this link below to verify your post.<br> <a href='"+id+"'>"+link+"</a>";
+			var link = "http://35.161.122.132:8080/"+id;
+			var msg = "Please click on this link below to verify your post.\n"+link;
 			connection.connect(function(){
 				console.log("connection established");
 				connection.send({from : "ubuntu@aseemagarwal.in",to:email}, msg, function(){
 					console.log("message sent!");
+					callback();
 				})
 			});
 		}
@@ -27,7 +28,7 @@ var ApiCore = (function(){
 		        if(err){
 		          callback("error encountered - "+err);
 		        }else{
-		          sendMail(event.fromEmail,id,function(){
+		          sendMail(event.fromEmail,"event/verify/"+id,function(){
 		          	callback("success");	
 		          })	
 		        }
