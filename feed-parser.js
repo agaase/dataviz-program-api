@@ -13,6 +13,10 @@ var URLS = ['http://feeds.feedburner.com/InformationIsBeautiful?format=xml',
             'https://groups.google.com/forum/feed/data-vis-jobs/msgs/rss_v2_0.xml'];
 var models = require("./models/tables.js");
 
+var schedule = require('node-schedule');
+var rule = new schedule.RecurrenceRule();
+rule.hour = [10,15,21];
+ 
 var FR = models.feedresource, items = [];
 
 function req() {
@@ -81,5 +85,6 @@ function onRssFetched(err, articles) {
       })
     }
 }   
-
-req();
+var j = schedule.scheduleJob(rule, function(){
+  req();
+});
