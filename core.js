@@ -5,9 +5,9 @@ var connection = new SMTPConnection({ignoreTLS : true});
 
 var ApiCore = (function(){
 
-	var sendMail = function(email,id,callback){
-		if(email && id){
-			var link = "http://35.161.122.132:8080/"+id;
+	var sendMail = function(email,itemUrl,callback){
+		if(email && itemUrl){
+			var link = "http://35.161.122.132:8080/"+itemUrl;
 			var msg = "Please click on this link below to verify your post.\n"+link;
 			connection.connect(function(){
 				console.log("connection established");
@@ -42,7 +42,9 @@ var ApiCore = (function(){
 		        if(err){
 		          callback("error encountered - "+err);
 		        }else{
-		          callback(id);
+		          sendMail(opp.fromEmail,"opp/verify/"+id,function(){
+		          	callback("success");	
+		          })	
 		        }
 		    });
 		},
@@ -54,7 +56,9 @@ var ApiCore = (function(){
 		        if(err){
 		          callback("error encountered - "+err);
 		        }else{
-		          callback(id);
+		          sendMail(wp.fromEmail,"wallpost/verify/"+id,function(){
+		          	callback("success");	
+		          })	
 		        }
 		    });
 		},
