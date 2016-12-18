@@ -39,20 +39,61 @@ app.get("/",function(request, response) {
 });
 
 
-app.post("/formsubmit",function(request,response){
-  core.saveEvent({
-    "timestamp" :  new Date(request.body.startDate).getTime(),
-    "endDate" :  new Date(request.body.endDate).getTime(),
-    "name" : request.body.title,
-    "location" : request.body.location,
-    "url" : request.body.link,
-    "notes" : request.body.descr,
-    "authentication" : 1
-  },function(msg){
+app.post("/events",function(request,response){
+    core.fetchEvents(function (events) {
+      for(var i=0;i<events.length;i++){
+        events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
+      }
+      app.render('partials/event-items',events,function(err,html){
+        response.send(html);
+      });  
+    },request.body.index);
+});
+
+
+app.post("/opps",function(request,response){
+    core.fetchOpps(function (opps) {
+      for(var i=0;i<opps.length;i++){
+        opps[i]["timestamp"] = new Date(opps[i].timestamp).toString().substring(0,15);
+      }
+      app.render('partials/opp-items',opps,function(err,html){
+        response.send(html);
+      });  
+    },request.body.index);
+});
+
+app.post("/feed",function(request,response){
+    core.fetchFeedResources(function (list) {
+      app.render('partials/feed-items',list,function(err,html){
+        response.send(html);
+      });  
+    },request.body.index);
+});
+
+
+app.post("/saveevent",function(request,response){
+  request.body["authentication"] = 1;
+  core.saveEvent(request.body,function(msg){
     response.send(msg);
   })
-  
 });
+
+
+app.post("/saveopp",function(request,response){
+  request.body["authentication"] = 1;
+  request.body["timestamp"] = new Date();
+  core.saveOpp(request.body,function(msg){
+    response.send(msg);
+  })
+});
+
+app.post("/savewallpost",function(request,response){
+  request.body["authentication"] = 1;
+  core.saveWallpost(request.body,function(msg){
+    response.send(msg);
+  })
+});
+
 app.get("/event/verify/:id",function(request,response){
   core.verifyEvent(request.params.id,function(ev){
     ev.timestamp = new Date(ev.timestamp).toString().substring(0,15);
@@ -62,16 +103,46 @@ app.get("/event/verify/:id",function(request,response){
   })
 });
 
-app.get("/form",function(request,response){
+
+app.get("/opp/verify/:id",function(request,response){
+  core.verifyOpp(request.params.id,function(opp){
+    opp.timestamp = new Date(opp.timestamp).toString().substring(0,15);
+    core.fetchFeedResources(function(d){
+      response.render('layouts/items',{"opps" : [opp], feed : d, "verified" : true});  
+    }) 
+  })
+});
+
+
+app.get("/wallpost/verify/:id",function(request,response){
+  core.verifyWP(request.params.id,function(wp){
+    wp.timestamp = new Date(wp.timestamp).toString().substring(0,15);
+    core.fetchFeedResources(function(d){
+      response.render('layouts/items',{"wallposts" : [wp], feed : d, "verified" : true});  
+    }) 
+  })
+});
+
+app.get("/form/:type",function(request,response){
   core.fetchFeedResources(function(d){
-      response.render('layouts/form',{feed : d});  
+      var type = request.params.type, obj = {};
+      if(type == "events"){
+        obj["events"] = true
+      }
+      if(type == "opps"){
+        obj["opps"] = true
+      }
+      if(type == "wallposts"){
+        obj["wallposts"] = true
+      }
+      response.render('layouts/form',obj);  
   })
 });
 
 app.get("/events",function(request,response){
   core.fetchEvents(function (events) {
     for(var i=0;i<events.length;i++){
-      events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
+      events[i]["timestamp"] = events[i].timestamp.toString().substring(0,15);
     }
     core.fetchFeedResources(function(d){
       response.render('layouts/items',{"events" : events, feed : d});  
@@ -82,7 +153,7 @@ app.get("/events",function(request,response){
 app.get("/opps",function(request,response){
   core.fetchOpps(function (opps) {
     for(var i=0;i<opps.length;i++){
-        opps[i]["timestamp"] = new Date(opps[i].timestamp).toString().substring(0,15);
+        opps[i]["timestamp"] = opps[i].timestamp.toString().substring(0,15);
     }
     core.fetchFeedResources(function(d){
       response.render('layouts/items',{"opps" : opps, feed : d});  
@@ -96,7 +167,7 @@ app.get("/wall",function(request,response){
         wps[i]["timestamp"] = new Date(wps[i].timestamp).toString().substring(0,15);
     }
     core.fetchFeedResources(function(d){
-      response.render('layouts/wall',{"wallposts" : wps, feed : d});  
+      response.render('layouts/items',{"wallposts" : (wps.length ? wps : [{"title" : "No Content"}]), feed : d});  
     }) 
   });
 });

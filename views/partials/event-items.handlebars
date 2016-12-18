@@ -1,9 +1,13 @@
 {{#each this}}
+{{#if name}}
   <div class='item'>
     <div class='content'>
       <a  href='{{url}}' target="_blank" class='name'>{{name}}</a>
       <div class='secondary'>{{timestamp}},  {{location}}</div>
-      <div class='desc'>{{{focus}}}</div>
+      <div class='desc'>
+      	<b>{{type}}:</b> &nbsp;{{focus}}
+      </div>
     </div>
   </div>
+ {{/if}}
 {{/each}}

@@ -65,7 +65,7 @@ function onRssFetched(err, articles) {
     if(articles){
       console.log(articles.length);
       articles.forEach(function(entry){
-          var pubtime = entry.published ? new Date(entry.published).getTime() : new Date().getTime();
+          var pubtime = entry.published ? new Date(entry.published) : new Date();
           var hash = farmhash.hash32(""+pubtime+entry.link);
           items.push({
            _id: "fr_"+hash,

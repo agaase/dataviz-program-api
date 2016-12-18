@@ -17,9 +17,9 @@ var saveOpportunities = function(opps,ct){
   var opp = opps[ct];
   console.log("saving - "+opp.organizationName);
   if(opp.dateAdded){
-      opp["timestamp"] = new Date(opp.dateAdded).getTime();
+      opp["timestamp"] = new Date(opp.dateAdded);
   }else{
-     opp["timestamp"] = 0;
+     opp["timestamp"] = new Date("1989");
   }
   opp["opp_id"] = "opp_"+parseInt(Math.random()*100000);
   opp["authentication"] = 2;
@@ -44,14 +44,14 @@ var saveEvents = function(events,ct){
     var event = events[ct];
     console.log("saving - "+event.name);
     if(event.startDate){
-        event["timestamp"] = new Date(event.startDate).getTime();
+        event["timestamp"] = new Date(event.startDate);
     }else{
-       event["timestamp"] = 0;
+       event["timestamp"] = new Date("1989");
     }
     if(event.endDate){
-        event["endDate"] = new Date(event.endDate).getTime();
+        event["endDate"] = new Date(event.endDate);
     }else{
-        event["endDate"] = 0;
+        event["endDate"] = new Date("1989");
     }
     event["event_id"] = "ev_"+parseInt(Math.random()*100000);
     event["authentication"] = 2;

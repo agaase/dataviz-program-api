@@ -1,9 +1,31 @@
 {{#each this}}
+{{#if timestamp}}
   <div class='item'>
     <div class='content'>
-      <div class='name'>{{organizationName}}</div>
+      {{#if url}}
+      <a class='name' href='{{url}}' target="_blank">{{organizationName}}</a>
+      {{else}}
+      <div class='name'>{{organizationName}}</di>
+      {{/if}}
       <div class='secondary'>{{timestamp}}</div>
       <div class='desc'>{{{description}}}</div>
+      <div class='attrs'>
+       {{#if position}} 
+        <div class='attr'>WORK POSITION</div>
+       {{/if}}
+       {{#if parttimePosition}} 
+        <div class='attr'>PART TIME</div>
+        {{else if fulltimePosition}}
+        <div class='attr'>FULL TIME</div>
+       {{/if}}
+       {{#if eligibleAcademic}} 
+        <div class='attr'>ELIGIBLE ACADEMIC</div>
+       {{/if}}
+       {{#if newSchool}} 
+        <div class='attr'>NEWSCHOOL AFFILIATED</div>
+       {{/if}}
+      </div>
     </div>
   </div>
+{{/if}}
 {{/each}}

@@ -49,7 +49,6 @@ var saveToDb = function(obj){
 }
 /* Event emitted after a message was received and parsed. */
 mailin.on('message', function (connection, data, content) {
-  
   /* Do something useful with the parsed message here.
    * Use parsed message `data` directly or use raw message `content`. */
    var entrytime = new Date(data.date).getTime(), fromEmail = data.from[0].address;

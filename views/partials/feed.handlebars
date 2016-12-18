@@ -1,19 +1,14 @@
 <div class='feed'>
   <div class='headerLabel'>NEWS FROM WEB</div>
   <div class='list'>
-    {{#each feed}}
-          <div class='feed_item'>
-          	<div class='primary'>
-              <a class='title' href='{{link}}' target="_blank">{{title}}</a>
-              <a class='sourceName' href='{{sourceUrl}}' target="_blank">{{sourceName}}</a>
-              
-            </div>
-            <div class='secondary'>
-              <div class='date'>{{timestamp}}</div>
-              <div class='descr'>{{content}}</div>
-              {{#if image}}<div class='img'  style="background-image:url('{{image}}');" ></div>{{/if}}
-            </div>
-          </div>
-    {{/each}}
+  	{{#if feed}}
+    {{> feed-items feed}}
+    {{else}}
+    <div class='feed_item'>
+  	 <div class='secondary'>
+      <div class='descr'>No content in this section..</div>
+     </div>
+    </div>
+    {{/if}}
   </div>
 </div>

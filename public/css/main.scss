@@ -1,4 +1,4 @@
-$parsons-red : #E82E21;
+$parsons-red : #0277bd;
 $font-color: #5D6068;
 $very-light-neutral: #eee;
 
@@ -14,7 +14,7 @@ body{
 }
 .header{
   height: 50px;
-  background-color: #E82E21;
+  background-color: $parsons-red;
   padding: 10px 50px;
   	object{
 	  height: 100%;
@@ -37,6 +37,7 @@ body{
 			text-align: center;
 		    padding: 20px 0;
 		    text-decoration: underline;
+		    cursor: pointer;
 		}
 		.alert{
 			display: block;
@@ -46,7 +47,7 @@ body{
 		display: none;
 	}
 	.form{
-		width: 50%;
+		width: 80%;
 		padding: 0 2%;
 		margin-right: 2%;
 		display: inline-block;
@@ -59,7 +60,7 @@ body{
 		}
 	}
 	.feed{
-		width: 36%;
+		width: 38%;
 		height: 75vh;
 		display: inline-block;
 		vertical-align: top;
@@ -131,11 +132,16 @@ body{
 	.main_menu{
 	  float: left;
 	  height: 100%;
+	  width: 70%;
 	}
 	.sec_menu{
   	  float: right;
   	  height: 100%;
   	  font-size: 80%;
+  	  width: 30%;
+  	  .item{
+  	  	float: right;
+  	  }
 	}
 	.item{
 	  display: inline-block;
@@ -156,7 +162,7 @@ body{
 	  padding: 0 15px;
 	  border-right: 0;
 	  &.active{
-	  	color: #E82E21;
+	  	color: $parsons-red;
   		font-size: 110%;
 	  }
 	}

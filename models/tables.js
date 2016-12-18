@@ -1,12 +1,6 @@
-// // create a model using the name of the DynamoDB table and a schema
-// var AWS = require("aws-sdk");
-// AWS.config.update({
-//   endpoint: "https://dynamodb.us-west-2.amazonaws.com",
-//   region : "us-west-2"
-// });
-// var dynamoose = require('dynamoose');
 var mongoose = require('mongoose');
-require('mongoose-pagination');
+require('mongoose-pagination'); 
+var mongoosePaginate = require('mongoose-paginate');    
 mongoose.connect('mongodb://localhost/test');
 
 
@@ -14,23 +8,26 @@ var Schema = mongoose.Schema;
 
 var eventSchema = new Schema( {
     event_id: String,
-    timestamp : Number,
+    timestamp: { type: Date},
     name : String,
     type : String,
     focus : String,
-    endDate : Number,
+    endDate : { type: Date},
     location : String,
     url : String,
     notes : String,
-    authentication : Number
+    authentication : Number,
+    from : String,
+    fromEmail : String
   });
+eventSchema.plugin(mongoosePaginate);
 
 var oppSchema = new Schema({
     opp_id: String,
-    timestamp : Number,
+    timestamp: { type: Date, default: Date.now },
     organizationName : String,
     url : String,
-    dataSource : String,
+    dataSource : Boolean,
     dataResources : Boolean,
     dataCompetition : Boolean,
     newSchool : Boolean,
@@ -44,12 +41,15 @@ var oppSchema = new Schema({
     description : String,
     contactName : String,
     contactEmail : String,
-    authentication : Number
+    authentication : Number,
+    from : String,
+    fromEmail : String
   });
+oppSchema.plugin(mongoosePaginate);
 
 var feedResSchema = new Schema({
     _id: String,
-    timestamp : Number,
+    timestamp : Date,
     title : String,
     content : String,
     author : String,
@@ -58,15 +58,19 @@ var feedResSchema = new Schema({
     sourceName : String,
     sourceUrl : String,
   });
+feedResSchema.plugin(mongoosePaginate);
 
 var wallPostSchema = new Schema({
     wp_id: String,
-    timestamp : Number,
+    timestamp: { type: Date, default: Date.now },
     title : String,
     content : String,
     from : String,
+    authentication : Number,
     fromEmail : String
   })
+wallPostSchema.plugin(mongoosePaginate);
+
 // Create cat model with default options
 module.exports  = {
   "events" : mongoose.model('events', eventSchema),

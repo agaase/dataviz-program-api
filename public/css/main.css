@@ -30,13 +30,20 @@
       .items .item .content .name {
         font-size: 150%;
         padding: 5px 0;
-        color: #E82E21;
+        color: #0277bd;
         text-decoration: underline; }
       .items .item .content .secondary {
         padding: 5px 0; }
       .items .item .content .desc {
         padding: 10px 0;
         line-height: 130%; }
+      .items .item .content .attrs .attr {
+        font-size: 60%;
+        display: inline-block;
+        padding: 5px;
+        border: 1px solid #5D6068;
+        border-radius: 3px;
+        line-height: 129%; }
 
 .api {
   width: 80%;
@@ -95,7 +102,7 @@
       .wallposts .post .content .primary .name {
         font-size: 150%;
         padding: 5px 0;
-        color: #E82E21;
+        color: #0277bd;
         display: inline-block;
         width: 100%; }
       .wallposts .post .content .secondary {
@@ -114,7 +121,7 @@ body {
 
 .header {
   height: 50px;
-  background-color: #E82E21;
+  background-color: #0277bd;
   padding: 10px 50px; }
   .header object {
     height: 100%;
@@ -131,13 +138,14 @@ body {
   .contentSpace .items .pagingControl, .contentSpace .list .pagingControl {
     text-align: center;
     padding: 20px 0;
-    text-decoration: underline; }
+    text-decoration: underline;
+    cursor: pointer; }
   .contentSpace .items .alert, .contentSpace .list .alert {
     display: block; }
   .contentSpace .alert {
     display: none; }
   .contentSpace .form {
-    width: 50%;
+    width: 80%;
     padding: 0 2%;
     margin-right: 2%;
     display: inline-block;
@@ -147,12 +155,12 @@ body {
       .contentSpace .form .form-group label {
         font-weight: bold; }
   .contentSpace .feed {
-    width: 36%;
+    width: 38%;
     height: 75vh;
     display: inline-block;
     vertical-align: top; }
     .contentSpace .feed .headerLabel {
-      color: #E82E21;
+      color: #0277bd;
       margin-bottom: 5px;
       height: 5%;
       font-weight: bold; }
@@ -205,11 +213,15 @@ body {
   border-bottom: 1px solid #ddd; }
   .menu .main_menu {
     float: left;
-    height: 100%; }
+    height: 100%;
+    width: 70%; }
   .menu .sec_menu {
     float: right;
     height: 100%;
-    font-size: 80%; }
+    font-size: 80%;
+    width: 30%; }
+    .menu .sec_menu .item {
+      float: right; }
   .menu .item {
     display: inline-block;
     vertical-align: middle;
@@ -220,14 +232,14 @@ body {
     text-decoration: none;
     color: #5D6068; }
   .menu .item.active {
-    color: #E82E21;
+    color: #0277bd;
     font-weight: bold;
     font-size: 110%; }
   .menu .sec_menu .item {
     padding: 0 15px;
     border-right: 0; }
     .menu .sec_menu .item.active {
-      color: #E82E21;
+      color: #0277bd;
       font-size: 110%; }
 
 /*# sourceMappingURL=main.css.map */

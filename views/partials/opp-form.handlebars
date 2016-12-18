@@ -1,0 +1,88 @@
+<form data-type='opp'>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Organization Name</label>
+     <div class='col-sm-9'>
+     <input class="form-control" type="text" id="organizationName" required>
+     </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Link</label>
+     <div class='col-sm-9'>
+       <input class="form-control" type="text" id="url" required>
+      </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Contact Name</label>
+     <div class='col-sm-9'>
+       <input class="form-control" type="text" id="contactName" required>
+    </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Contact Email</label>
+     <div class='col-sm-9'>
+       <input class="form-control" type="text" id="contactEmail" required>
+      </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-sm-3">Description</label>
+     <div class='col-sm-9'>
+     <textarea class="form-control" id="description" rows="3" placeholder="Enter description"></textarea>
+     </div>
+   </div>
+   <div class='form-group row'>
+     <label class="col-sm-3">Position Type</label>
+     <div class='col-sm-9'>
+        <label class="form-check-inline">
+          <input type="checkbox" class="form-check-input" id="position" value="1">
+          Work Opportunity
+        </label>
+        <label class="form-check-inline">
+          <input type="radio" name="unpaid" class="form-check-input" id="unpaidPosition" value="1">
+          Unpaid
+        </label>
+        <label class="form-check-inline">
+          <input type="radio" name="timereqd" class="form-check-input" id="parttimePosition" value="1">
+          Part-time
+        </label>
+        <label class="form-check-inline">
+          <input type="radio" name="timereqd" class="form-check-input" id="fulltimePosition" value="1">
+          Full-time
+        </label>
+     </div>
+   </div>
+   <div class='form-group row'>
+     <label class="col-sm-3">Academic Info</label>
+     <div class='col-sm-9'>
+        <label class="form-check-inline">
+          <input type="checkbox" class="form-check-input" id="eligibleAcademic" value="1">
+          Eligible Academic
+        </label>
+        <label class="form-check-inline">
+          <input type="checkbox" class="form-check-input" id="grantFellowship" value="1">
+          Grant / Fellowship
+        </label>
+        <label class="form-check-inline">
+          <input type="checkbox" class="form-check-input" id="newSchool" value="1">
+          Newschool Affiliation
+        </label>
+     </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Your Name</label>
+     <div class='col-sm-9'>
+       <input class="form-control" type="text" id="from" required>
+      </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Your Email</label>
+     <div class='col-sm-9'>
+       <input class="form-control" type="text" id="fromEmail" required>
+      </div>
+   </div>
+   <div class="form-group row">
+   <label class="col-sm-3" ></label>
+   <div class='col-sm-9'>
+   <input type="submit" class="btn btn-primary" value="Submit"></input>
+   </div>
+   </div>
+ </form>

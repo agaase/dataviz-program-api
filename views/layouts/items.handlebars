@@ -15,14 +15,16 @@
     </div>
     <div class="contentSpace">
     
-    <div class='items'>
+    <div class='items  {{#if events}}events{{else if opps}}opps{{else if wallposts}}wallposts{{/if}}'>
     <div class='meta'>
-      <a class='newItemBtn' href='./form'>NEW EVENT</a>
+      <a class='newItemBtn' href='./form/{{#if events}}events{{else if opps}}opps{{else if wallposts}}wallposts{{/if}}'>{{#if events}}NEW EVENT{{else if opps}}NEW OPPORTUNITY{{else if wallposts}}NEW POST{{/if}}</a>
     </div>
     {{#if events}}
     {{> event-items events}}
-    {{else}}
+    {{else if opps}}
     {{> opp-items opps}}
+    {{else if wallposts}}
+    {{> wallposts-items wallposts}}
     {{/if}}
     </div>
     {{> feed}}

@@ -17,38 +17,13 @@
     <div class="alert alert-success" role="alert">
     </div>
     <div class='form'>
-      <form id="eventForm">
-        <div class="form-group row">
-          <label class="col-form-label">Title</label>
-          <input class="form-control" type="text" value="New School Event 1" id="title">
-        </div>
-        <div class="form-group row">
-          <label class="col-form-label">Start Date</label>
-          
-            <input class="form-control" type="datetime-local" value="2016-12-09T13:45:00" id="startDate">
-        </div>
-        <div class="form-group row">
-          <label class="col-form-label">End Date</label>
-          
-            <input class="form-control" type="datetime-local" value="2016-12-09T13:45:00" id="endDate">
-        </div>
-        <div class="form-group">
-          <label >Description</label>
-          <textarea class="form-control" id="descr" rows="3" placeholder="This is a test event at new school."></textarea>
-        </div>
-        <div class="form-group row">
-          <label class="col-form-label">Location</label>
-          
-            <input class="form-control" type="text" value="55W 5th Avenue" id="location">
-        </div>
-        <div class="form-group row">
-          <label class="col-form-label">Link</label>
-          
-            <input class="form-control" type="text" value="http://www.newschool.edu" id="link">
-        </div>
-
-        <input type="submit" class="btn btn-primary" value="submit"></input>
-      </form>
+      {{#if events}}
+        {{> event-form this}}
+      {{else if opps}}
+       {{> opp-form this}}
+      {{else if wallposts}}
+       {{> wallpost-form this}}
+      {{/if}}
     </div>
     </div>
     {{> footer}}
