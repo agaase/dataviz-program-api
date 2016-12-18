@@ -57,6 +57,7 @@ var feedResSchema = new Schema({
     sourceFeedUrl : String,
     sourceName : String,
     sourceUrl : String,
+    image: String
   });
 feedResSchema.plugin(mongoosePaginate);
 
@@ -67,7 +68,7 @@ var wallPostSchema = new Schema({
     content : String,
     from : String,
     authentication : Number,
-    fromEmail : String
+    fromEmail : String,
   })
 wallPostSchema.plugin(mongoosePaginate);
 
