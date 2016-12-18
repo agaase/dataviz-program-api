@@ -19,7 +19,10 @@ var hbs = exphbs.create({
     // with the client-side of the app (see below).
     partialsDir: [
         'views/partials/'
-    ]
+    ],
+    helpers: {
+        short_date: function (d) { return new Date(d.toString()).toString().substring(0,10); },
+    }
 });
 
 // views is directory for all template files and the template engine is handlebars
@@ -28,38 +31,20 @@ app.set('view engine', 'handlebars');
 
 //rendering the home page
 app.get("/",function(request, response) {
-  core.fetchEvents(function(events){
-    for(var i=0;i<events.length;i++){
-      events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
-    }
+  core.fetchItems(function(events){
     core.fetchFeedResources(function(d){
       response.render('layouts/items',{"events" : events, feed : d});  
     })
-  })
+  },"events")
 });
 
 
-app.post("/events",function(request,response){
-    core.fetchEvents(function (events) {
-      for(var i=0;i<events.length;i++){
-        events[i]["timestamp"] = new Date(events[i].timestamp).toString().substring(0,15);
-      }
-      app.render('partials/event-items',events,function(err,html){
+app.post("/items/:model",function(request,response){
+    core.fetchItems(function (events) {
+      app.render('partials/'+request.params.model+"-items",events,function(err,html){
         response.send(html);
       });  
-    },request.body.index);
-});
-
-
-app.post("/opps",function(request,response){
-    core.fetchOpps(function (opps) {
-      for(var i=0;i<opps.length;i++){
-        opps[i]["timestamp"] = new Date(opps[i].timestamp).toString().substring(0,15);
-      }
-      app.render('partials/opp-items',opps,function(err,html){
-        response.send(html);
-      });  
-    },request.body.index);
+    },request.params.model,request.body.index);
 });
 
 app.post("/feed",function(request,response){
@@ -139,54 +124,27 @@ app.get("/form/:type",function(request,response){
   })
 });
 
-app.get("/events",function(request,response){
-  core.fetchEvents(function (events) {
-    for(var i=0;i<events.length;i++){
-      events[i]["timestamp"] = events[i].timestamp.toString().substring(0,15);
-    }
+app.get("/:model",function(request,response){
+  core.fetchItems(function (items) {
     core.fetchFeedResources(function(d){
-      response.render('layouts/items',{"events" : events, feed : d});  
+      var obj = {};
+      obj["feed"] = d;
+      obj[request.params.model] = items;
+      response.render('layouts/items',obj);  
     }) 
-  });
+  },request.params.model);
 });
 
-app.get("/opps",function(request,response){
-  core.fetchOpps(function (opps) {
-    for(var i=0;i<opps.length;i++){
-        opps[i]["timestamp"] = opps[i].timestamp.toString().substring(0,15);
-    }
-    core.fetchFeedResources(function(d){
-      response.render('layouts/items',{"opps" : opps, feed : d});  
-    }) 
-  });
-});
-
-app.get("/wall",function(request,response){
-  core.fetchWallPosts(function (wps) {
-    for(var i=0;i<wps.length;i++){
-        wps[i]["timestamp"] = new Date(wps[i].timestamp).toString().substring(0,15);
-    }
-    core.fetchFeedResources(function(d){
-      response.render('layouts/items',{"wallposts" : (wps.length ? wps : [{"title" : "No Content"}]), feed : d});  
-    }) 
-  });
-});
-
-app.get("/api",function(request,response){
+app.get("/api/about",function(request,response){
   response.render('layouts/api');  
 });
 
-app.get("/api/events",function(request,response){
-  core.fetchEvents(function (events) {
-    response.end(JSON.stringify(events));
-  });
+app.get("/api/items/:model/:start",function(request,response){
+  core.fetchItems(function (items) {
+    response.end(JSON.stringify(items));
+  },request.params.model,request.params.start);
 });
 
-app.get("/api/opps",function(request,response){
-  core.fetchOpps(function (opps) {
-    response.end(JSON.stringify(opps));
-  });
-});
 
 //Starting the server
 app.listen(app.get('port'), function() {

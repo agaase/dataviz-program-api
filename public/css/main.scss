@@ -11,6 +11,19 @@ body{
   padding: 0;
   font-family: sans-serif;
   color: $font-color;
+  .alert.fixed{
+  	position: fixed;
+  	bottom: 5%;
+  	left: 5%;
+  	width: 50%;
+  	left: 50%;
+  	margin-left: -25%;
+  	text-align: center;
+  	height: 7%;
+  	&.top{
+  		top: 15%;
+  	}
+  }
 }
 .header{
   height: 50px;

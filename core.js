@@ -62,6 +62,7 @@ var ApiCore = (function(){
 		        }
 		    });
 		},
+
 		verifyEvent : function(id,callback){
 			var Events = models["events"]
 			Events.findOneAndUpdate({"event_id" : id},{$set:{authentication:2}},{new: true}, function (err, event) {
@@ -89,33 +90,16 @@ var ApiCore = (function(){
 			    callback(wp);
 			});
 		},
-		fetchEvents : function(callback,index){
-		  var Events = models["events"];
-		  index = index ? parseInt(index/10)+1 : 1;
-		  Events.paginate({authentication:2}, { page: index, limit: 10,sort: { timestamp: -1 } }, function(err, result) {
-		  	if(err)
-		      console.log(err);
-		    callback(result.docs);
-		  });
-		},
-		fetchWallPosts : function(callback,index){
-		  var wallposts = models["wallposts"];
-		  index = index ? parseInt(index/10)+1 : 1;
-		  wallposts.paginate({authentication:2}, { page: index, limit: 10,sort: { timestamp: -1 } }, function(err, result) {
-		  	if(err)
-		      console.log(err);
-		    callback(result.docs);
-		  });
-		},
-		fetchOpps : function(callback,index){
-			var Opps = models["opps"];
-			index = index ? parseInt(index/10)+1 : 1;
-			Opps.paginate({authentication:2}, { page: index, limit: 10,sort: { timestamp: -1 } }, function(err, result) {
+		
+		fetchItems : function(callback,modelKey,index){
+			var model = models[modelKey];
+			index = typeof(index) !== "undefined" ? parseInt(index/10)+1 : 1;
+			model.paginate({authentication:2}, { page: index, limit: 10,sort: { timestamp: -1 } }, function(err, result) {
 				if(err)
 			    console.log(err);
-			  callback(result.docs);
-			});
-		},
+			  	callback(result.docs.length ? result.docs : [{"nocontent" : true}]);
+			});	
+		},	
 		fetchFeedResources : function(callback,index){
 			var FR = models["feedresource"];
 			index = index ? parseInt(index/10)+1 : 1;

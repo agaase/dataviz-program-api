@@ -20,6 +20,7 @@
         <ul>
         <li>Events </li>
         <li>Opportunities </li>
+        <li>Wallposts </li>
         </ul>
         The documentation below explains the structure of content and developer guide to access the API.
       </div>
@@ -29,20 +30,26 @@
         <div class='fields'>
           <div class='title3'>Fields</div>
           <div class='code'>
-            <div class='field'><span class='key'>event_id : </span> <span class='value'>Unique id of event</span></div>
-            <div class='field'><span class='key'>timestamp :  </span><span class='value'>Date and time of event in standard ms format</span></div>
-            <div class='field'><span class='key'>name :  </span><span class='value'>Name of event</span></div>
-            <div class='field'><span class='key'>type :  </span><span class='value'>Type of event</span></div>
-            <div class='field'><span class='key'>focus :  </span><span class='value'>brief description of the focus of the event</span></div>
-            <div class='field'><span class='key'>endDate :  </span><span class='value'>the date the event ends in standard ms format(is the same as startDate if a one-day event)</span></div>
-            <div class='field'><span class='key'>location :  </span><span class='value'>event location (city, state or country)</span></div>
-            <div class='field'><span class='key'>url :  </span><span class='value'>URL with event information</span></div>
-            <div class='field'><span class='key'>notes :   </span><span class='value'>notes about the event</span></div>
+            <div class='field'><span class='key'>event_id (string): </span> <span class='value'>Unique id of event</span></div>
+            <div class='field'><span class='key'>timestamp (string):  </span><span class='value'> start date and time of the event</span></div>
+            <div class='field'><span class='key'>name (string):  </span><span class='value'>Name of event</span></div>
+            <div class='field'><span class='key'>type (string):  </span><span class='value'>Type of event</span></div>
+            <div class='field'><span class='key'>focus (string):  </span><span class='value'>brief description of the focus of the event</span></div>
+            <div class='field'><span class='key'>endDate (string):  </span><span class='value'> end date and time of the event</span></div>
+            <div class='field'><span class='key'>location (string):  </span><span class='value'>event location (city, state or country)</span></div>
+            <div class='field'><span class='key'>url (string):  </span><span class='value'>URL with event information</span></div>
+            <div class='field'><span class='key'>notes (string):   </span><span class='value'>notes about the event</span></div>
+            <div class='field'><span class='key'>from (string) :</span><span class='value'> name of the person who posted the event</span></div>
+              <div class='field'><span class='key'>fromEmail (string) :</span><span class='value'>email of the person who posted the event</span></div>
+              <div class='field'><span class='key'>authentication (number) :</span><span class='value'>authentication status : 1 - not authenticated and not published, 2 - authenticated and published</span></div>
           </div>
         </div>
           <div class='endpoint'>
             <div class='title3'>Endpoint</div>
-            <a class='code' href='/api/events' target='_blank'>/api/events</a>
+            <div class='code'>
+              <a href='/api/items/events/0' target='_blank'>/api/items/events/[start-pos]</a>
+              <div class='field'><span class='key'>start-pos :</span><span class='value'> the api gives 10 results starting from this number</span></div>
+            </div>
           </div>
       </div>
       <div class='opps-api'>
@@ -51,12 +58,9 @@
           <div class='title3'>Fields</div>
             <div class='code'>
               <div class='field'><span class='key'>opp_id (string) :</span><span class='value'> unique id of the opportunity</span></div>
-              <div class='field'><span class='key'>timestamp (long) :</span><span class='value'> date opportunity was added, standard ms format</span></div>
+              <div class='field'><span class='key'>timestamp (long) :</span><span class='value'> start date and time of the event</span></div>
               <div class='field'><span class='key'>organizationName (string) :</span><span class='value'> name of organization</span></div>
               <div class='field'><span class='key'>url (string) :</span><span class='value'> URL with information about the organization or opportunity</span></div>
-              <div class='field'><span class='key'>data source (boolean) :</span><span class='value'> true if this is an established data set or data source</span></div>
-              <div class='field'><span class='key'>dataResources (boolean) :</span><span class='value'> true if this involves resources, software, or other tools for the analysis and visualization of data</span></div>
-              <div class='field'><span class='key'>dataCompetition (boolean) :</span><span class='value'> true if this is a data hackathon or competition</span></div>
               <div class='field'><span class='key'>newSchool (boolean) :</span><span class='value'> true if this opportunity is affiliated with The New School</span></div>
               <div class='field'><span class='key'>position (boolean) :</span><span class='value'> true if this is a work opportunity: internship, job, or other position, whether paid or unpaid</span></div>
               <div class='field'><span class='key'>unpaidPosition (boolean) :</span><span class='value'> true if this position is unpaid</span></div>
@@ -64,16 +68,44 @@
               <div class='field'><span class='key'>fulltimePosition (boolean) :</span><span class='value'> true if this position is a paid, full-time position</span></div>
               <div class='field'><span class='key'>grantFellowship (boolean) :</span><span class='value'> true if this is a grant or fellowship</span></div>
               <div class='field'><span class='key'>eligibleAcademic (boolean) :</span><span class='value'> true if this may be eligible for academic credit</span></div>
-              <div class='field'><span class='key'>dateAdded (string) :</span><span class='value'> date object was added, format: mm/dd/yy</span></div>
-              <div class='field'><span class='key'>timeSensitive (boolean) :</span><span class='value'> true if this is an urgent or time-sensitive request</span></div>
               <div class='field'><span class='key'>description (string) :</span><span class='value'> notes about the opportunity</span></div>
               <div class='field'><span class='key'>contactName (string) :</span><span class='value'> name of contact person</span></div>
               <div class='field'><span class='key'>contactEmail (string) :</span><span class='value'> email address of contact person</span></div>
+              <div class='field'><span class='key'>from (string) :</span><span class='value'> name of the person who posted the opportunity</span></div>
+              <div class='field'><span class='key'>fromEmail (string) :</span><span class='value'>email of the person who posted the opportunity</span></div>
+              <div class='field'><span class='key'>authentication (number) :</span><span class='value'>authentication status : 1 - not authenticated and not published, 2 - authenticated and published</span></div>
             </div>
           </div>
           <div class='endpoint'>
             <div class='title3'>Endpoint</div>
-            <a class='code' href='/api/opps' target='_blank'>/api/opps</a>
+            <div class='code'>
+              <a href='/api/items/opps/0' target='_blank'>/api/items/opps/[start-pos]</a>
+              <div class='field'><span class='key'>start-pos :</span><span class='value'> the api gives 10 results starting from this number</span></div>
+            </div>
+
+          </div>
+        </div>
+         <div class='opps-api'>
+        <div class='title2'>Wall Posts</div>
+        <div class='fields'>
+          <div class='title3'>Fields</div>
+            <div class='code'>
+              <div class='field'><span class='key'>wp_id (string) :</span><span class='value'> unique id of the wallpost</span></div>
+              <div class='field'><span class='key'>timestamp (long) :</span><span class='value'> date post was added</span></div>
+              <div class='field'><span class='key'>title (string) :</span><span class='value'> title of the post</span></div>
+              <div class='field'><span class='key'>content (string) :</span><span class='value'> content for the post</span></div>
+              <div class='field'><span class='key'>from (string) :</span><span class='value'> name of the person who added the post</span></div>
+              <div class='field'><span class='key'>fromEmail (string) :</span><span class='value'>email of the person who addded the post</span></div>
+              <div class='field'><span class='key'>authentication (number) :</span><span class='value'>authentication status : 1 - not authenticated and not published, 2 - authenticated and published</span></div>
+            </div> 
+          </div>
+          <div class='endpoint'>
+            <div class='title3'>Endpoint</div>
+            <div class='code'>
+              <a href='/api/items/opps/0' target='_blank'>/api/items/wallposts/[start-pos]</a>
+              <div class='field'><span class='key'>start-pos :</span><span class='value'> the api gives 10 results starting from this number</span></div>
+            </div>
+
           </div>
         </div>
     </div>

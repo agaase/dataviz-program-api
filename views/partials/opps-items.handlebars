@@ -1,4 +1,11 @@
 {{#each this}}
+{{#if nocontent}}
+<div class='post'>
+ <div class='primary'>
+      <div class='name'>Nothing here right now!</div>
+ </div>
+</div>
+{{else}}
 {{#if timestamp}}
   <div class='item'>
     <div class='content'>
@@ -7,12 +14,18 @@
       {{else}}
       <div class='name'>{{organizationName}}</di>
       {{/if}}
-      <div class='secondary'>{{timestamp}}</div>
+      <div class='secondary'>{{short_date timestamp}}</div>
       <div class='desc'>{{{description}}}</div>
       <div class='attrs'>
        {{#if position}} 
         <div class='attr'>WORK POSITION</div>
+        {{#if unpaidPosition}}
+         <div class='attr'>UNPAID</div>
+        {{else}} 
+        <div class='attr'>PAID</div>
+        {{/if}}
        {{/if}}
+
        {{#if parttimePosition}} 
         <div class='attr'>PART TIME</div>
         {{else if fulltimePosition}}
@@ -27,5 +40,6 @@
       </div>
     </div>
   </div>
+{{/if}}
 {{/if}}
 {{/each}}

@@ -16,6 +16,7 @@
 	.title2{
 		font-size: 125%;
 		margin-bottom: 20px;
+		font-weight: bold;
 	}
 	.title3{
 		font-size: 110%;
@@ -29,7 +30,6 @@
 			padding: 2%;
 			border-radius: 5px;
 			
-			
 			.field{
 				margin-bottom: 10px;
 				.key{
@@ -42,6 +42,7 @@
 			text-decoration:underline;
 			color: $font-color;
 			display:block;
+			margin-bottom : 20px;
 		}
 	}
 	

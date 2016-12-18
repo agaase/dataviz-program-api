@@ -37,6 +37,10 @@
       .items .item .content .desc {
         padding: 10px 0;
         line-height: 130%; }
+        .items .item .content .desc .focus {
+          margin-bottom: 10px; }
+        .items .item .content .desc .notes {
+          font-size: 85%; }
       .items .item .content .attrs .attr {
         font-size: 60%;
         display: inline-block;
@@ -59,7 +63,8 @@
     margin-bottom: 20px; }
   .api .title2 {
     font-size: 125%;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-weight: bold; }
   .api .title3 {
     font-size: 110%;
     margin-bottom: 10px; }
@@ -77,7 +82,8 @@
     .api .events-api a, .api .opps-api a {
       text-decoration: underline;
       color: #5D6068;
-      display: block; }
+      display: block;
+      margin-bottom: 20px; }
   .api .fields {
     margin-bottom: 20px;
     padding: 0 15px; }
@@ -118,6 +124,17 @@ body {
   padding: 0;
   font-family: sans-serif;
   color: #5D6068; }
+  body .alert.fixed {
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%;
+    text-align: center;
+    height: 7%; }
+    body .alert.fixed.top {
+      top: 15%; }
 
 .header {
   height: 50px;

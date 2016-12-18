@@ -1,0 +1,22 @@
+{{#each this}}
+{{#if nocontent}}
+<div class='post'>
+ <div class='primary'>
+      <div class='name'>Nothing here right now!</div>
+ </div>
+</div>
+{{else}}
+{{#if name}}
+  <div class='item'>
+    <div class='content'>
+      <a  href='{{url}}' target="_blank" class='name'>{{name}}</a>
+      <div class='secondary'><b>{{type}}: &nbsp;{{short_date timestamp}}{{#if endDate}} - {{short_date endDate}}{{/if}},  {{location}}</b></div>
+      <div class='desc'>
+      	<div class='focus'>{{focus}}</div>
+      	<div class='notes'> {{notes}}</div>
+      </div>
+    </div>
+  </div>
+ {{/if}}
+{{/if}}
+{{/each}}

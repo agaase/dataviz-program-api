@@ -72,7 +72,8 @@ mailin.on('message', function (connection, data, content) {
       from : data.from[0].name,
       fromEmail : fromEmail,
       title : data.subject,
-      content : body
+      content : body,
+      authentication : 2
      });
     // Save to DynamoDB
     dummyRes.save(function(err){
