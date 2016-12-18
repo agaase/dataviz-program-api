@@ -16,6 +16,7 @@ var models = require("./models/tables.js");
 var schedule = require('node-schedule');
 var rule = new schedule.RecurrenceRule();
 rule.hour = [10,15,21];
+rule.minute = 0;
  
 var FR = models.feedresource, items = [];
 
