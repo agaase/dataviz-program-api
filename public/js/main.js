@@ -40,7 +40,7 @@ var DataViz = (function(){
 		 	if(msg.indexOf("error")>-1){
 		 		$(".contentSpace .alert").html(msgs.eventSuccess);
 		 	}else{
-		 		$(".contentSpace .alert").html(msgs.eventSuccess+".Please click this  <a href='/"+type+"/verify/"+msg+"'>link</a> to verify");
+		 		$(".contentSpace .alert").html(msgs.eventSuccess+". Please check your mail to and click on the link to publish this post.");
 		 	}
 		 });
 		});

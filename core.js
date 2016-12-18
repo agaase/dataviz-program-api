@@ -1,6 +1,23 @@
 var models = require("./models/tables.js");
 var striptags = require('striptags');
+var SMTPConnection = require('smtp-connection');
+var connection = new SMTPConnection({ignoreTLS : true});
+
 var ApiCore = (function(){
+
+	var sendMail = function(email,id){
+		if(email && id){
+			var link = "http://35.161.122.132:8080/event/verify/"+id;
+			var msg = "Please click on this link below to verify your post.<br> <a href='"+id+"'>"+link+"</a>";
+			connection.connect(function(){
+				console.log("connection established");
+				connection.send({from : "ubuntu@aseemagarwal.in",to:email}, msg, function(){
+					console.log("message sent!");
+				})
+			});
+		}
+	};
+
 	return {
 		saveEvent : function(event,callback){
 			var id  = "ev"+new Date().getTime()+parseInt(Math.random()*100);
@@ -10,7 +27,9 @@ var ApiCore = (function(){
 		        if(err){
 		          callback("error encountered - "+err);
 		        }else{
-		          callback(id);
+		          sendMail(event.fromEmail,id,function(){
+		          	callback("success");	
+		          })	
 		        }
 		    });
 		},
