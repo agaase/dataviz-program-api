@@ -2,6 +2,7 @@ var request = require("request");
 var feed = require('feed-read');
 var async = require('async');
 var farmhash = require('farmhash');
+var schedule = require('node-schedule');
 var scrape;
 
 var LIMIT = 10;
@@ -13,10 +14,7 @@ var URLS = ['http://feeds.feedburner.com/InformationIsBeautiful?format=xml',
             'https://groups.google.com/forum/feed/data-vis-jobs/msgs/rss_v2_0.xml'];
 var models = require("./models/tables.js");
 
-var schedule = require('node-schedule');
-var rule = new schedule.RecurrenceRule();
-rule.hour = [10,15,21];
-rule.minute = 0;
+
  
 var FR = models.feedresource, items = [];
 
@@ -86,6 +84,6 @@ function onRssFetched(err, articles) {
       })
     }
 }   
-var j = schedule.scheduleJob(rule, function(){
+var j = schedule.scheduleJob({hour: [10,15,21], minute: 0}, function(){
   req();
 });
