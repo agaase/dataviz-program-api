@@ -37,7 +37,6 @@ var oppSchema = new Schema({
     fulltimePosition : Boolean,
     grantFellowship : Boolean,
     eligibleAcademic : Boolean,
-    timeSensitive : Boolean,
     description : String,
     contactName : String,
     contactEmail : String,
