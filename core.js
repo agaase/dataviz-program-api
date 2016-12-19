@@ -92,14 +92,17 @@ var ApiCore = (function(){
 		},
 		
 		fetchItems : function(callback,modelKey,index){
-			console.log(modelKey);
 			var model = models[modelKey];
-			index = typeof(index) !== "undefined" ? parseInt(index/10)+1 : 1;
-			model.paginate({authentication:2}, { page: index, limit: 10,sort: { timestamp: -1 } }, function(err, result) {
-				if(err)
-			    console.log(err);
-			  	callback(result.docs.length ? result.docs : [{"nocontent" : true}]);
-			});	
+			if(model){
+				index = typeof(index) !== "undefined" ? parseInt(index/10)+1 : 1;
+				model.paginate({authentication:2}, { page: index, limit: 10,sort: { timestamp: -1 } }, function(err, result) {
+					if(err)
+				    console.log(err);
+				  	callback(result.docs.length ? result.docs : [{"nocontent" : true}]);
+				});	
+			}else{
+				callback([{"error" : true,"msg" : "invalid request, please try again"}]);
+			}
 		},	
 		fetchFeedResources : function(callback,index){
 			var FR = models["feedresource"];

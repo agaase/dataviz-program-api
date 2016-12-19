@@ -135,7 +135,11 @@ app.get("/:model",function(request,response){
   },request.params.model);
 });
 
-app.get("/api/about",function(request,response){
+app.get("/about/info",function(request,response){
+  response.render('layouts/about');  
+});
+
+app.get("/api/info",function(request,response){
   response.render('layouts/api');  
 });
 

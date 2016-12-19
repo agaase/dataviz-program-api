@@ -1,15 +1,28 @@
+@font-face {
+font-family: 'Neue';
+src: url("../fonts/Neue-Regular.otf") format("opentype");
+}
+
+@font-face {
+font-family: 'Neue';
+font-weight: bold;
+src: url("../fonts/Neue-Bold.otf") format("opentype");
+}
+
 $parsons-red : #0277bd;
 $font-color: #5D6068;
 $very-light-neutral: #eee;
 
 @import 'items';
 @import 'api';
+@import 'about';
 
 body{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Neue',sans-serif;
   color: $font-color;
+  font-size: 14px;
   .alert.fixed{
   	position: fixed;
   	bottom: 5%;
@@ -137,7 +150,7 @@ body{
 }
 .menu{
   height: 50px;
-  width: 100%;
+  width: 95%;
   padding: 0 2.5%;
   background-color: #f1f1f1;
   border-bottom: 1px solid #ddd;
@@ -149,10 +162,10 @@ body{
 	.sec_menu{
   	  float: right;
   	  height: 100%;
-  	  font-size: 80%;
   	  width: 30%;
   	  .item{
   	  	float: right;
+  	  	line-height: 50px;
   	  }
 	}
 	.item{
