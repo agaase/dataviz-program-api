@@ -131,8 +131,7 @@ body {
     width: 50%;
     left: 50%;
     margin-left: -25%;
-    text-align: center;
-    height: 7%; }
+    text-align: center; }
     body .alert.fixed.top {
       top: 15%;
       bottom: inherit; }
