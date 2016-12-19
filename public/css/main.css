@@ -5,6 +5,9 @@
   font-family: 'Neue';
   font-weight: bold;
   src: url("../fonts/Neue-Bold.otf") format("opentype"); }
+.items::-webkit-scrollbar {
+  display: none; }
+
 .items {
   width: 59%;
   padding: 0 2%;
@@ -212,14 +215,6 @@ body {
           font-size: 70%;
           width: 24%;
           margin-bottom: 10px; }
-
-.menu::after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit; }
-
-.menu::before {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit; }
 
 .menu {
   height: 50px;

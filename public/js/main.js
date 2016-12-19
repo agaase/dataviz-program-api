@@ -3,7 +3,7 @@ var DataViz = (function(){
 	var pagingStep = 10;
 	var msgs = {
 		"loading" : "Saving ...",
-		"eventSuccess" : "The event has been successfully saved. ",
+		"eventSuccess" : "The event has been successfully saved. Please check your mail and click on the link to publish this post",
 		"nomore" : "No more results to load.",
 		"error" : "Oh snap!. We got an error. Can you try again!"
 	}
@@ -52,7 +52,7 @@ var DataViz = (function(){
 		 	if(msg.indexOf("error")>-1){
 		 		showAlert(msgs.error,true);
 		 	}else{
-		 		showAlert(msgs.eventSuccess+". Please check your mail to and click on the link to publish this post.",true);
+		 		showAlert(msgs.eventSuccess,true);
 		 	}
 		 });
 		});
