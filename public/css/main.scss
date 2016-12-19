@@ -19,9 +19,9 @@ body{
   	left: 50%;
   	margin-left: -25%;
   	text-align: center;
-  	height: 7%;
   	&.top{
   		top: 15%;
+  		bottom: inherit;
   	}
   }
 }

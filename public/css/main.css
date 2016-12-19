@@ -134,7 +134,8 @@ body {
     text-align: center;
     height: 7%; }
     body .alert.fixed.top {
-      top: 15%; }
+      top: 15%;
+      bottom: inherit; }
 
 .header {
   height: 50px;
