@@ -1,21 +1,35 @@
 var models = require("./models/tables.js");
 var striptags = require('striptags');
-var SMTPConnection = require('smtp-connection');
-var connection = new SMTPConnection({ignoreTLS : true});
+var nodemailer = require('nodemailer');
 
 var ApiCore = (function(){
+	var smtpConfig = {
+	    host: 'localhost',
+	    port: 25,
+	   ignoreTLS : true
+	};
 
 	var sendMail = function(email,itemUrl,callback){
 		if(email && itemUrl){
 			var link = "http://35.161.122.132:8080/"+itemUrl;
-			var msg = "Please click on this link below to verify your post.\n"+link;
-			connection.connect(function(){
-				console.log("connection established");
-				connection.send({from : "ubuntu@aseemagarwal.in",to:email}, msg, function(){
-					console.log("message sent!");
-					callback();
-				})
+			var transporter = nodemailer.createTransport(smtpConfig);
+			// setup e-mail data with unicode symbols
+			var mailOptions = {
+			    from: '<noreply@newschool-dataviz.com>',
+			    to: email,
+			    subject: "Verify your added post",
+			    text: "Please click on this link below to verify your post.\n"+link,
+			    html: "Please click on this link below to verify your post.\n<a href='"+link+"'>"+link+"</a"
+			};
+			// send mail with defined transport object
+			transporter.sendMail(mailOptions, function(error, info){
+			    if(error){
+			        return console.log(error);
+			    }
+			    console.log('Message sent: ' + info.response);
+			    callback();
 			});
+
 		}
 	};
 
