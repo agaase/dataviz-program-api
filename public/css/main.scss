@@ -4,7 +4,6 @@ $very-light-neutral: #eee;
 
 @import 'items';
 @import 'api';
-@import 'wall';
 
 body{
   margin: 0;
@@ -73,7 +72,7 @@ body{
 		}
 	}
 	.feed{
-		width: 38%;
+		width: 35%;
 		height: 75vh;
 		display: inline-block;
 		vertical-align: top;

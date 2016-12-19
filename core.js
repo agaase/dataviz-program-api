@@ -92,6 +92,7 @@ var ApiCore = (function(){
 		},
 		
 		fetchItems : function(callback,modelKey,index){
+			console.log(modelKey);
 			var model = models[modelKey];
 			index = typeof(index) !== "undefined" ? parseInt(index/10)+1 : 1;
 			model.paginate({authentication:2}, { page: index, limit: 10,sort: { timestamp: -1 } }, function(err, result) {
