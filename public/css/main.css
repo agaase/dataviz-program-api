@@ -21,7 +21,7 @@
       padding: 5px 10px;
       border: 2px solid;
       border-radius: 5px;
-      line-height: 200%;
+      line-height: 24px;
       font-size: 75%;
       cursor: pointer;
       text-decoration: none;
@@ -212,6 +212,14 @@ body {
           font-size: 70%;
           width: 24%;
           margin-bottom: 10px; }
+
+.menu::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+.menu::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
 
 .menu {
   height: 50px;
