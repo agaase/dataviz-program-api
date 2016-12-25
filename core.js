@@ -48,6 +48,20 @@ var ApiCore = (function(){
 		        }
 		    });
 		},
+		saveDatasrc : function(datasrc,callback){
+			var id  = "ds"+new Date().getTime()+parseInt(Math.random()*100);
+			datasrc["datasrc_id"] = id;
+			var dummyRes = models["datasrcs"](datasrc);
+			dummyRes.save(function(err){
+		        if(err){
+		          callback("error encountered - "+err);
+		        }else{
+		          sendMail(datasrc.fromEmail,"datasrc/verify/"+id,function(){
+		          	callback("success");	
+		          })	
+		        }
+		    });
+		},
 		saveOpp : function(opp,callback){
 			var id  = "opp"+new Date().getTime()+parseInt(Math.random()*100);
 			opp["opp_id"] = id;
@@ -86,6 +100,15 @@ var ApiCore = (function(){
 			    callback(event);
 			});
 		},
+		verifyDatasrc : function(id,callback){
+			var Datasrcs = models["datasrcs"]
+			Datasrcs.findOneAndUpdate({"datasrc_id" : id},{$set:{authentication:2}},{new: true}, function (err, datasrc) {
+			  	if(err){
+			        console.log("Something wrong when updating data!");
+			    }
+			    callback(datasrc);
+			});
+		},
 		verifyOpp : function(id,callback){
 			var Opps = models["opps"]
 			Opps.findOneAndUpdate({"opp_id" : id},{$set:{authentication:2}},{new: true}, function (err, opp) {
@@ -112,6 +135,8 @@ var ApiCore = (function(){
 				model.paginate({authentication:2}, { page: index, limit: 10,sort: { timestamp: -1 } }, function(err, result) {
 					if(err)
 				    console.log(err);
+
+					console.log(result.docs.length);
 				  	callback(result.docs.length ? result.docs : [{"nocontent" : true}]);
 				});	
 			}else{

@@ -79,6 +79,13 @@ app.post("/savewallpost",function(request,response){
   })
 });
 
+app.post("/savedatasrc",function(request,response){
+  request.body["authentication"] = 1;
+  core.saveDatasrc(request.body,function(msg){
+    response.send(msg);
+  })
+});
+
 app.get("/event/verify/:id",function(request,response){
   core.verifyEvent(request.params.id,function(ev){
     ev.timestamp = new Date(ev.timestamp).toString().substring(0,15);
@@ -108,18 +115,19 @@ app.get("/wallpost/verify/:id",function(request,response){
   })
 });
 
+app.get("/datasrc/verify/:id",function(request,response){
+  core.verifyDatasrc(request.params.id,function(ds){
+    ds.timestamp = new Date(ds.timestamp).toString().substring(0,15);
+    core.fetchFeedResources(function(d){
+      response.render('layouts/items',{"wallposts" : [ds], feed : d, "verified" : true});  
+    }) 
+  })
+});
+
 app.get("/form/:type",function(request,response){
   core.fetchFeedResources(function(d){
       var type = request.params.type, obj = {};
-      if(type == "events"){
-        obj["events"] = true
-      }
-      if(type == "opps"){
-        obj["opps"] = true
-      }
-      if(type == "wallposts"){
-        obj["wallposts"] = true
-      }
+      obj[type] = true;
       response.render('layouts/form',obj);  
   })
 });
@@ -130,6 +138,7 @@ app.get("/:model",function(request,response){
       var obj = {};
       obj["feed"] = d;
       obj[request.params.model] = items;
+      console.log(request.params.model + "--" + items.length);
       response.render('layouts/items',obj);  
     }) 
   },request.params.model);

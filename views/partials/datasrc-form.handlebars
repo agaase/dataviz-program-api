@@ -1,0 +1,51 @@
+<form data-type='datasrc'>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Title</label>
+     <div class='col-sm-9'>
+     <input class="form-control" type="text" placeholder="The name of the data source" id="title" required>
+     </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Link</label>
+     <div class='col-sm-9'>
+     <input class="form-control" type="text" placeholder="Link to the data source" id="link" required>
+     </div>
+   </div>
+    <div class='form-group row'>
+     <label class="col-sm-3">Type</label>
+     <div class='col-sm-9'>
+        <label class="form-check-inline">
+          <input type="radio" name="type" class="form-check-input" id="datasrc" value="1">
+          Data Source
+        </label>
+        <label class="form-check-inline">
+          <input type="radio" name="type" class="form-check-input" id="datares" value="1">
+          Resource
+        </label>
+     </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-sm-3" >Description</label>
+     <div class='col-sm-9'>
+     <textarea class="form-control" id="descr" rows="5" required></textarea>
+     </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Your Name</label>
+     <div class='col-sm-9'>
+       <input class="form-control" type="text" id="from" required>
+      </div>
+   </div>
+   <div class="form-group row">
+     <label class="col-form-label col-sm-3">Your Email</label>
+     <div class='col-sm-9'>
+       <input class="form-control" type="text" id="fromEmail" required>
+     </div>
+   </div>
+   <div class="form-group row">
+   <label class="col-sm-3" ></label>
+   <div class='col-sm-9'>
+   <input type="submit" class="btn btn-primary" value="Submit"></input>
+   </div>
+   </div>
+ </form>

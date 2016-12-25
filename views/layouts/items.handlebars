@@ -15,7 +15,7 @@
     
     <div class='items  {{#if events}}events{{else if opps}}opps{{else if wallposts}}wallposts{{/if}}'>
     <div class='meta'>
-      <a class='newItemBtn' href='./form/{{#if events}}events{{else if opps}}opps{{else if wallposts}}wallposts{{/if}}'>{{#if events}}NEW EVENT{{else if opps}}NEW OPPORTUNITY{{else if wallposts}}NEW POST{{/if}}</a>
+      <a class='newItemBtn' href='./form/{{#if events}}events{{else if opps}}opps{{else if wallposts}}wallposts{{else if datasrcs}}datasrcs{{/if}}'>{{#if events}}NEW EVENT{{else if opps}}NEW OPPORTUNITY{{else if datasrcs}}NEW DATA RESOURCE{{else if wallposts}}NEW POST{{/if}}</a>
     </div>
     {{#if events}}
     {{> events-items events}}
@@ -23,6 +23,8 @@
     {{> opps-items opps}}
     {{else if wallposts}}
     {{> wallposts-items wallposts}}
+    {{else if datasrcs}}
+    {{> datasrc-items datasrcs}}
     {{/if}}
     </div>
     {{> feed}}

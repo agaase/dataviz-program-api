@@ -71,10 +71,26 @@ var wallPostSchema = new Schema({
   })
 wallPostSchema.plugin(mongoosePaginate);
 
+
+var datasrcSchema = new Schema({
+    datasrc_id: String,
+    timestamp: { type: Date, default: Date.now },
+    title : String,
+    link : String,
+    datasrc : Boolean,
+    datares : Boolean,
+    descr : String,
+    from : String,
+    authentication : Number,
+    fromEmail : String,
+  })
+datasrcSchema.plugin(mongoosePaginate);
+
 // Create cat model with default options
 module.exports  = {
   "events" : mongoose.model('events', eventSchema),
   "opps" : mongoose.model('opportunities', oppSchema ),
   "feedresource" : mongoose.model('feedresource', feedResSchema),
-   "wallposts" : mongoose.model('wallposts', wallPostSchema)
+   "wallposts" : mongoose.model('wallposts', wallPostSchema),
+   "datasrcs" : mongoose.model('datasrcs', datasrcSchema)
 };

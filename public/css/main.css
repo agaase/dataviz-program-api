@@ -47,7 +47,7 @@
         line-height: 130%; }
         .items .item .content .desc .focus {
           margin-bottom: 10px; }
-        .items .item .content .desc .notes {
+        .items .item .content .desc .notes, .items .item .content .desc .descr {
           font-size: 85%; }
       .items .item .content .attrs .attr {
         font-size: 60%;
