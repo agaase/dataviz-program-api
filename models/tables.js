@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 require('mongoose-pagination'); 
 var mongoosePaginate = require('mongoose-paginate');    
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect('mongodb://localhost/dvpa');
 
 
 var Schema = mongoose.Schema;
