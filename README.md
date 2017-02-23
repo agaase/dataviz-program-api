@@ -37,8 +37,13 @@ To read content from different third party source (like flowing data) I use thei
 The task of scheduling the job itself is taken care of using the [`node-schedule`](https://github.com/node-schedule/node-schedule) node module.
 
 ## How to install/run
+
  1. Clone this repo to your local workspace
  2. Run npm install inside the folder.
  3. You need to have a mongodb database setup. More instructions [here](https://scotch.io/tutorials/an-introduction-to-mongodb)
  4. Once you have a mongodb set, create a database with name `dvpa`.
  5. After the database is setup, run the server using command `node index.js`.
+ 6. You might also want to install sample content for events and opportunities. You can do that by running command `node db-populate.js` under scripts folder.
+
+``` *** These instructions only explain how to run the website without the email facility setup. (More on that coming soon) ```
+
