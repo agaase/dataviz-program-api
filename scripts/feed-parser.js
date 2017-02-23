@@ -87,3 +87,4 @@ function onRssFetched(err, articles) {
 var j = schedule.scheduleJob({hour: [10,15,21], minute: 0}, function(){
   req();
 });
+req();
