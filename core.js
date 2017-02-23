@@ -11,7 +11,7 @@ var ApiCore = (function(){
 
 	var sendMail = function(email,itemUrl,callback){
 		if(email && itemUrl){
-			var link = "http://35.161.122.132:8080/"+itemUrl;
+			var link = "http://35.162.80.15:8080/"+itemUrl;
 			var transporter = nodemailer.createTransport(smtpConfig);
 			// setup e-mail data with unicode symbols
 			var mailOptions = {
