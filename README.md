@@ -21,6 +21,7 @@ tables.js - This file stores the schema for all the different tables using the M
 - `scripts/` - scripts to directly populate data in database
   - `mailin.js` - checks for any incoming mail, parses it and store it as in the wallposts collection
   - `feed-parser.js` - requests and updates feeds from multiple sources at multiple times in a day
+  - `db-populate.js` - populates old data into events and opportunities table
   
 - `public/` - all static resources served up on the website are stored here 
 
