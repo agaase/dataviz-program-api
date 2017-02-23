@@ -33,6 +33,6 @@ To accept and parse mail it uses a few different implementations.
 ```* I also had to redirect all my traffic from 25 to 2525 because ports under number 80 are blocked for read for some reason.``` 
 
 ## How the feeds are generated from third party sources?
-To read content from different third party source (like flowing data) I use their [RSS feed](http://www.whatisrss.com/) to get different articles. Once I have the RSS feed I use [feed-read](https://www.npmjs.com/package/feed-read) node module to read them and store it in the database. This is a scheduled job which runs multiple times in a day. So, everytime there's a new article posted on the website I update the local database with the new ones.
-The task of scheduling the job itself is taken care of using the [node-schedule](https://github.com/node-schedule/node-schedule) node module.
+To read content from different third party source (like flowing data) I use their [RSS feed](http://www.whatisrss.com/) to get different articles. Once I have the RSS feed I use [`feed-read`](https://www.npmjs.com/package/feed-read) node module to read them and store it in the database. This is a scheduled job which runs multiple times in a day. So, everytime there's a new article posted on the website I update the local database with the new ones.
+The task of scheduling the job itself is taken care of using the [`node-schedule`](https://github.com/node-schedule/node-schedule) node module.
 
