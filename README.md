@@ -2,7 +2,7 @@
 # dataviz-program-api
 
 ## About
-This is a platform for MS, Data Visualization program at the New School. It enables students and faculty to post content related to data visualization and also provides an API to read. There is also a facility to post content on the data viz wall through email if one has a newschool email id set up.
+This is a platform for MS, Data Visualization program at the New School. It enables students and faculty to post content related to data visualization and also provides an API to read from programatically. There is also a facility to post content on the data viz wall through email if one has a newschool email id set up.
 
 ## Code
 This is a node project and managed through node. Its also a MVC implementation using nodejs express module. The folder structure reflects that implementation and is explained below
