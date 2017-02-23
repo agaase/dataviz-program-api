@@ -7,10 +7,14 @@ This is a platform for MS, Data Visualization program at the New School. It enab
 ## Code
 This is a MVC implementation using nodejs express module. The folder structure reflects that implementation and is explained below
 
-`models`
+ - `index.js` - the main file which starts the server and also routes different requests
+ - `core.js` - acts as the controller and has all the functions to interact with database and server. Exported as a module and used by the server file above.
+
+- `models/`
 tables.js - This file stores the schema for all the different tables using the Mongoose module for nodejs
 
-`views` - directory which has all the views for different pages. Uses handlebars to create templates.
-* `layouts` - all the parent templates for different pages
-* `partials` - the parent pages uses these partials to create different pages. For e.g parent template items.handlebars uses events-items.handlebars to render events page.
+- `views/` - directory which has all the views for different pages. Uses handlebars to create templates.
+  - `layouts` - all the parent templates for different pages
+  - `partials` - the parent pages uses these partials to create different pages. For e.g parent template items.handlebars uses events-items.handlebars to render events page.
+
 
