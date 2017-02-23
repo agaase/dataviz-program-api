@@ -6,3 +6,4 @@ public/mail/*
 test.js
 *.pem
 misc/*
+scripts/test*
