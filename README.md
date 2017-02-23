@@ -36,3 +36,9 @@ To accept and parse mail it uses a few different implementations.
 To read content from different third party source (like flowing data) I use their [RSS feed](http://www.whatisrss.com/) to get different articles. Once I have the RSS feed I use [`feed-read`](https://www.npmjs.com/package/feed-read) node module to read them and store it in the database. This is a scheduled job which runs multiple times in a day. So, everytime there's a new article posted on the website I update the local database with the new ones.
 The task of scheduling the job itself is taken care of using the [`node-schedule`](https://github.com/node-schedule/node-schedule) node module.
 
+## How to install/run
+ 1. Clone this repo to your local workspace
+ 2. Run npm install inside the folder.
+ 3. You need to have a mongodb database setup. More instructions [here](https://scotch.io/tutorials/an-introduction-to-mongodb)
+ 4. Once you have a mongodb set, create a database with name `dvpa`.
+ 5. After the database is setup, run the server using command `node index.js`.
