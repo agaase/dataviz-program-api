@@ -4,7 +4,7 @@ Its a pretty custom script and hence cannot be used generically.
 */
 
 var req = require('request');
-var models = require("./models/tables.js");
+var models = require("../models/tables.js");
 
 
 var eventsUrl = "http://visualizedata.github.io/data/events.json";
